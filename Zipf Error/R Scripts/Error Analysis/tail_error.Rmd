@@ -1,0 +1,87 @@
+---
+title: "The Error in the Zipfian Tail"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+# load wiki, MLE, and error
+# error df needs column count
+
+wiki.results <- wiki_mle(lang, verbose = FALSE)
+dat <- wiki.results$dats$Article
+mle.result <- wiki.results$results$Article
+
+error_dat <- mandelbrot_error(list(dat), list(mle.result))[[1]]
+
+error_dat$count <- dat$count
+```
+
+Below, we describe some observations about the error of the maximum likelihood estimate of the Mandelbrot law $f(r) \propto (r + \beta)^{-\alpha}$. We obtain empirical and theoretical estimates of the probability of a word at rank $r$ as follows:
+
+* empirical: $\hat{p}_r = f_r/N$, where $f_r$ is the empirical frequency, and $N$ is the number of all tokens
+* theoretical: $p_r = (r + \beta)^{-\alpha}\Big/norm$, where $\alpha$ and $\beta$ are estimated from the data
+
+The error of the MLE is then simply the logarithmic difference between the theoretical and empirical probabilities: $err(r) = log(\frac{p}{\hat{p}})$.
+
+Because the quality of the rank-frequency estimates deteriorates with lower frequency (i.e. higher rank), there is great uncertainty in the estimates of the Zipfian tail, especially as compared to the single line of the Mandelbrot law. It is therefore trivial that the variance of $err(r)$ increases with $r$ (due to uncertainty from the sampling method not necessarily strictly).
+
+## Error Distributions in the Tail
+
+For each frequency $f$, we define $err\_dist(f) = \{err(r) | \text{rank }r: f(w_r) = f\}$, i.e. the set of errors of all words with frequency $f$. This induces a distribution over errors for each $f$. Note that 
+although the rank is not explictly included, the individual error values are each tied to a rank, hence the dependency on the rank persists.
+
+```{r, eval=FALSE}
+# first construct err_dist(f) for each f, col 5 contains the error
+count_err_dist <- lapply(sort(unique(error_dat$count)), 
+                function(f){error_dat[error_dat$count == f, 5]})
+names(count_err_dist) <- sort(unique(error_dat$count))
+
+# corresponding data.frame
+c_errs <- data.frame(count=sort(unique(error_dat$count)), 
+                     mins=sapply(count_err_dist, min),
+                     means=sapply(count_err_dist, median),
+                     maxs=sapply(count_err_dist, max),
+                     vars=sapply(count_err_dist, var))
+# variance of singleton is NA
+c_errs$vars[is.na(c_errs$vars)] <- -0
+```
+
+
+
+
+```{r, eval=FALSE}
+tail <- 15
+# plots the binned (f(W_r), err(w_r)) grouped by f
+ggplot(error_dat[error_dat$count < 10, ]) + 
+  geom_hex(aes(x=log(rank), y=log.diff.prob, colour=as.factor(count)), 
+           bins=50)
+
+# plots the smooth density estimates of err_dist(f)  
+# alternative: freq_poly
+ggplot(error_dat[error_dat$count < tail,  ]) + 
+  geom_density(aes(log.diff.prob, color=as.factor(count)))
+```
+
+* There is a clear progression over $err\_dist$ in $f$, convergence is unclear (might just converge to certainty about the estimate). 
+
+* Lowest frequencies
+
+## Using the mean as Surrogate
+
+Because of the high variance in $err\_dist(f)$ in the tail, using the mean as a surrogate can show the underlying trend. In the lower ranks, this is not necessary because of lack of uncertainty. Min and max values are used to indicate the range of the distribution.
+
+```{r eval=FALSE}
+# for each f, plots mean, min, max of err_dist(f)
+ggplot(c_errs, aes(x=log(count), y=means)) + 
+  geom_point(size=0.2)+
+  geom_errorbar(aes(ymin=mins, ymax=maxs), size=0.2) + 
+  geom_smooth(method = "loess", span=0.1)+
+  scale_x_reverse() + 
+  coord_cartesian(ylim = c(-1, 1))
+
+```
+
+* cluster of negative means (with small range) in the upper tail (majority of frequencies)
+
+* means in middle and lower tail increase polynomially into high error values (with increasing ranges)
+
