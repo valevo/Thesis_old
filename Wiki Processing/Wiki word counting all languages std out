@@ -1,0 +1,4808 @@
+/usr/bin/python3.5 "/home/valentin/Desktop/Zipf Analysis/Wiki Dumps/write_all_data.py"
+### Processing  EO  on splitting level  ArticleSplitter
+	 reader set up 	(current memory:  1.0057668603627399 ) 	(time elapsed:  0.008107185363769531 )
+	 corpus split 	(current memory:  1.0057668603627399 ) 	(time elapsed:  0.015330791473388672 )
+Opening  Wikiextractor/EO/AA/wiki_00
+Opening  Wikiextractor/EO/AA/wiki_01
+Opening  Wikiextractor/EO/AA/wiki_02
+Opening  Wikiextractor/EO/AA/wiki_03
+Opening  Wikiextractor/EO/AA/wiki_04
+Opening  Wikiextractor/EO/AA/wiki_05
+Opening  Wikiextractor/EO/AA/wiki_06
+Opening  Wikiextractor/EO/AA/wiki_07
+Opening  Wikiextractor/EO/AA/wiki_08
+Opening  Wikiextractor/EO/AA/wiki_09
+Opening  Wikiextractor/EO/AA/wiki_10
+Opening  Wikiextractor/EO/AA/wiki_11
+Opening  Wikiextractor/EO/AA/wiki_12
+Opening  Wikiextractor/EO/AA/wiki_13
+Opening  Wikiextractor/EO/AA/wiki_14
+Opening  Wikiextractor/EO/AA/wiki_15
+Opening  Wikiextractor/EO/AA/wiki_16
+Opening  Wikiextractor/EO/AA/wiki_17
+Opening  Wikiextractor/EO/AA/wiki_18
+Opening  Wikiextractor/EO/AA/wiki_19
+Opening  Wikiextractor/EO/AA/wiki_20
+Opening  Wikiextractor/EO/AA/wiki_21
+Opening  Wikiextractor/EO/AA/wiki_22
+Opening  Wikiextractor/EO/AA/wiki_23
+Opening  Wikiextractor/EO/AA/wiki_24
+Opening  Wikiextractor/EO/AA/wiki_25
+Opening  Wikiextractor/EO/AA/wiki_26
+Opening  Wikiextractor/EO/AA/wiki_27
+Opening  Wikiextractor/EO/AA/wiki_28
+Opening  Wikiextractor/EO/AA/wiki_29
+Opening  Wikiextractor/EO/AA/wiki_30
+Opening  Wikiextractor/EO/AA/wiki_31
+Opening  Wikiextractor/EO/AA/wiki_32
+Opening  Wikiextractor/EO/AA/wiki_33
+Opening  Wikiextractor/EO/AA/wiki_34
+Opening  Wikiextractor/EO/AA/wiki_35
+Opening  Wikiextractor/EO/AA/wiki_36
+Opening  Wikiextractor/EO/AA/wiki_37
+Opening  Wikiextractor/EO/AA/wiki_38
+Opening  Wikiextractor/EO/AA/wiki_39
+Opening  Wikiextractor/EO/AA/wiki_40
+Opening  Wikiextractor/EO/AA/wiki_41
+Opening  Wikiextractor/EO/AA/wiki_42
+Opening  Wikiextractor/EO/AA/wiki_43
+Opening  Wikiextractor/EO/AA/wiki_44
+Opening  Wikiextractor/EO/AA/wiki_45
+Opening  Wikiextractor/EO/AA/wiki_46
+Opening  Wikiextractor/EO/AA/wiki_47
+Opening  Wikiextractor/EO/AA/wiki_48
+Opening  Wikiextractor/EO/AA/wiki_49
+Opening  Wikiextractor/EO/AA/wiki_50
+Opening  Wikiextractor/EO/AA/wiki_51
+Opening  Wikiextractor/EO/AA/wiki_52
+	 part 1 counted 	(current memory:  2.1511269589716497 ) 	(time elapsed:  183.35967755317688 )
+Opening  Wikiextractor/EO/AA/wiki_00
+Opening  Wikiextractor/EO/AA/wiki_01
+Opening  Wikiextractor/EO/AA/wiki_02
+Opening  Wikiextractor/EO/AA/wiki_03
+Opening  Wikiextractor/EO/AA/wiki_04
+Opening  Wikiextractor/EO/AA/wiki_05
+Opening  Wikiextractor/EO/AA/wiki_06
+Opening  Wikiextractor/EO/AA/wiki_07
+Opening  Wikiextractor/EO/AA/wiki_08
+Opening  Wikiextractor/EO/AA/wiki_09
+Opening  Wikiextractor/EO/AA/wiki_10
+Opening  Wikiextractor/EO/AA/wiki_11
+Opening  Wikiextractor/EO/AA/wiki_12
+Opening  Wikiextractor/EO/AA/wiki_13
+Opening  Wikiextractor/EO/AA/wiki_14
+Opening  Wikiextractor/EO/AA/wiki_15
+Opening  Wikiextractor/EO/AA/wiki_16
+Opening  Wikiextractor/EO/AA/wiki_17
+Opening  Wikiextractor/EO/AA/wiki_18
+Opening  Wikiextractor/EO/AA/wiki_19
+Opening  Wikiextractor/EO/AA/wiki_20
+Opening  Wikiextractor/EO/AA/wiki_21
+Opening  Wikiextractor/EO/AA/wiki_22
+Opening  Wikiextractor/EO/AA/wiki_23
+Opening  Wikiextractor/EO/AA/wiki_24
+Opening  Wikiextractor/EO/AA/wiki_25
+Opening  Wikiextractor/EO/AA/wiki_26
+Opening  Wikiextractor/EO/AA/wiki_27
+Opening  Wikiextractor/EO/AA/wiki_28
+Opening  Wikiextractor/EO/AA/wiki_29
+Opening  Wikiextractor/EO/AA/wiki_30
+Opening  Wikiextractor/EO/AA/wiki_31
+Opening  Wikiextractor/EO/AA/wiki_32
+Opening  Wikiextractor/EO/AA/wiki_33
+Opening  Wikiextractor/EO/AA/wiki_34
+Opening  Wikiextractor/EO/AA/wiki_35
+Opening  Wikiextractor/EO/AA/wiki_36
+Opening  Wikiextractor/EO/AA/wiki_37
+Opening  Wikiextractor/EO/AA/wiki_38
+Opening  Wikiextractor/EO/AA/wiki_39
+Opening  Wikiextractor/EO/AA/wiki_40
+Opening  Wikiextractor/EO/AA/wiki_41
+Opening  Wikiextractor/EO/AA/wiki_42
+Opening  Wikiextractor/EO/AA/wiki_43
+Opening  Wikiextractor/EO/AA/wiki_44
+Opening  Wikiextractor/EO/AA/wiki_45
+Opening  Wikiextractor/EO/AA/wiki_46
+Opening  Wikiextractor/EO/AA/wiki_47
+Opening  Wikiextractor/EO/AA/wiki_48
+Opening  Wikiextractor/EO/AA/wiki_49
+Opening  Wikiextractor/EO/AA/wiki_50
+Opening  Wikiextractor/EO/AA/wiki_51
+Opening  Wikiextractor/EO/AA/wiki_52
+	 part 2 counted 	(current memory:  3.80238598344779 ) 	(time elapsed:  367.9506685733795 )
+	 counts and ranks aligned 	(current memory:  4.678552562070787 ) 	(time elapsed:  370.3428781032562 )
+Relative size of subset 1:  0.4994081391077187
+	most common:  [('la', 1723431), ('de', 1074336), ('en', 680354), ('kaj', 536066), ('estas', 328331), ('al', 196557), ('estis', 192016), ('li', 154428), ('el', 104215), ('ĝi', 103482)]
+	highest ranked:  [('la', 1744756), ('de', 1089639), ('en', 689229), ('kaj', 540677), ('estas', 328504), ('al', 200715), ('estis', 195576), ('li', 158092), ('el', 105542), ('por', 104586)]
+
+
+
+STATS:
+{
+number of types: 1181503,
+relative number of types in subset 1: 0.6501794747876222,
+number of tokens: 38239150,
+TTR: 0.030897731774895625,
+types in intersection: 358082,
+tokens in intersection: 37112604,
+words: 38239150,
+paragraphs: 994419,
+articles: 244990,
+highest ranked discordant pair: (('ĝi', 103482), ('por', 104586)),
+}
+
+........................................................................................................................................................................................................
+### Processing  EO  on splitting level  ParagraphSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.011931419372558594 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.023501157760620117 )
+Opening  Wikiextractor/EO/AA/wiki_00
+Opening  Wikiextractor/EO/AA/wiki_01
+Opening  Wikiextractor/EO/AA/wiki_02
+Opening  Wikiextractor/EO/AA/wiki_03
+Opening  Wikiextractor/EO/AA/wiki_04
+Opening  Wikiextractor/EO/AA/wiki_05
+Opening  Wikiextractor/EO/AA/wiki_06
+Opening  Wikiextractor/EO/AA/wiki_07
+Opening  Wikiextractor/EO/AA/wiki_08
+Opening  Wikiextractor/EO/AA/wiki_09
+Opening  Wikiextractor/EO/AA/wiki_10
+Opening  Wikiextractor/EO/AA/wiki_11
+Opening  Wikiextractor/EO/AA/wiki_12
+Opening  Wikiextractor/EO/AA/wiki_13
+Opening  Wikiextractor/EO/AA/wiki_14
+Opening  Wikiextractor/EO/AA/wiki_15
+Opening  Wikiextractor/EO/AA/wiki_16
+Opening  Wikiextractor/EO/AA/wiki_17
+Opening  Wikiextractor/EO/AA/wiki_18
+Opening  Wikiextractor/EO/AA/wiki_19
+Opening  Wikiextractor/EO/AA/wiki_20
+Opening  Wikiextractor/EO/AA/wiki_21
+Opening  Wikiextractor/EO/AA/wiki_22
+Opening  Wikiextractor/EO/AA/wiki_23
+Opening  Wikiextractor/EO/AA/wiki_24
+Opening  Wikiextractor/EO/AA/wiki_25
+Opening  Wikiextractor/EO/AA/wiki_26
+Opening  Wikiextractor/EO/AA/wiki_27
+Opening  Wikiextractor/EO/AA/wiki_28
+Opening  Wikiextractor/EO/AA/wiki_29
+Opening  Wikiextractor/EO/AA/wiki_30
+Opening  Wikiextractor/EO/AA/wiki_31
+Opening  Wikiextractor/EO/AA/wiki_32
+Opening  Wikiextractor/EO/AA/wiki_33
+Opening  Wikiextractor/EO/AA/wiki_34
+Opening  Wikiextractor/EO/AA/wiki_35
+Opening  Wikiextractor/EO/AA/wiki_36
+Opening  Wikiextractor/EO/AA/wiki_37
+Opening  Wikiextractor/EO/AA/wiki_38
+Opening  Wikiextractor/EO/AA/wiki_39
+Opening  Wikiextractor/EO/AA/wiki_40
+Opening  Wikiextractor/EO/AA/wiki_41
+Opening  Wikiextractor/EO/AA/wiki_42
+Opening  Wikiextractor/EO/AA/wiki_43
+Opening  Wikiextractor/EO/AA/wiki_44
+Opening  Wikiextractor/EO/AA/wiki_45
+Opening  Wikiextractor/EO/AA/wiki_46
+Opening  Wikiextractor/EO/AA/wiki_47
+Opening  Wikiextractor/EO/AA/wiki_48
+Opening  Wikiextractor/EO/AA/wiki_49
+Opening  Wikiextractor/EO/AA/wiki_50
+Opening  Wikiextractor/EO/AA/wiki_51
+Opening  Wikiextractor/EO/AA/wiki_52
+	 part 1 counted 	(current memory:  1.1186420516724556 ) 	(time elapsed:  193.5109760761261 )
+Opening  Wikiextractor/EO/AA/wiki_00
+Opening  Wikiextractor/EO/AA/wiki_01
+Opening  Wikiextractor/EO/AA/wiki_02
+Opening  Wikiextractor/EO/AA/wiki_03
+Opening  Wikiextractor/EO/AA/wiki_04
+Opening  Wikiextractor/EO/AA/wiki_05
+Opening  Wikiextractor/EO/AA/wiki_06
+Opening  Wikiextractor/EO/AA/wiki_07
+Opening  Wikiextractor/EO/AA/wiki_08
+Opening  Wikiextractor/EO/AA/wiki_09
+Opening  Wikiextractor/EO/AA/wiki_10
+Opening  Wikiextractor/EO/AA/wiki_11
+Opening  Wikiextractor/EO/AA/wiki_12
+Opening  Wikiextractor/EO/AA/wiki_13
+Opening  Wikiextractor/EO/AA/wiki_14
+Opening  Wikiextractor/EO/AA/wiki_15
+Opening  Wikiextractor/EO/AA/wiki_16
+Opening  Wikiextractor/EO/AA/wiki_17
+Opening  Wikiextractor/EO/AA/wiki_18
+Opening  Wikiextractor/EO/AA/wiki_19
+Opening  Wikiextractor/EO/AA/wiki_20
+Opening  Wikiextractor/EO/AA/wiki_21
+Opening  Wikiextractor/EO/AA/wiki_22
+Opening  Wikiextractor/EO/AA/wiki_23
+Opening  Wikiextractor/EO/AA/wiki_24
+Opening  Wikiextractor/EO/AA/wiki_25
+Opening  Wikiextractor/EO/AA/wiki_26
+Opening  Wikiextractor/EO/AA/wiki_27
+Opening  Wikiextractor/EO/AA/wiki_28
+Opening  Wikiextractor/EO/AA/wiki_29
+Opening  Wikiextractor/EO/AA/wiki_30
+Opening  Wikiextractor/EO/AA/wiki_31
+Opening  Wikiextractor/EO/AA/wiki_32
+Opening  Wikiextractor/EO/AA/wiki_33
+Opening  Wikiextractor/EO/AA/wiki_34
+Opening  Wikiextractor/EO/AA/wiki_35
+Opening  Wikiextractor/EO/AA/wiki_36
+Opening  Wikiextractor/EO/AA/wiki_37
+Opening  Wikiextractor/EO/AA/wiki_38
+Opening  Wikiextractor/EO/AA/wiki_39
+Opening  Wikiextractor/EO/AA/wiki_40
+Opening  Wikiextractor/EO/AA/wiki_41
+Opening  Wikiextractor/EO/AA/wiki_42
+Opening  Wikiextractor/EO/AA/wiki_43
+Opening  Wikiextractor/EO/AA/wiki_44
+Opening  Wikiextractor/EO/AA/wiki_45
+Opening  Wikiextractor/EO/AA/wiki_46
+Opening  Wikiextractor/EO/AA/wiki_47
+Opening  Wikiextractor/EO/AA/wiki_48
+Opening  Wikiextractor/EO/AA/wiki_49
+Opening  Wikiextractor/EO/AA/wiki_50
+Opening  Wikiextractor/EO/AA/wiki_51
+Opening  Wikiextractor/EO/AA/wiki_52
+	 part 2 counted 	(current memory:  1.2076116952942855 ) 	(time elapsed:  379.55220437049866 )
+	 counts and ranks aligned 	(current memory:  1.328710091830423 ) 	(time elapsed:  382.7595555782318 )
+Relative size of subset 1:  0.5003122426260962
+	most common:  [('la', 1735724), ('de', 1081941), ('en', 686257), ('kaj', 538944), ('estas', 328663), ('al', 198588), ('estis', 193547), ('li', 156341), ('el', 104999), ('por', 104185)]
+	highest ranked:  [('la', 1732463), ('de', 1082034), ('en', 683326), ('kaj', 537799), ('estas', 328172), ('al', 198684), ('estis', 194045), ('li', 156179), ('el', 104758), ('ĝi', 103736)]
+
+
+
+STATS:
+{
+number of types: 1181503,
+relative number of types in subset 1: 0.6686677900944814,
+number of tokens: 38239150,
+TTR: 0.030897731774895625,
+types in intersection: 394867,
+tokens in intersection: 37262745,
+words: 38239150,
+paragraphs: 994419,
+articles: 244990,
+highest ranked discordant pair: (('por', 104185), ('ĝi', 103736)),
+}
+
+........................................................................................................................................................................................................
+### Processing  EO  on splitting level  WordSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.01361703872680664 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.027317523956298828 )
+Opening  Wikiextractor/EO/AA/wiki_00
+Opening  Wikiextractor/EO/AA/wiki_01
+Opening  Wikiextractor/EO/AA/wiki_02
+Opening  Wikiextractor/EO/AA/wiki_03
+Opening  Wikiextractor/EO/AA/wiki_04
+Opening  Wikiextractor/EO/AA/wiki_05
+Opening  Wikiextractor/EO/AA/wiki_06
+Opening  Wikiextractor/EO/AA/wiki_07
+Opening  Wikiextractor/EO/AA/wiki_08
+Opening  Wikiextractor/EO/AA/wiki_09
+Opening  Wikiextractor/EO/AA/wiki_10
+Opening  Wikiextractor/EO/AA/wiki_11
+Opening  Wikiextractor/EO/AA/wiki_12
+Opening  Wikiextractor/EO/AA/wiki_13
+Opening  Wikiextractor/EO/AA/wiki_14
+Opening  Wikiextractor/EO/AA/wiki_15
+Opening  Wikiextractor/EO/AA/wiki_16
+Opening  Wikiextractor/EO/AA/wiki_17
+Opening  Wikiextractor/EO/AA/wiki_18
+Opening  Wikiextractor/EO/AA/wiki_19
+Opening  Wikiextractor/EO/AA/wiki_20
+Opening  Wikiextractor/EO/AA/wiki_21
+Opening  Wikiextractor/EO/AA/wiki_22
+Opening  Wikiextractor/EO/AA/wiki_23
+Opening  Wikiextractor/EO/AA/wiki_24
+Opening  Wikiextractor/EO/AA/wiki_25
+Opening  Wikiextractor/EO/AA/wiki_26
+Opening  Wikiextractor/EO/AA/wiki_27
+Opening  Wikiextractor/EO/AA/wiki_28
+Opening  Wikiextractor/EO/AA/wiki_29
+Opening  Wikiextractor/EO/AA/wiki_30
+Opening  Wikiextractor/EO/AA/wiki_31
+Opening  Wikiextractor/EO/AA/wiki_32
+Opening  Wikiextractor/EO/AA/wiki_33
+Opening  Wikiextractor/EO/AA/wiki_34
+Opening  Wikiextractor/EO/AA/wiki_35
+Opening  Wikiextractor/EO/AA/wiki_36
+Opening  Wikiextractor/EO/AA/wiki_37
+Opening  Wikiextractor/EO/AA/wiki_38
+Opening  Wikiextractor/EO/AA/wiki_39
+Opening  Wikiextractor/EO/AA/wiki_40
+Opening  Wikiextractor/EO/AA/wiki_41
+Opening  Wikiextractor/EO/AA/wiki_42
+Opening  Wikiextractor/EO/AA/wiki_43
+Opening  Wikiextractor/EO/AA/wiki_44
+Opening  Wikiextractor/EO/AA/wiki_45
+Opening  Wikiextractor/EO/AA/wiki_46
+Opening  Wikiextractor/EO/AA/wiki_47
+Opening  Wikiextractor/EO/AA/wiki_48
+Opening  Wikiextractor/EO/AA/wiki_49
+Opening  Wikiextractor/EO/AA/wiki_50
+Opening  Wikiextractor/EO/AA/wiki_51
+Opening  Wikiextractor/EO/AA/wiki_52
+	 part 1 counted 	(current memory:  1.3565596451346495 ) 	(time elapsed:  258.9042184352875 )
+Opening  Wikiextractor/EO/AA/wiki_00
+Opening  Wikiextractor/EO/AA/wiki_01
+Opening  Wikiextractor/EO/AA/wiki_02
+Opening  Wikiextractor/EO/AA/wiki_03
+Opening  Wikiextractor/EO/AA/wiki_04
+Opening  Wikiextractor/EO/AA/wiki_05
+Opening  Wikiextractor/EO/AA/wiki_06
+Opening  Wikiextractor/EO/AA/wiki_07
+Opening  Wikiextractor/EO/AA/wiki_08
+Opening  Wikiextractor/EO/AA/wiki_09
+Opening  Wikiextractor/EO/AA/wiki_10
+Opening  Wikiextractor/EO/AA/wiki_11
+Opening  Wikiextractor/EO/AA/wiki_12
+Opening  Wikiextractor/EO/AA/wiki_13
+Opening  Wikiextractor/EO/AA/wiki_14
+Opening  Wikiextractor/EO/AA/wiki_15
+Opening  Wikiextractor/EO/AA/wiki_16
+Opening  Wikiextractor/EO/AA/wiki_17
+Opening  Wikiextractor/EO/AA/wiki_18
+Opening  Wikiextractor/EO/AA/wiki_19
+Opening  Wikiextractor/EO/AA/wiki_20
+Opening  Wikiextractor/EO/AA/wiki_21
+Opening  Wikiextractor/EO/AA/wiki_22
+Opening  Wikiextractor/EO/AA/wiki_23
+Opening  Wikiextractor/EO/AA/wiki_24
+Opening  Wikiextractor/EO/AA/wiki_25
+Opening  Wikiextractor/EO/AA/wiki_26
+Opening  Wikiextractor/EO/AA/wiki_27
+Opening  Wikiextractor/EO/AA/wiki_28
+Opening  Wikiextractor/EO/AA/wiki_29
+Opening  Wikiextractor/EO/AA/wiki_30
+Opening  Wikiextractor/EO/AA/wiki_31
+Opening  Wikiextractor/EO/AA/wiki_32
+Opening  Wikiextractor/EO/AA/wiki_33
+Opening  Wikiextractor/EO/AA/wiki_34
+Opening  Wikiextractor/EO/AA/wiki_35
+Opening  Wikiextractor/EO/AA/wiki_36
+Opening  Wikiextractor/EO/AA/wiki_37
+Opening  Wikiextractor/EO/AA/wiki_38
+Opening  Wikiextractor/EO/AA/wiki_39
+Opening  Wikiextractor/EO/AA/wiki_40
+Opening  Wikiextractor/EO/AA/wiki_41
+Opening  Wikiextractor/EO/AA/wiki_42
+Opening  Wikiextractor/EO/AA/wiki_43
+Opening  Wikiextractor/EO/AA/wiki_44
+Opening  Wikiextractor/EO/AA/wiki_45
+Opening  Wikiextractor/EO/AA/wiki_46
+Opening  Wikiextractor/EO/AA/wiki_47
+Opening  Wikiextractor/EO/AA/wiki_48
+Opening  Wikiextractor/EO/AA/wiki_49
+Opening  Wikiextractor/EO/AA/wiki_50
+Opening  Wikiextractor/EO/AA/wiki_51
+Opening  Wikiextractor/EO/AA/wiki_52
+	 part 2 counted 	(current memory:  1.3565596451346495 ) 	(time elapsed:  464.86671209335327 )
+	 counts and ranks aligned 	(current memory:  1.4298868483563638 ) 	(time elapsed:  469.64321780204773 )
+Relative size of subset 1:  0.5000132848141238
+	most common:  [('la', 1733643), ('de', 1081972), ('en', 684772), ('kaj', 538757), ('estas', 329728), ('al', 198806), ('estis', 193686), ('li', 156299), ('el', 104974), ('ĝi', 103879)]
+	highest ranked:  [('la', 1734544), ('de', 1082003), ('en', 684811), ('kaj', 537986), ('estas', 327107), ('al', 198466), ('estis', 193906), ('li', 156221), ('el', 104783), ('por', 104052)]
+
+
+
+STATS:
+{
+number of types: 1181503,
+relative number of types in subset 1: 0.67392634635714,
+number of tokens: 38239150,
+TTR: 0.030897731774895625,
+types in intersection: 411980,
+tokens in intersection: 37315354,
+words: 38239150,
+paragraphs: 994419,
+articles: 244990,
+highest ranked discordant pair: (('ĝi', 103879), ('por', 104052)),
+}
+
+........................................................................................................................................................................................................
+########################################################################################################################################################################################################
+### Processing  EU  on splitting level  ArticleSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.015273332595825195 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.030446767807006836 )
+Opening  Wikiextractor/EU/AA/wiki_00
+Opening  Wikiextractor/EU/AA/wiki_01
+Opening  Wikiextractor/EU/AA/wiki_02
+Opening  Wikiextractor/EU/AA/wiki_03
+Opening  Wikiextractor/EU/AA/wiki_04
+Opening  Wikiextractor/EU/AA/wiki_05
+Opening  Wikiextractor/EU/AA/wiki_06
+Opening  Wikiextractor/EU/AA/wiki_07
+Opening  Wikiextractor/EU/AA/wiki_08
+Opening  Wikiextractor/EU/AA/wiki_09
+Opening  Wikiextractor/EU/AA/wiki_10
+Opening  Wikiextractor/EU/AA/wiki_11
+Opening  Wikiextractor/EU/AA/wiki_12
+Opening  Wikiextractor/EU/AA/wiki_13
+Opening  Wikiextractor/EU/AA/wiki_14
+Opening  Wikiextractor/EU/AA/wiki_15
+Opening  Wikiextractor/EU/AA/wiki_16
+Opening  Wikiextractor/EU/AA/wiki_17
+Opening  Wikiextractor/EU/AA/wiki_18
+Opening  Wikiextractor/EU/AA/wiki_19
+Opening  Wikiextractor/EU/AA/wiki_20
+Opening  Wikiextractor/EU/AA/wiki_21
+Opening  Wikiextractor/EU/AA/wiki_22
+Opening  Wikiextractor/EU/AA/wiki_23
+Opening  Wikiextractor/EU/AA/wiki_24
+Opening  Wikiextractor/EU/AA/wiki_25
+Opening  Wikiextractor/EU/AA/wiki_26
+Opening  Wikiextractor/EU/AA/wiki_27
+Opening  Wikiextractor/EU/AA/wiki_28
+Opening  Wikiextractor/EU/AA/wiki_29
+Opening  Wikiextractor/EU/AA/wiki_30
+Opening  Wikiextractor/EU/AA/wiki_31
+Opening  Wikiextractor/EU/AA/wiki_32
+Opening  Wikiextractor/EU/AA/wiki_33
+Opening  Wikiextractor/EU/AA/wiki_34
+Opening  Wikiextractor/EU/AA/wiki_35
+Opening  Wikiextractor/EU/AA/wiki_36
+Opening  Wikiextractor/EU/AA/wiki_37
+Opening  Wikiextractor/EU/AA/wiki_38
+Opening  Wikiextractor/EU/AA/wiki_39
+Opening  Wikiextractor/EU/AA/wiki_40
+Opening  Wikiextractor/EU/AA/wiki_41
+Opening  Wikiextractor/EU/AA/wiki_42
+Opening  Wikiextractor/EU/AA/wiki_43
+Opening  Wikiextractor/EU/AA/wiki_44
+Opening  Wikiextractor/EU/AA/wiki_45
+Opening  Wikiextractor/EU/AA/wiki_46
+Opening  Wikiextractor/EU/AA/wiki_47
+Opening  Wikiextractor/EU/AA/wiki_48
+Opening  Wikiextractor/EU/AA/wiki_49
+Opening  Wikiextractor/EU/AA/wiki_50
+Opening  Wikiextractor/EU/AA/wiki_51
+	 part 1 counted 	(current memory:  0.9898106825460111 ) 	(time elapsed:  173.6662073135376 )
+Opening  Wikiextractor/EU/AA/wiki_00
+Opening  Wikiextractor/EU/AA/wiki_01
+Opening  Wikiextractor/EU/AA/wiki_02
+Opening  Wikiextractor/EU/AA/wiki_03
+Opening  Wikiextractor/EU/AA/wiki_04
+Opening  Wikiextractor/EU/AA/wiki_05
+Opening  Wikiextractor/EU/AA/wiki_06
+Opening  Wikiextractor/EU/AA/wiki_07
+Opening  Wikiextractor/EU/AA/wiki_08
+Opening  Wikiextractor/EU/AA/wiki_09
+Opening  Wikiextractor/EU/AA/wiki_10
+Opening  Wikiextractor/EU/AA/wiki_11
+Opening  Wikiextractor/EU/AA/wiki_12
+Opening  Wikiextractor/EU/AA/wiki_13
+Opening  Wikiextractor/EU/AA/wiki_14
+Opening  Wikiextractor/EU/AA/wiki_15
+Opening  Wikiextractor/EU/AA/wiki_16
+Opening  Wikiextractor/EU/AA/wiki_17
+Opening  Wikiextractor/EU/AA/wiki_18
+Opening  Wikiextractor/EU/AA/wiki_19
+Opening  Wikiextractor/EU/AA/wiki_20
+Opening  Wikiextractor/EU/AA/wiki_21
+Opening  Wikiextractor/EU/AA/wiki_22
+Opening  Wikiextractor/EU/AA/wiki_23
+Opening  Wikiextractor/EU/AA/wiki_24
+Opening  Wikiextractor/EU/AA/wiki_25
+Opening  Wikiextractor/EU/AA/wiki_26
+Opening  Wikiextractor/EU/AA/wiki_27
+Opening  Wikiextractor/EU/AA/wiki_28
+Opening  Wikiextractor/EU/AA/wiki_29
+Opening  Wikiextractor/EU/AA/wiki_30
+Opening  Wikiextractor/EU/AA/wiki_31
+Opening  Wikiextractor/EU/AA/wiki_32
+Opening  Wikiextractor/EU/AA/wiki_33
+Opening  Wikiextractor/EU/AA/wiki_34
+Opening  Wikiextractor/EU/AA/wiki_35
+Opening  Wikiextractor/EU/AA/wiki_36
+Opening  Wikiextractor/EU/AA/wiki_37
+Opening  Wikiextractor/EU/AA/wiki_38
+Opening  Wikiextractor/EU/AA/wiki_39
+Opening  Wikiextractor/EU/AA/wiki_40
+Opening  Wikiextractor/EU/AA/wiki_41
+Opening  Wikiextractor/EU/AA/wiki_42
+Opening  Wikiextractor/EU/AA/wiki_43
+Opening  Wikiextractor/EU/AA/wiki_44
+Opening  Wikiextractor/EU/AA/wiki_45
+Opening  Wikiextractor/EU/AA/wiki_46
+Opening  Wikiextractor/EU/AA/wiki_47
+Opening  Wikiextractor/EU/AA/wiki_48
+Opening  Wikiextractor/EU/AA/wiki_49
+Opening  Wikiextractor/EU/AA/wiki_50
+Opening  Wikiextractor/EU/AA/wiki_51
+	 part 2 counted 	(current memory:  0.9700526024719304 ) 	(time elapsed:  347.55971789360046 )
+	 counts and ranks aligned 	(current memory:  0.7300747238048693 ) 	(time elapsed:  349.9502935409546 )
+Relative size of subset 1:  0.5
+	most common:  [('eta', 675886), ('ziren', 386193), ('da', 259440), ('zen', 249294), ('zeuden', 213579), ('bat', 167274), ('1', 154400), ('izan', 110575), ('zuen', 106983), ('zituzten', 92065)]
+	highest ranked:  [('eta', 660091), ('ziren', 382069), ('da', 256072), ('zen', 245501), ('zeuden', 211356), ('bat', 164092), ('1', 154096), ('izan', 107915), ('zuen', 103824), ('zituzten', 90595)]
+
+
+
+STATS:
+{
+number of types: 838297,
+relative number of types in subset 1: 0.6697256461612054,
+number of tokens: 31225987,
+TTR: 0.026846132998133893,
+types in intersection: 275774,
+tokens in intersection: 30420953,
+words: 31225987,
+paragraphs: 1133763,
+articles: 288364,
+highest ranked discordant pair: (('du', 68853), ('2007an', 67812)),
+}
+
+........................................................................................................................................................................................................
+### Processing  EU  on splitting level  ParagraphSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.012649774551391602 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.02512812614440918 )
+Opening  Wikiextractor/EU/AA/wiki_00
+Opening  Wikiextractor/EU/AA/wiki_01
+Opening  Wikiextractor/EU/AA/wiki_02
+Opening  Wikiextractor/EU/AA/wiki_03
+Opening  Wikiextractor/EU/AA/wiki_04
+Opening  Wikiextractor/EU/AA/wiki_05
+Opening  Wikiextractor/EU/AA/wiki_06
+Opening  Wikiextractor/EU/AA/wiki_07
+Opening  Wikiextractor/EU/AA/wiki_08
+Opening  Wikiextractor/EU/AA/wiki_09
+Opening  Wikiextractor/EU/AA/wiki_10
+Opening  Wikiextractor/EU/AA/wiki_11
+Opening  Wikiextractor/EU/AA/wiki_12
+Opening  Wikiextractor/EU/AA/wiki_13
+Opening  Wikiextractor/EU/AA/wiki_14
+Opening  Wikiextractor/EU/AA/wiki_15
+Opening  Wikiextractor/EU/AA/wiki_16
+Opening  Wikiextractor/EU/AA/wiki_17
+Opening  Wikiextractor/EU/AA/wiki_18
+Opening  Wikiextractor/EU/AA/wiki_19
+Opening  Wikiextractor/EU/AA/wiki_20
+Opening  Wikiextractor/EU/AA/wiki_21
+Opening  Wikiextractor/EU/AA/wiki_22
+Opening  Wikiextractor/EU/AA/wiki_23
+Opening  Wikiextractor/EU/AA/wiki_24
+Opening  Wikiextractor/EU/AA/wiki_25
+Opening  Wikiextractor/EU/AA/wiki_26
+Opening  Wikiextractor/EU/AA/wiki_27
+Opening  Wikiextractor/EU/AA/wiki_28
+Opening  Wikiextractor/EU/AA/wiki_29
+Opening  Wikiextractor/EU/AA/wiki_30
+Opening  Wikiextractor/EU/AA/wiki_31
+Opening  Wikiextractor/EU/AA/wiki_32
+Opening  Wikiextractor/EU/AA/wiki_33
+Opening  Wikiextractor/EU/AA/wiki_34
+Opening  Wikiextractor/EU/AA/wiki_35
+Opening  Wikiextractor/EU/AA/wiki_36
+Opening  Wikiextractor/EU/AA/wiki_37
+Opening  Wikiextractor/EU/AA/wiki_38
+Opening  Wikiextractor/EU/AA/wiki_39
+Opening  Wikiextractor/EU/AA/wiki_40
+Opening  Wikiextractor/EU/AA/wiki_41
+Opening  Wikiextractor/EU/AA/wiki_42
+Opening  Wikiextractor/EU/AA/wiki_43
+Opening  Wikiextractor/EU/AA/wiki_44
+Opening  Wikiextractor/EU/AA/wiki_45
+Opening  Wikiextractor/EU/AA/wiki_46
+Opening  Wikiextractor/EU/AA/wiki_47
+Opening  Wikiextractor/EU/AA/wiki_48
+Opening  Wikiextractor/EU/AA/wiki_49
+Opening  Wikiextractor/EU/AA/wiki_50
+Opening  Wikiextractor/EU/AA/wiki_51
+	 part 1 counted 	(current memory:  1.0442704536397127 ) 	(time elapsed:  190.40911054611206 )
+Opening  Wikiextractor/EU/AA/wiki_00
+Opening  Wikiextractor/EU/AA/wiki_01
+Opening  Wikiextractor/EU/AA/wiki_02
+Opening  Wikiextractor/EU/AA/wiki_03
+Opening  Wikiextractor/EU/AA/wiki_04
+Opening  Wikiextractor/EU/AA/wiki_05
+Opening  Wikiextractor/EU/AA/wiki_06
+Opening  Wikiextractor/EU/AA/wiki_07
+Opening  Wikiextractor/EU/AA/wiki_08
+Opening  Wikiextractor/EU/AA/wiki_09
+Opening  Wikiextractor/EU/AA/wiki_10
+Opening  Wikiextractor/EU/AA/wiki_11
+Opening  Wikiextractor/EU/AA/wiki_12
+Opening  Wikiextractor/EU/AA/wiki_13
+Opening  Wikiextractor/EU/AA/wiki_14
+Opening  Wikiextractor/EU/AA/wiki_15
+Opening  Wikiextractor/EU/AA/wiki_16
+Opening  Wikiextractor/EU/AA/wiki_17
+Opening  Wikiextractor/EU/AA/wiki_18
+Opening  Wikiextractor/EU/AA/wiki_19
+Opening  Wikiextractor/EU/AA/wiki_20
+Opening  Wikiextractor/EU/AA/wiki_21
+Opening  Wikiextractor/EU/AA/wiki_22
+Opening  Wikiextractor/EU/AA/wiki_23
+Opening  Wikiextractor/EU/AA/wiki_24
+Opening  Wikiextractor/EU/AA/wiki_25
+Opening  Wikiextractor/EU/AA/wiki_26
+Opening  Wikiextractor/EU/AA/wiki_27
+Opening  Wikiextractor/EU/AA/wiki_28
+Opening  Wikiextractor/EU/AA/wiki_29
+Opening  Wikiextractor/EU/AA/wiki_30
+Opening  Wikiextractor/EU/AA/wiki_31
+Opening  Wikiextractor/EU/AA/wiki_32
+Opening  Wikiextractor/EU/AA/wiki_33
+Opening  Wikiextractor/EU/AA/wiki_34
+Opening  Wikiextractor/EU/AA/wiki_35
+Opening  Wikiextractor/EU/AA/wiki_36
+Opening  Wikiextractor/EU/AA/wiki_37
+Opening  Wikiextractor/EU/AA/wiki_38
+Opening  Wikiextractor/EU/AA/wiki_39
+Opening  Wikiextractor/EU/AA/wiki_40
+Opening  Wikiextractor/EU/AA/wiki_41
+Opening  Wikiextractor/EU/AA/wiki_42
+Opening  Wikiextractor/EU/AA/wiki_43
+Opening  Wikiextractor/EU/AA/wiki_44
+Opening  Wikiextractor/EU/AA/wiki_45
+Opening  Wikiextractor/EU/AA/wiki_46
+Opening  Wikiextractor/EU/AA/wiki_47
+Opening  Wikiextractor/EU/AA/wiki_48
+Opening  Wikiextractor/EU/AA/wiki_49
+Opening  Wikiextractor/EU/AA/wiki_50
+Opening  Wikiextractor/EU/AA/wiki_51
+	 part 2 counted 	(current memory:  1.0442704536397127 ) 	(time elapsed:  367.06173181533813 )
+	 counts and ranks aligned 	(current memory:  1.0442704536397127 ) 	(time elapsed:  369.2047846317291 )
+Relative size of subset 1:  0.5010359307897683
+	most common:  [('eta', 670478), ('ziren', 386131), ('da', 258011), ('zen', 248861), ('zeuden', 212338), ('bat', 166629), ('1', 154524), ('izan', 110117), ('zuen', 105467), ('zituzten', 91937)]
+	highest ranked:  [('eta', 665499), ('ziren', 382131), ('da', 257501), ('zen', 245934), ('zeuden', 212597), ('bat', 164737), ('1', 153972), ('izan', 108373), ('zuen', 105340), ('zituzten', 90723)]
+
+
+
+STATS:
+{
+number of types: 838297,
+relative number of types in subset 1: 0.686329546688107,
+number of tokens: 31225987,
+TTR: 0.026846132998133893,
+types in intersection: 311308,
+tokens in intersection: 30564352,
+words: 31225987,
+paragraphs: 1133763,
+articles: 288364,
+highest ranked discordant pair: (('enpresak', 82266), ('2', 79980)),
+}
+
+........................................................................................................................................................................................................
+### Processing  EU  on splitting level  WordSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.013714313507080078 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.027173280715942383 )
+Opening  Wikiextractor/EU/AA/wiki_00
+Opening  Wikiextractor/EU/AA/wiki_01
+Opening  Wikiextractor/EU/AA/wiki_02
+Opening  Wikiextractor/EU/AA/wiki_03
+Opening  Wikiextractor/EU/AA/wiki_04
+Opening  Wikiextractor/EU/AA/wiki_05
+Opening  Wikiextractor/EU/AA/wiki_06
+Opening  Wikiextractor/EU/AA/wiki_07
+Opening  Wikiextractor/EU/AA/wiki_08
+Opening  Wikiextractor/EU/AA/wiki_09
+Opening  Wikiextractor/EU/AA/wiki_10
+Opening  Wikiextractor/EU/AA/wiki_11
+Opening  Wikiextractor/EU/AA/wiki_12
+Opening  Wikiextractor/EU/AA/wiki_13
+Opening  Wikiextractor/EU/AA/wiki_14
+Opening  Wikiextractor/EU/AA/wiki_15
+Opening  Wikiextractor/EU/AA/wiki_16
+Opening  Wikiextractor/EU/AA/wiki_17
+Opening  Wikiextractor/EU/AA/wiki_18
+Opening  Wikiextractor/EU/AA/wiki_19
+Opening  Wikiextractor/EU/AA/wiki_20
+Opening  Wikiextractor/EU/AA/wiki_21
+Opening  Wikiextractor/EU/AA/wiki_22
+Opening  Wikiextractor/EU/AA/wiki_23
+Opening  Wikiextractor/EU/AA/wiki_24
+Opening  Wikiextractor/EU/AA/wiki_25
+Opening  Wikiextractor/EU/AA/wiki_26
+Opening  Wikiextractor/EU/AA/wiki_27
+Opening  Wikiextractor/EU/AA/wiki_28
+Opening  Wikiextractor/EU/AA/wiki_29
+Opening  Wikiextractor/EU/AA/wiki_30
+Opening  Wikiextractor/EU/AA/wiki_31
+Opening  Wikiextractor/EU/AA/wiki_32
+Opening  Wikiextractor/EU/AA/wiki_33
+Opening  Wikiextractor/EU/AA/wiki_34
+Opening  Wikiextractor/EU/AA/wiki_35
+Opening  Wikiextractor/EU/AA/wiki_36
+Opening  Wikiextractor/EU/AA/wiki_37
+Opening  Wikiextractor/EU/AA/wiki_38
+Opening  Wikiextractor/EU/AA/wiki_39
+Opening  Wikiextractor/EU/AA/wiki_40
+Opening  Wikiextractor/EU/AA/wiki_41
+Opening  Wikiextractor/EU/AA/wiki_42
+Opening  Wikiextractor/EU/AA/wiki_43
+Opening  Wikiextractor/EU/AA/wiki_44
+Opening  Wikiextractor/EU/AA/wiki_45
+Opening  Wikiextractor/EU/AA/wiki_46
+Opening  Wikiextractor/EU/AA/wiki_47
+Opening  Wikiextractor/EU/AA/wiki_48
+Opening  Wikiextractor/EU/AA/wiki_49
+Opening  Wikiextractor/EU/AA/wiki_50
+Opening  Wikiextractor/EU/AA/wiki_51
+	 part 1 counted 	(current memory:  1.3132263032622393 ) 	(time elapsed:  229.64419865608215 )
+Opening  Wikiextractor/EU/AA/wiki_00
+Opening  Wikiextractor/EU/AA/wiki_01
+Opening  Wikiextractor/EU/AA/wiki_02
+Opening  Wikiextractor/EU/AA/wiki_03
+Opening  Wikiextractor/EU/AA/wiki_04
+Opening  Wikiextractor/EU/AA/wiki_05
+Opening  Wikiextractor/EU/AA/wiki_06
+Opening  Wikiextractor/EU/AA/wiki_07
+Opening  Wikiextractor/EU/AA/wiki_08
+Opening  Wikiextractor/EU/AA/wiki_09
+Opening  Wikiextractor/EU/AA/wiki_10
+Opening  Wikiextractor/EU/AA/wiki_11
+Opening  Wikiextractor/EU/AA/wiki_12
+Opening  Wikiextractor/EU/AA/wiki_13
+Opening  Wikiextractor/EU/AA/wiki_14
+Opening  Wikiextractor/EU/AA/wiki_15
+Opening  Wikiextractor/EU/AA/wiki_16
+Opening  Wikiextractor/EU/AA/wiki_17
+Opening  Wikiextractor/EU/AA/wiki_18
+Opening  Wikiextractor/EU/AA/wiki_19
+Opening  Wikiextractor/EU/AA/wiki_20
+Opening  Wikiextractor/EU/AA/wiki_21
+Opening  Wikiextractor/EU/AA/wiki_22
+Opening  Wikiextractor/EU/AA/wiki_23
+Opening  Wikiextractor/EU/AA/wiki_24
+Opening  Wikiextractor/EU/AA/wiki_25
+Opening  Wikiextractor/EU/AA/wiki_26
+Opening  Wikiextractor/EU/AA/wiki_27
+Opening  Wikiextractor/EU/AA/wiki_28
+Opening  Wikiextractor/EU/AA/wiki_29
+Opening  Wikiextractor/EU/AA/wiki_30
+Opening  Wikiextractor/EU/AA/wiki_31
+Opening  Wikiextractor/EU/AA/wiki_32
+Opening  Wikiextractor/EU/AA/wiki_33
+Opening  Wikiextractor/EU/AA/wiki_34
+Opening  Wikiextractor/EU/AA/wiki_35
+Opening  Wikiextractor/EU/AA/wiki_36
+Opening  Wikiextractor/EU/AA/wiki_37
+Opening  Wikiextractor/EU/AA/wiki_38
+Opening  Wikiextractor/EU/AA/wiki_39
+Opening  Wikiextractor/EU/AA/wiki_40
+Opening  Wikiextractor/EU/AA/wiki_41
+Opening  Wikiextractor/EU/AA/wiki_42
+Opening  Wikiextractor/EU/AA/wiki_43
+Opening  Wikiextractor/EU/AA/wiki_44
+Opening  Wikiextractor/EU/AA/wiki_45
+Opening  Wikiextractor/EU/AA/wiki_46
+Opening  Wikiextractor/EU/AA/wiki_47
+Opening  Wikiextractor/EU/AA/wiki_48
+Opening  Wikiextractor/EU/AA/wiki_49
+Opening  Wikiextractor/EU/AA/wiki_50
+Opening  Wikiextractor/EU/AA/wiki_51
+	 part 2 counted 	(current memory:  1.3132263032622393 ) 	(time elapsed:  427.65533423423767 )
+	 counts and ranks aligned 	(current memory:  1.3132263032622393 ) 	(time elapsed:  430.88453221321106 )
+Relative size of subset 1:  0.5000274611015498
+	most common:  [('eta', 668447), ('ziren', 383828), ('da', 258128), ('zen', 247785), ('zeuden', 212912), ('bat', 166021), ('1', 154069), ('izan', 108899), ('zuen', 105165), ('zituzten', 91342)]
+	highest ranked:  [('eta', 667530), ('ziren', 384434), ('da', 257384), ('zen', 247010), ('zeuden', 212023), ('bat', 165345), ('1', 154427), ('izan', 109591), ('zuen', 105642), ('zituzten', 91318)]
+
+
+
+STATS:
+{
+number of types: 838297,
+relative number of types in subset 1: 0.6913253894502783,
+number of tokens: 31225987,
+TTR: 0.026846132998133893,
+types in intersection: 321398,
+tokens in intersection: 30594664,
+words: 31225987,
+paragraphs: 1133763,
+articles: 288364,
+highest ranked discordant pair: (('du', 68653), ('2007an', 68183)),
+}
+
+........................................................................................................................................................................................................
+########################################################################################################################################################################################################
+### Processing  FI  on splitting level  ArticleSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.014722108840942383 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.029074430465698242 )
+Opening  Wikiextractor/FI/AA/wiki_00
+Opening  Wikiextractor/FI/AA/wiki_01
+Opening  Wikiextractor/FI/AA/wiki_02
+Opening  Wikiextractor/FI/AA/wiki_03
+Opening  Wikiextractor/FI/AA/wiki_04
+Opening  Wikiextractor/FI/AA/wiki_05
+Opening  Wikiextractor/FI/AA/wiki_06
+Opening  Wikiextractor/FI/AA/wiki_07
+Opening  Wikiextractor/FI/AA/wiki_08
+Opening  Wikiextractor/FI/AA/wiki_09
+Opening  Wikiextractor/FI/AA/wiki_10
+Opening  Wikiextractor/FI/AA/wiki_11
+Opening  Wikiextractor/FI/AA/wiki_12
+Opening  Wikiextractor/FI/AA/wiki_13
+Opening  Wikiextractor/FI/AA/wiki_14
+Opening  Wikiextractor/FI/AA/wiki_15
+Opening  Wikiextractor/FI/AA/wiki_16
+Opening  Wikiextractor/FI/AA/wiki_17
+Opening  Wikiextractor/FI/AA/wiki_18
+Opening  Wikiextractor/FI/AA/wiki_19
+Opening  Wikiextractor/FI/AA/wiki_20
+Opening  Wikiextractor/FI/AA/wiki_21
+Opening  Wikiextractor/FI/AA/wiki_22
+Opening  Wikiextractor/FI/AA/wiki_23
+Opening  Wikiextractor/FI/AA/wiki_24
+Opening  Wikiextractor/FI/AA/wiki_25
+Opening  Wikiextractor/FI/AA/wiki_26
+Opening  Wikiextractor/FI/AA/wiki_27
+Opening  Wikiextractor/FI/AA/wiki_28
+Opening  Wikiextractor/FI/AA/wiki_29
+Opening  Wikiextractor/FI/AA/wiki_30
+Opening  Wikiextractor/FI/AA/wiki_31
+Opening  Wikiextractor/FI/AA/wiki_32
+Opening  Wikiextractor/FI/AA/wiki_33
+Opening  Wikiextractor/FI/AA/wiki_34
+Opening  Wikiextractor/FI/AA/wiki_35
+Opening  Wikiextractor/FI/AA/wiki_36
+Opening  Wikiextractor/FI/AA/wiki_37
+Opening  Wikiextractor/FI/AA/wiki_38
+Opening  Wikiextractor/FI/AA/wiki_39
+Opening  Wikiextractor/FI/AA/wiki_40
+Opening  Wikiextractor/FI/AA/wiki_41
+Opening  Wikiextractor/FI/AA/wiki_42
+Opening  Wikiextractor/FI/AA/wiki_43
+Opening  Wikiextractor/FI/AA/wiki_44
+Opening  Wikiextractor/FI/AA/wiki_45
+Opening  Wikiextractor/FI/AA/wiki_46
+Opening  Wikiextractor/FI/AA/wiki_47
+Opening  Wikiextractor/FI/AA/wiki_48
+Opening  Wikiextractor/FI/AA/wiki_49
+Opening  Wikiextractor/FI/AA/wiki_50
+Opening  Wikiextractor/FI/AA/wiki_51
+Opening  Wikiextractor/FI/AA/wiki_52
+Opening  Wikiextractor/FI/AA/wiki_53
+Opening  Wikiextractor/FI/AA/wiki_54
+Opening  Wikiextractor/FI/AA/wiki_55
+Opening  Wikiextractor/FI/AA/wiki_56
+Opening  Wikiextractor/FI/AA/wiki_57
+Opening  Wikiextractor/FI/AA/wiki_58
+Opening  Wikiextractor/FI/AA/wiki_59
+Opening  Wikiextractor/FI/AA/wiki_60
+Opening  Wikiextractor/FI/AA/wiki_61
+Opening  Wikiextractor/FI/AA/wiki_62
+Opening  Wikiextractor/FI/AA/wiki_63
+Opening  Wikiextractor/FI/AA/wiki_64
+Opening  Wikiextractor/FI/AA/wiki_65
+Opening  Wikiextractor/FI/AA/wiki_66
+Opening  Wikiextractor/FI/AA/wiki_67
+Opening  Wikiextractor/FI/AA/wiki_68
+Opening  Wikiextractor/FI/AA/wiki_69
+Opening  Wikiextractor/FI/AA/wiki_70
+Opening  Wikiextractor/FI/AA/wiki_71
+Opening  Wikiextractor/FI/AA/wiki_72
+Opening  Wikiextractor/FI/AA/wiki_73
+Opening  Wikiextractor/FI/AA/wiki_74
+Opening  Wikiextractor/FI/AA/wiki_75
+Opening  Wikiextractor/FI/AA/wiki_76
+Opening  Wikiextractor/FI/AA/wiki_77
+Opening  Wikiextractor/FI/AA/wiki_78
+Opening  Wikiextractor/FI/AA/wiki_79
+Opening  Wikiextractor/FI/AA/wiki_80
+Opening  Wikiextractor/FI/AA/wiki_81
+Opening  Wikiextractor/FI/AA/wiki_82
+Opening  Wikiextractor/FI/AA/wiki_83
+Opening  Wikiextractor/FI/AA/wiki_84
+Opening  Wikiextractor/FI/AA/wiki_85
+Opening  Wikiextractor/FI/AA/wiki_86
+Opening  Wikiextractor/FI/AA/wiki_87
+Opening  Wikiextractor/FI/AA/wiki_88
+Opening  Wikiextractor/FI/AA/wiki_89
+Opening  Wikiextractor/FI/AA/wiki_90
+Opening  Wikiextractor/FI/AA/wiki_91
+Opening  Wikiextractor/FI/AA/wiki_92
+Opening  Wikiextractor/FI/AA/wiki_93
+Opening  Wikiextractor/FI/AA/wiki_94
+Opening  Wikiextractor/FI/AA/wiki_95
+Opening  Wikiextractor/FI/AA/wiki_96
+Opening  Wikiextractor/FI/AA/wiki_97
+Opening  Wikiextractor/FI/AA/wiki_98
+Opening  Wikiextractor/FI/AA/wiki_99
+Opening  Wikiextractor/FI/AB/wiki_00
+Opening  Wikiextractor/FI/AB/wiki_01
+Opening  Wikiextractor/FI/AB/wiki_02
+Opening  Wikiextractor/FI/AB/wiki_03
+Opening  Wikiextractor/FI/AB/wiki_04
+Opening  Wikiextractor/FI/AB/wiki_05
+Opening  Wikiextractor/FI/AB/wiki_06
+Opening  Wikiextractor/FI/AB/wiki_07
+Opening  Wikiextractor/FI/AB/wiki_08
+Opening  Wikiextractor/FI/AB/wiki_09
+Opening  Wikiextractor/FI/AB/wiki_10
+Opening  Wikiextractor/FI/AB/wiki_11
+Opening  Wikiextractor/FI/AB/wiki_12
+Opening  Wikiextractor/FI/AB/wiki_13
+Opening  Wikiextractor/FI/AB/wiki_14
+Opening  Wikiextractor/FI/AB/wiki_15
+Opening  Wikiextractor/FI/AB/wiki_16
+Opening  Wikiextractor/FI/AB/wiki_17
+Opening  Wikiextractor/FI/AB/wiki_18
+Opening  Wikiextractor/FI/AB/wiki_19
+Opening  Wikiextractor/FI/AB/wiki_20
+Opening  Wikiextractor/FI/AB/wiki_21
+Opening  Wikiextractor/FI/AB/wiki_22
+Opening  Wikiextractor/FI/AB/wiki_23
+Opening  Wikiextractor/FI/AB/wiki_24
+Opening  Wikiextractor/FI/AB/wiki_25
+Opening  Wikiextractor/FI/AB/wiki_26
+Opening  Wikiextractor/FI/AB/wiki_27
+Opening  Wikiextractor/FI/AB/wiki_28
+Opening  Wikiextractor/FI/AB/wiki_29
+Opening  Wikiextractor/FI/AB/wiki_30
+Opening  Wikiextractor/FI/AB/wiki_31
+Opening  Wikiextractor/FI/AB/wiki_32
+	 part 1 counted 	(current memory:  1.0873768113881028 ) 	(time elapsed:  416.71620869636536 )
+Opening  Wikiextractor/FI/AA/wiki_00
+Opening  Wikiextractor/FI/AA/wiki_01
+Opening  Wikiextractor/FI/AA/wiki_02
+Opening  Wikiextractor/FI/AA/wiki_03
+Opening  Wikiextractor/FI/AA/wiki_04
+Opening  Wikiextractor/FI/AA/wiki_05
+Opening  Wikiextractor/FI/AA/wiki_06
+Opening  Wikiextractor/FI/AA/wiki_07
+Opening  Wikiextractor/FI/AA/wiki_08
+Opening  Wikiextractor/FI/AA/wiki_09
+Opening  Wikiextractor/FI/AA/wiki_10
+Opening  Wikiextractor/FI/AA/wiki_11
+Opening  Wikiextractor/FI/AA/wiki_12
+Opening  Wikiextractor/FI/AA/wiki_13
+Opening  Wikiextractor/FI/AA/wiki_14
+Opening  Wikiextractor/FI/AA/wiki_15
+Opening  Wikiextractor/FI/AA/wiki_16
+Opening  Wikiextractor/FI/AA/wiki_17
+Opening  Wikiextractor/FI/AA/wiki_18
+Opening  Wikiextractor/FI/AA/wiki_19
+Opening  Wikiextractor/FI/AA/wiki_20
+Opening  Wikiextractor/FI/AA/wiki_21
+Opening  Wikiextractor/FI/AA/wiki_22
+Opening  Wikiextractor/FI/AA/wiki_23
+Opening  Wikiextractor/FI/AA/wiki_24
+Opening  Wikiextractor/FI/AA/wiki_25
+Opening  Wikiextractor/FI/AA/wiki_26
+Opening  Wikiextractor/FI/AA/wiki_27
+Opening  Wikiextractor/FI/AA/wiki_28
+Opening  Wikiextractor/FI/AA/wiki_29
+Opening  Wikiextractor/FI/AA/wiki_30
+Opening  Wikiextractor/FI/AA/wiki_31
+Opening  Wikiextractor/FI/AA/wiki_32
+Opening  Wikiextractor/FI/AA/wiki_33
+Opening  Wikiextractor/FI/AA/wiki_34
+Opening  Wikiextractor/FI/AA/wiki_35
+Opening  Wikiextractor/FI/AA/wiki_36
+Opening  Wikiextractor/FI/AA/wiki_37
+Opening  Wikiextractor/FI/AA/wiki_38
+Opening  Wikiextractor/FI/AA/wiki_39
+Opening  Wikiextractor/FI/AA/wiki_40
+Opening  Wikiextractor/FI/AA/wiki_41
+Opening  Wikiextractor/FI/AA/wiki_42
+Opening  Wikiextractor/FI/AA/wiki_43
+Opening  Wikiextractor/FI/AA/wiki_44
+Opening  Wikiextractor/FI/AA/wiki_45
+Opening  Wikiextractor/FI/AA/wiki_46
+Opening  Wikiextractor/FI/AA/wiki_47
+Opening  Wikiextractor/FI/AA/wiki_48
+Opening  Wikiextractor/FI/AA/wiki_49
+Opening  Wikiextractor/FI/AA/wiki_50
+Opening  Wikiextractor/FI/AA/wiki_51
+Opening  Wikiextractor/FI/AA/wiki_52
+Opening  Wikiextractor/FI/AA/wiki_53
+Opening  Wikiextractor/FI/AA/wiki_54
+Opening  Wikiextractor/FI/AA/wiki_55
+Opening  Wikiextractor/FI/AA/wiki_56
+Opening  Wikiextractor/FI/AA/wiki_57
+Opening  Wikiextractor/FI/AA/wiki_58
+Opening  Wikiextractor/FI/AA/wiki_59
+Opening  Wikiextractor/FI/AA/wiki_60
+Opening  Wikiextractor/FI/AA/wiki_61
+Opening  Wikiextractor/FI/AA/wiki_62
+Opening  Wikiextractor/FI/AA/wiki_63
+Opening  Wikiextractor/FI/AA/wiki_64
+Opening  Wikiextractor/FI/AA/wiki_65
+Opening  Wikiextractor/FI/AA/wiki_66
+Opening  Wikiextractor/FI/AA/wiki_67
+Opening  Wikiextractor/FI/AA/wiki_68
+Opening  Wikiextractor/FI/AA/wiki_69
+Opening  Wikiextractor/FI/AA/wiki_70
+Opening  Wikiextractor/FI/AA/wiki_71
+Opening  Wikiextractor/FI/AA/wiki_72
+Opening  Wikiextractor/FI/AA/wiki_73
+Opening  Wikiextractor/FI/AA/wiki_74
+Opening  Wikiextractor/FI/AA/wiki_75
+Opening  Wikiextractor/FI/AA/wiki_76
+Opening  Wikiextractor/FI/AA/wiki_77
+Opening  Wikiextractor/FI/AA/wiki_78
+Opening  Wikiextractor/FI/AA/wiki_79
+Opening  Wikiextractor/FI/AA/wiki_80
+Opening  Wikiextractor/FI/AA/wiki_81
+Opening  Wikiextractor/FI/AA/wiki_82
+Opening  Wikiextractor/FI/AA/wiki_83
+Opening  Wikiextractor/FI/AA/wiki_84
+Opening  Wikiextractor/FI/AA/wiki_85
+Opening  Wikiextractor/FI/AA/wiki_86
+Opening  Wikiextractor/FI/AA/wiki_87
+Opening  Wikiextractor/FI/AA/wiki_88
+Opening  Wikiextractor/FI/AA/wiki_89
+Opening  Wikiextractor/FI/AA/wiki_90
+Opening  Wikiextractor/FI/AA/wiki_91
+Opening  Wikiextractor/FI/AA/wiki_92
+Opening  Wikiextractor/FI/AA/wiki_93
+Opening  Wikiextractor/FI/AA/wiki_94
+Opening  Wikiextractor/FI/AA/wiki_95
+Opening  Wikiextractor/FI/AA/wiki_96
+Opening  Wikiextractor/FI/AA/wiki_97
+Opening  Wikiextractor/FI/AA/wiki_98
+Opening  Wikiextractor/FI/AA/wiki_99
+Opening  Wikiextractor/FI/AB/wiki_00
+Opening  Wikiextractor/FI/AB/wiki_01
+Opening  Wikiextractor/FI/AB/wiki_02
+Opening  Wikiextractor/FI/AB/wiki_03
+Opening  Wikiextractor/FI/AB/wiki_04
+Opening  Wikiextractor/FI/AB/wiki_05
+Opening  Wikiextractor/FI/AB/wiki_06
+Opening  Wikiextractor/FI/AB/wiki_07
+Opening  Wikiextractor/FI/AB/wiki_08
+Opening  Wikiextractor/FI/AB/wiki_09
+Opening  Wikiextractor/FI/AB/wiki_10
+Opening  Wikiextractor/FI/AB/wiki_11
+Opening  Wikiextractor/FI/AB/wiki_12
+Opening  Wikiextractor/FI/AB/wiki_13
+Opening  Wikiextractor/FI/AB/wiki_14
+Opening  Wikiextractor/FI/AB/wiki_15
+Opening  Wikiextractor/FI/AB/wiki_16
+Opening  Wikiextractor/FI/AB/wiki_17
+Opening  Wikiextractor/FI/AB/wiki_18
+Opening  Wikiextractor/FI/AB/wiki_19
+Opening  Wikiextractor/FI/AB/wiki_20
+Opening  Wikiextractor/FI/AB/wiki_21
+Opening  Wikiextractor/FI/AB/wiki_22
+Opening  Wikiextractor/FI/AB/wiki_23
+Opening  Wikiextractor/FI/AB/wiki_24
+Opening  Wikiextractor/FI/AB/wiki_25
+Opening  Wikiextractor/FI/AB/wiki_26
+Opening  Wikiextractor/FI/AB/wiki_27
+Opening  Wikiextractor/FI/AB/wiki_28
+Opening  Wikiextractor/FI/AB/wiki_29
+Opening  Wikiextractor/FI/AB/wiki_30
+Opening  Wikiextractor/FI/AB/wiki_31
+Opening  Wikiextractor/FI/AB/wiki_32
+	 part 2 counted 	(current memory:  1.198111463473599 ) 	(time elapsed:  835.3206532001495 )
+	 counts and ranks aligned 	(current memory:  1.1626267438387918 ) 	(time elapsed:  842.986100435257 )
+Relative size of subset 1:  0.4997354153514798
+	most common:  [('ja', 1332504), ('on', 824670), ('oli', 387406), ('hän', 322965), ('vuonna', 274568), ('myös', 204073), ('–', 192939), ('joka', 159546), ('se', 139809), ('ovat', 125124)]
+	highest ranked:  [('ja', 1344932), ('on', 831511), ('oli', 386628), ('hän', 323713), ('vuonna', 273381), ('myös', 205754), ('–', 194554), ('joka', 159850), ('se', 140377), ('ovat', 127742)]
+
+
+
+STATS:
+{
+number of types: 3007242,
+relative number of types in subset 1: 0.6578595936076976,
+number of tokens: 73633412,
+TTR: 0.040840725946530904,
+types in intersection: 958797,
+tokens in intersection: 70835274,
+words: 73633412,
+paragraphs: 1925574,
+articles: 430864,
+highest ranked discordant pair: (('n', 93000), ('tai', 93542)),
+}
+
+........................................................................................................................................................................................................
+### Processing  FI  on splitting level  ParagraphSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.04719734191894531 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.07087397575378418 )
+Opening  Wikiextractor/FI/AA/wiki_00
+Opening  Wikiextractor/FI/AA/wiki_01
+Opening  Wikiextractor/FI/AA/wiki_02
+Opening  Wikiextractor/FI/AA/wiki_03
+Opening  Wikiextractor/FI/AA/wiki_04
+Opening  Wikiextractor/FI/AA/wiki_05
+Opening  Wikiextractor/FI/AA/wiki_06
+Opening  Wikiextractor/FI/AA/wiki_07
+Opening  Wikiextractor/FI/AA/wiki_08
+Opening  Wikiextractor/FI/AA/wiki_09
+Opening  Wikiextractor/FI/AA/wiki_10
+Opening  Wikiextractor/FI/AA/wiki_11
+Opening  Wikiextractor/FI/AA/wiki_12
+Opening  Wikiextractor/FI/AA/wiki_13
+Opening  Wikiextractor/FI/AA/wiki_14
+Opening  Wikiextractor/FI/AA/wiki_15
+Opening  Wikiextractor/FI/AA/wiki_16
+Opening  Wikiextractor/FI/AA/wiki_17
+Opening  Wikiextractor/FI/AA/wiki_18
+Opening  Wikiextractor/FI/AA/wiki_19
+Opening  Wikiextractor/FI/AA/wiki_20
+Opening  Wikiextractor/FI/AA/wiki_21
+Opening  Wikiextractor/FI/AA/wiki_22
+Opening  Wikiextractor/FI/AA/wiki_23
+Opening  Wikiextractor/FI/AA/wiki_24
+Opening  Wikiextractor/FI/AA/wiki_25
+Opening  Wikiextractor/FI/AA/wiki_26
+Opening  Wikiextractor/FI/AA/wiki_27
+Opening  Wikiextractor/FI/AA/wiki_28
+Opening  Wikiextractor/FI/AA/wiki_29
+Opening  Wikiextractor/FI/AA/wiki_30
+Opening  Wikiextractor/FI/AA/wiki_31
+Opening  Wikiextractor/FI/AA/wiki_32
+Opening  Wikiextractor/FI/AA/wiki_33
+Opening  Wikiextractor/FI/AA/wiki_34
+Opening  Wikiextractor/FI/AA/wiki_35
+Opening  Wikiextractor/FI/AA/wiki_36
+Opening  Wikiextractor/FI/AA/wiki_37
+Opening  Wikiextractor/FI/AA/wiki_38
+Opening  Wikiextractor/FI/AA/wiki_39
+Opening  Wikiextractor/FI/AA/wiki_40
+Opening  Wikiextractor/FI/AA/wiki_41
+Opening  Wikiextractor/FI/AA/wiki_42
+Opening  Wikiextractor/FI/AA/wiki_43
+Opening  Wikiextractor/FI/AA/wiki_44
+Opening  Wikiextractor/FI/AA/wiki_45
+Opening  Wikiextractor/FI/AA/wiki_46
+Opening  Wikiextractor/FI/AA/wiki_47
+Opening  Wikiextractor/FI/AA/wiki_48
+Opening  Wikiextractor/FI/AA/wiki_49
+Opening  Wikiextractor/FI/AA/wiki_50
+Opening  Wikiextractor/FI/AA/wiki_51
+Opening  Wikiextractor/FI/AA/wiki_52
+Opening  Wikiextractor/FI/AA/wiki_53
+Opening  Wikiextractor/FI/AA/wiki_54
+Opening  Wikiextractor/FI/AA/wiki_55
+Opening  Wikiextractor/FI/AA/wiki_56
+Opening  Wikiextractor/FI/AA/wiki_57
+Opening  Wikiextractor/FI/AA/wiki_58
+Opening  Wikiextractor/FI/AA/wiki_59
+Opening  Wikiextractor/FI/AA/wiki_60
+Opening  Wikiextractor/FI/AA/wiki_61
+Opening  Wikiextractor/FI/AA/wiki_62
+Opening  Wikiextractor/FI/AA/wiki_63
+Opening  Wikiextractor/FI/AA/wiki_64
+Opening  Wikiextractor/FI/AA/wiki_65
+Opening  Wikiextractor/FI/AA/wiki_66
+Opening  Wikiextractor/FI/AA/wiki_67
+Opening  Wikiextractor/FI/AA/wiki_68
+Opening  Wikiextractor/FI/AA/wiki_69
+Opening  Wikiextractor/FI/AA/wiki_70
+Opening  Wikiextractor/FI/AA/wiki_71
+Opening  Wikiextractor/FI/AA/wiki_72
+Opening  Wikiextractor/FI/AA/wiki_73
+Opening  Wikiextractor/FI/AA/wiki_74
+Opening  Wikiextractor/FI/AA/wiki_75
+Opening  Wikiextractor/FI/AA/wiki_76
+Opening  Wikiextractor/FI/AA/wiki_77
+Opening  Wikiextractor/FI/AA/wiki_78
+Opening  Wikiextractor/FI/AA/wiki_79
+Opening  Wikiextractor/FI/AA/wiki_80
+Opening  Wikiextractor/FI/AA/wiki_81
+Opening  Wikiextractor/FI/AA/wiki_82
+Opening  Wikiextractor/FI/AA/wiki_83
+Opening  Wikiextractor/FI/AA/wiki_84
+Opening  Wikiextractor/FI/AA/wiki_85
+Opening  Wikiextractor/FI/AA/wiki_86
+Opening  Wikiextractor/FI/AA/wiki_87
+Opening  Wikiextractor/FI/AA/wiki_88
+Opening  Wikiextractor/FI/AA/wiki_89
+Opening  Wikiextractor/FI/AA/wiki_90
+Opening  Wikiextractor/FI/AA/wiki_91
+Opening  Wikiextractor/FI/AA/wiki_92
+Opening  Wikiextractor/FI/AA/wiki_93
+Opening  Wikiextractor/FI/AA/wiki_94
+Opening  Wikiextractor/FI/AA/wiki_95
+Opening  Wikiextractor/FI/AA/wiki_96
+Opening  Wikiextractor/FI/AA/wiki_97
+Opening  Wikiextractor/FI/AA/wiki_98
+Opening  Wikiextractor/FI/AA/wiki_99
+Opening  Wikiextractor/FI/AB/wiki_00
+Opening  Wikiextractor/FI/AB/wiki_01
+Opening  Wikiextractor/FI/AB/wiki_02
+Opening  Wikiextractor/FI/AB/wiki_03
+Opening  Wikiextractor/FI/AB/wiki_04
+Opening  Wikiextractor/FI/AB/wiki_05
+Opening  Wikiextractor/FI/AB/wiki_06
+Opening  Wikiextractor/FI/AB/wiki_07
+Opening  Wikiextractor/FI/AB/wiki_08
+Opening  Wikiextractor/FI/AB/wiki_09
+Opening  Wikiextractor/FI/AB/wiki_10
+Opening  Wikiextractor/FI/AB/wiki_11
+Opening  Wikiextractor/FI/AB/wiki_12
+Opening  Wikiextractor/FI/AB/wiki_13
+Opening  Wikiextractor/FI/AB/wiki_14
+Opening  Wikiextractor/FI/AB/wiki_15
+Opening  Wikiextractor/FI/AB/wiki_16
+Opening  Wikiextractor/FI/AB/wiki_17
+Opening  Wikiextractor/FI/AB/wiki_18
+Opening  Wikiextractor/FI/AB/wiki_19
+Opening  Wikiextractor/FI/AB/wiki_20
+Opening  Wikiextractor/FI/AB/wiki_21
+Opening  Wikiextractor/FI/AB/wiki_22
+Opening  Wikiextractor/FI/AB/wiki_23
+Opening  Wikiextractor/FI/AB/wiki_24
+Opening  Wikiextractor/FI/AB/wiki_25
+Opening  Wikiextractor/FI/AB/wiki_26
+Opening  Wikiextractor/FI/AB/wiki_27
+Opening  Wikiextractor/FI/AB/wiki_28
+Opening  Wikiextractor/FI/AB/wiki_29
+Opening  Wikiextractor/FI/AB/wiki_30
+Opening  Wikiextractor/FI/AB/wiki_31
+Opening  Wikiextractor/FI/AB/wiki_32
+	 part 1 counted 	(current memory:  1.0000593249730756 ) 	(time elapsed:  431.6007957458496 )
+Opening  Wikiextractor/FI/AA/wiki_00
+Opening  Wikiextractor/FI/AA/wiki_01
+Opening  Wikiextractor/FI/AA/wiki_02
+Opening  Wikiextractor/FI/AA/wiki_03
+Opening  Wikiextractor/FI/AA/wiki_04
+Opening  Wikiextractor/FI/AA/wiki_05
+Opening  Wikiextractor/FI/AA/wiki_06
+Opening  Wikiextractor/FI/AA/wiki_07
+Opening  Wikiextractor/FI/AA/wiki_08
+Opening  Wikiextractor/FI/AA/wiki_09
+Opening  Wikiextractor/FI/AA/wiki_10
+Opening  Wikiextractor/FI/AA/wiki_11
+Opening  Wikiextractor/FI/AA/wiki_12
+Opening  Wikiextractor/FI/AA/wiki_13
+Opening  Wikiextractor/FI/AA/wiki_14
+Opening  Wikiextractor/FI/AA/wiki_15
+Opening  Wikiextractor/FI/AA/wiki_16
+Opening  Wikiextractor/FI/AA/wiki_17
+Opening  Wikiextractor/FI/AA/wiki_18
+Opening  Wikiextractor/FI/AA/wiki_19
+Opening  Wikiextractor/FI/AA/wiki_20
+Opening  Wikiextractor/FI/AA/wiki_21
+Opening  Wikiextractor/FI/AA/wiki_22
+Opening  Wikiextractor/FI/AA/wiki_23
+Opening  Wikiextractor/FI/AA/wiki_24
+Opening  Wikiextractor/FI/AA/wiki_25
+Opening  Wikiextractor/FI/AA/wiki_26
+Opening  Wikiextractor/FI/AA/wiki_27
+Opening  Wikiextractor/FI/AA/wiki_28
+Opening  Wikiextractor/FI/AA/wiki_29
+Opening  Wikiextractor/FI/AA/wiki_30
+Opening  Wikiextractor/FI/AA/wiki_31
+Opening  Wikiextractor/FI/AA/wiki_32
+Opening  Wikiextractor/FI/AA/wiki_33
+Opening  Wikiextractor/FI/AA/wiki_34
+Opening  Wikiextractor/FI/AA/wiki_35
+Opening  Wikiextractor/FI/AA/wiki_36
+Opening  Wikiextractor/FI/AA/wiki_37
+Opening  Wikiextractor/FI/AA/wiki_38
+Opening  Wikiextractor/FI/AA/wiki_39
+Opening  Wikiextractor/FI/AA/wiki_40
+Opening  Wikiextractor/FI/AA/wiki_41
+Opening  Wikiextractor/FI/AA/wiki_42
+Opening  Wikiextractor/FI/AA/wiki_43
+Opening  Wikiextractor/FI/AA/wiki_44
+Opening  Wikiextractor/FI/AA/wiki_45
+Opening  Wikiextractor/FI/AA/wiki_46
+Opening  Wikiextractor/FI/AA/wiki_47
+Opening  Wikiextractor/FI/AA/wiki_48
+Opening  Wikiextractor/FI/AA/wiki_49
+Opening  Wikiextractor/FI/AA/wiki_50
+Opening  Wikiextractor/FI/AA/wiki_51
+Opening  Wikiextractor/FI/AA/wiki_52
+Opening  Wikiextractor/FI/AA/wiki_53
+Opening  Wikiextractor/FI/AA/wiki_54
+Opening  Wikiextractor/FI/AA/wiki_55
+Opening  Wikiextractor/FI/AA/wiki_56
+Opening  Wikiextractor/FI/AA/wiki_57
+Opening  Wikiextractor/FI/AA/wiki_58
+Opening  Wikiextractor/FI/AA/wiki_59
+Opening  Wikiextractor/FI/AA/wiki_60
+Opening  Wikiextractor/FI/AA/wiki_61
+Opening  Wikiextractor/FI/AA/wiki_62
+Opening  Wikiextractor/FI/AA/wiki_63
+Opening  Wikiextractor/FI/AA/wiki_64
+Opening  Wikiextractor/FI/AA/wiki_65
+Opening  Wikiextractor/FI/AA/wiki_66
+Opening  Wikiextractor/FI/AA/wiki_67
+Opening  Wikiextractor/FI/AA/wiki_68
+Opening  Wikiextractor/FI/AA/wiki_69
+Opening  Wikiextractor/FI/AA/wiki_70
+Opening  Wikiextractor/FI/AA/wiki_71
+Opening  Wikiextractor/FI/AA/wiki_72
+Opening  Wikiextractor/FI/AA/wiki_73
+Opening  Wikiextractor/FI/AA/wiki_74
+Opening  Wikiextractor/FI/AA/wiki_75
+Opening  Wikiextractor/FI/AA/wiki_76
+Opening  Wikiextractor/FI/AA/wiki_77
+Opening  Wikiextractor/FI/AA/wiki_78
+Opening  Wikiextractor/FI/AA/wiki_79
+Opening  Wikiextractor/FI/AA/wiki_80
+Opening  Wikiextractor/FI/AA/wiki_81
+Opening  Wikiextractor/FI/AA/wiki_82
+Opening  Wikiextractor/FI/AA/wiki_83
+Opening  Wikiextractor/FI/AA/wiki_84
+Opening  Wikiextractor/FI/AA/wiki_85
+Opening  Wikiextractor/FI/AA/wiki_86
+Opening  Wikiextractor/FI/AA/wiki_87
+Opening  Wikiextractor/FI/AA/wiki_88
+Opening  Wikiextractor/FI/AA/wiki_89
+Opening  Wikiextractor/FI/AA/wiki_90
+Opening  Wikiextractor/FI/AA/wiki_91
+Opening  Wikiextractor/FI/AA/wiki_92
+Opening  Wikiextractor/FI/AA/wiki_93
+Opening  Wikiextractor/FI/AA/wiki_94
+Opening  Wikiextractor/FI/AA/wiki_95
+Opening  Wikiextractor/FI/AA/wiki_96
+Opening  Wikiextractor/FI/AA/wiki_97
+Opening  Wikiextractor/FI/AA/wiki_98
+Opening  Wikiextractor/FI/AA/wiki_99
+Opening  Wikiextractor/FI/AB/wiki_00
+Opening  Wikiextractor/FI/AB/wiki_01
+Opening  Wikiextractor/FI/AB/wiki_02
+Opening  Wikiextractor/FI/AB/wiki_03
+Opening  Wikiextractor/FI/AB/wiki_04
+Opening  Wikiextractor/FI/AB/wiki_05
+Opening  Wikiextractor/FI/AB/wiki_06
+Opening  Wikiextractor/FI/AB/wiki_07
+Opening  Wikiextractor/FI/AB/wiki_08
+Opening  Wikiextractor/FI/AB/wiki_09
+Opening  Wikiextractor/FI/AB/wiki_10
+Opening  Wikiextractor/FI/AB/wiki_11
+Opening  Wikiextractor/FI/AB/wiki_12
+Opening  Wikiextractor/FI/AB/wiki_13
+Opening  Wikiextractor/FI/AB/wiki_14
+Opening  Wikiextractor/FI/AB/wiki_15
+Opening  Wikiextractor/FI/AB/wiki_16
+Opening  Wikiextractor/FI/AB/wiki_17
+Opening  Wikiextractor/FI/AB/wiki_18
+Opening  Wikiextractor/FI/AB/wiki_19
+Opening  Wikiextractor/FI/AB/wiki_20
+Opening  Wikiextractor/FI/AB/wiki_21
+Opening  Wikiextractor/FI/AB/wiki_22
+Opening  Wikiextractor/FI/AB/wiki_23
+Opening  Wikiextractor/FI/AB/wiki_24
+Opening  Wikiextractor/FI/AB/wiki_25
+Opening  Wikiextractor/FI/AB/wiki_26
+Opening  Wikiextractor/FI/AB/wiki_27
+Opening  Wikiextractor/FI/AB/wiki_28
+Opening  Wikiextractor/FI/AB/wiki_29
+Opening  Wikiextractor/FI/AB/wiki_30
+Opening  Wikiextractor/FI/AB/wiki_31
+Opening  Wikiextractor/FI/AB/wiki_32
+	 part 2 counted 	(current memory:  1.057294233612617 ) 	(time elapsed:  853.6834347248077 )
+	 counts and ranks aligned 	(current memory:  1.1765899092784258 ) 	(time elapsed:  862.4998295307159 )
+Relative size of subset 1:  0.5001983824044155
+	most common:  [('ja', 1337965), ('on', 827286), ('oli', 387019), ('hän', 323475), ('vuonna', 275306), ('myös', 204787), ('–', 194493), ('joka', 159607), ('se', 139879), ('ovat', 126432)]
+	highest ranked:  [('ja', 1339471), ('on', 828895), ('oli', 387015), ('hän', 323203), ('vuonna', 272643), ('myös', 205040), ('–', 193000), ('joka', 159789), ('se', 140307), ('ovat', 126434)]
+
+
+
+STATS:
+{
+number of types: 3007242,
+relative number of types in subset 1: 0.6733994138150504,
+number of tokens: 73633412,
+TTR: 0.040840725946530904,
+types in intersection: 1040498,
+tokens in intersection: 71190574,
+words: 73633412,
+paragraphs: 1925574,
+articles: 430864,
+highest ranked discordant pair: (('ei', 118532), ('sen', 118192)),
+}
+
+........................................................................................................................................................................................................
+### Processing  FI  on splitting level  WordSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.022312641143798828 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.04464578628540039 )
+Opening  Wikiextractor/FI/AA/wiki_00
+Opening  Wikiextractor/FI/AA/wiki_01
+Opening  Wikiextractor/FI/AA/wiki_02
+Opening  Wikiextractor/FI/AA/wiki_03
+Opening  Wikiextractor/FI/AA/wiki_04
+Opening  Wikiextractor/FI/AA/wiki_05
+Opening  Wikiextractor/FI/AA/wiki_06
+Opening  Wikiextractor/FI/AA/wiki_07
+Opening  Wikiextractor/FI/AA/wiki_08
+Opening  Wikiextractor/FI/AA/wiki_09
+Opening  Wikiextractor/FI/AA/wiki_10
+Opening  Wikiextractor/FI/AA/wiki_11
+Opening  Wikiextractor/FI/AA/wiki_12
+Opening  Wikiextractor/FI/AA/wiki_13
+Opening  Wikiextractor/FI/AA/wiki_14
+Opening  Wikiextractor/FI/AA/wiki_15
+Opening  Wikiextractor/FI/AA/wiki_16
+Opening  Wikiextractor/FI/AA/wiki_17
+Opening  Wikiextractor/FI/AA/wiki_18
+Opening  Wikiextractor/FI/AA/wiki_19
+Opening  Wikiextractor/FI/AA/wiki_20
+Opening  Wikiextractor/FI/AA/wiki_21
+Opening  Wikiextractor/FI/AA/wiki_22
+Opening  Wikiextractor/FI/AA/wiki_23
+Opening  Wikiextractor/FI/AA/wiki_24
+Opening  Wikiextractor/FI/AA/wiki_25
+Opening  Wikiextractor/FI/AA/wiki_26
+Opening  Wikiextractor/FI/AA/wiki_27
+Opening  Wikiextractor/FI/AA/wiki_28
+Opening  Wikiextractor/FI/AA/wiki_29
+Opening  Wikiextractor/FI/AA/wiki_30
+Opening  Wikiextractor/FI/AA/wiki_31
+Opening  Wikiextractor/FI/AA/wiki_32
+Opening  Wikiextractor/FI/AA/wiki_33
+Opening  Wikiextractor/FI/AA/wiki_34
+Opening  Wikiextractor/FI/AA/wiki_35
+Opening  Wikiextractor/FI/AA/wiki_36
+Opening  Wikiextractor/FI/AA/wiki_37
+Opening  Wikiextractor/FI/AA/wiki_38
+Opening  Wikiextractor/FI/AA/wiki_39
+Opening  Wikiextractor/FI/AA/wiki_40
+Opening  Wikiextractor/FI/AA/wiki_41
+Opening  Wikiextractor/FI/AA/wiki_42
+Opening  Wikiextractor/FI/AA/wiki_43
+Opening  Wikiextractor/FI/AA/wiki_44
+Opening  Wikiextractor/FI/AA/wiki_45
+Opening  Wikiextractor/FI/AA/wiki_46
+Opening  Wikiextractor/FI/AA/wiki_47
+Opening  Wikiextractor/FI/AA/wiki_48
+Opening  Wikiextractor/FI/AA/wiki_49
+Opening  Wikiextractor/FI/AA/wiki_50
+Opening  Wikiextractor/FI/AA/wiki_51
+Opening  Wikiextractor/FI/AA/wiki_52
+Opening  Wikiextractor/FI/AA/wiki_53
+Opening  Wikiextractor/FI/AA/wiki_54
+Opening  Wikiextractor/FI/AA/wiki_55
+Opening  Wikiextractor/FI/AA/wiki_56
+Opening  Wikiextractor/FI/AA/wiki_57
+Opening  Wikiextractor/FI/AA/wiki_58
+Opening  Wikiextractor/FI/AA/wiki_59
+Opening  Wikiextractor/FI/AA/wiki_60
+Opening  Wikiextractor/FI/AA/wiki_61
+Opening  Wikiextractor/FI/AA/wiki_62
+Opening  Wikiextractor/FI/AA/wiki_63
+Opening  Wikiextractor/FI/AA/wiki_64
+Opening  Wikiextractor/FI/AA/wiki_65
+Opening  Wikiextractor/FI/AA/wiki_66
+Opening  Wikiextractor/FI/AA/wiki_67
+Opening  Wikiextractor/FI/AA/wiki_68
+Opening  Wikiextractor/FI/AA/wiki_69
+Opening  Wikiextractor/FI/AA/wiki_70
+Opening  Wikiextractor/FI/AA/wiki_71
+Opening  Wikiextractor/FI/AA/wiki_72
+Opening  Wikiextractor/FI/AA/wiki_73
+Opening  Wikiextractor/FI/AA/wiki_74
+Opening  Wikiextractor/FI/AA/wiki_75
+Opening  Wikiextractor/FI/AA/wiki_76
+Opening  Wikiextractor/FI/AA/wiki_77
+Opening  Wikiextractor/FI/AA/wiki_78
+Opening  Wikiextractor/FI/AA/wiki_79
+Opening  Wikiextractor/FI/AA/wiki_80
+Opening  Wikiextractor/FI/AA/wiki_81
+Opening  Wikiextractor/FI/AA/wiki_82
+Opening  Wikiextractor/FI/AA/wiki_83
+Opening  Wikiextractor/FI/AA/wiki_84
+Opening  Wikiextractor/FI/AA/wiki_85
+Opening  Wikiextractor/FI/AA/wiki_86
+Opening  Wikiextractor/FI/AA/wiki_87
+Opening  Wikiextractor/FI/AA/wiki_88
+Opening  Wikiextractor/FI/AA/wiki_89
+Opening  Wikiextractor/FI/AA/wiki_90
+Opening  Wikiextractor/FI/AA/wiki_91
+Opening  Wikiextractor/FI/AA/wiki_92
+Opening  Wikiextractor/FI/AA/wiki_93
+Opening  Wikiextractor/FI/AA/wiki_94
+Opening  Wikiextractor/FI/AA/wiki_95
+Opening  Wikiextractor/FI/AA/wiki_96
+Opening  Wikiextractor/FI/AA/wiki_97
+Opening  Wikiextractor/FI/AA/wiki_98
+Opening  Wikiextractor/FI/AA/wiki_99
+Opening  Wikiextractor/FI/AB/wiki_00
+Opening  Wikiextractor/FI/AB/wiki_01
+Opening  Wikiextractor/FI/AB/wiki_02
+Opening  Wikiextractor/FI/AB/wiki_03
+Opening  Wikiextractor/FI/AB/wiki_04
+Opening  Wikiextractor/FI/AB/wiki_05
+Opening  Wikiextractor/FI/AB/wiki_06
+Opening  Wikiextractor/FI/AB/wiki_07
+Opening  Wikiextractor/FI/AB/wiki_08
+Opening  Wikiextractor/FI/AB/wiki_09
+Opening  Wikiextractor/FI/AB/wiki_10
+Opening  Wikiextractor/FI/AB/wiki_11
+Opening  Wikiextractor/FI/AB/wiki_12
+Opening  Wikiextractor/FI/AB/wiki_13
+Opening  Wikiextractor/FI/AB/wiki_14
+Opening  Wikiextractor/FI/AB/wiki_15
+Opening  Wikiextractor/FI/AB/wiki_16
+Opening  Wikiextractor/FI/AB/wiki_17
+Opening  Wikiextractor/FI/AB/wiki_18
+Opening  Wikiextractor/FI/AB/wiki_19
+Opening  Wikiextractor/FI/AB/wiki_20
+Opening  Wikiextractor/FI/AB/wiki_21
+Opening  Wikiextractor/FI/AB/wiki_22
+Opening  Wikiextractor/FI/AB/wiki_23
+Opening  Wikiextractor/FI/AB/wiki_24
+Opening  Wikiextractor/FI/AB/wiki_25
+Opening  Wikiextractor/FI/AB/wiki_26
+Opening  Wikiextractor/FI/AB/wiki_27
+Opening  Wikiextractor/FI/AB/wiki_28
+Opening  Wikiextractor/FI/AB/wiki_29
+Opening  Wikiextractor/FI/AB/wiki_30
+Opening  Wikiextractor/FI/AB/wiki_31
+Opening  Wikiextractor/FI/AB/wiki_32
+	 part 1 counted 	(current memory:  1.270296868234143 ) 	(time elapsed:  543.7548024654388 )
+Opening  Wikiextractor/FI/AA/wiki_00
+Opening  Wikiextractor/FI/AA/wiki_01
+Opening  Wikiextractor/FI/AA/wiki_02
+Opening  Wikiextractor/FI/AA/wiki_03
+Opening  Wikiextractor/FI/AA/wiki_04
+Opening  Wikiextractor/FI/AA/wiki_05
+Opening  Wikiextractor/FI/AA/wiki_06
+Opening  Wikiextractor/FI/AA/wiki_07
+Opening  Wikiextractor/FI/AA/wiki_08
+Opening  Wikiextractor/FI/AA/wiki_09
+Opening  Wikiextractor/FI/AA/wiki_10
+Opening  Wikiextractor/FI/AA/wiki_11
+Opening  Wikiextractor/FI/AA/wiki_12
+Opening  Wikiextractor/FI/AA/wiki_13
+Opening  Wikiextractor/FI/AA/wiki_14
+Opening  Wikiextractor/FI/AA/wiki_15
+Opening  Wikiextractor/FI/AA/wiki_16
+Opening  Wikiextractor/FI/AA/wiki_17
+Opening  Wikiextractor/FI/AA/wiki_18
+Opening  Wikiextractor/FI/AA/wiki_19
+Opening  Wikiextractor/FI/AA/wiki_20
+Opening  Wikiextractor/FI/AA/wiki_21
+Opening  Wikiextractor/FI/AA/wiki_22
+Opening  Wikiextractor/FI/AA/wiki_23
+Opening  Wikiextractor/FI/AA/wiki_24
+Opening  Wikiextractor/FI/AA/wiki_25
+Opening  Wikiextractor/FI/AA/wiki_26
+Opening  Wikiextractor/FI/AA/wiki_27
+Opening  Wikiextractor/FI/AA/wiki_28
+Opening  Wikiextractor/FI/AA/wiki_29
+Opening  Wikiextractor/FI/AA/wiki_30
+Opening  Wikiextractor/FI/AA/wiki_31
+Opening  Wikiextractor/FI/AA/wiki_32
+Opening  Wikiextractor/FI/AA/wiki_33
+Opening  Wikiextractor/FI/AA/wiki_34
+Opening  Wikiextractor/FI/AA/wiki_35
+Opening  Wikiextractor/FI/AA/wiki_36
+Opening  Wikiextractor/FI/AA/wiki_37
+Opening  Wikiextractor/FI/AA/wiki_38
+Opening  Wikiextractor/FI/AA/wiki_39
+Opening  Wikiextractor/FI/AA/wiki_40
+Opening  Wikiextractor/FI/AA/wiki_41
+Opening  Wikiextractor/FI/AA/wiki_42
+Opening  Wikiextractor/FI/AA/wiki_43
+Opening  Wikiextractor/FI/AA/wiki_44
+Opening  Wikiextractor/FI/AA/wiki_45
+Opening  Wikiextractor/FI/AA/wiki_46
+Opening  Wikiextractor/FI/AA/wiki_47
+Opening  Wikiextractor/FI/AA/wiki_48
+Opening  Wikiextractor/FI/AA/wiki_49
+Opening  Wikiextractor/FI/AA/wiki_50
+Opening  Wikiextractor/FI/AA/wiki_51
+Opening  Wikiextractor/FI/AA/wiki_52
+Opening  Wikiextractor/FI/AA/wiki_53
+Opening  Wikiextractor/FI/AA/wiki_54
+Opening  Wikiextractor/FI/AA/wiki_55
+Opening  Wikiextractor/FI/AA/wiki_56
+Opening  Wikiextractor/FI/AA/wiki_57
+Opening  Wikiextractor/FI/AA/wiki_58
+Opening  Wikiextractor/FI/AA/wiki_59
+Opening  Wikiextractor/FI/AA/wiki_60
+Opening  Wikiextractor/FI/AA/wiki_61
+Opening  Wikiextractor/FI/AA/wiki_62
+Opening  Wikiextractor/FI/AA/wiki_63
+Opening  Wikiextractor/FI/AA/wiki_64
+Opening  Wikiextractor/FI/AA/wiki_65
+Opening  Wikiextractor/FI/AA/wiki_66
+Opening  Wikiextractor/FI/AA/wiki_67
+Opening  Wikiextractor/FI/AA/wiki_68
+Opening  Wikiextractor/FI/AA/wiki_69
+Opening  Wikiextractor/FI/AA/wiki_70
+Opening  Wikiextractor/FI/AA/wiki_71
+Opening  Wikiextractor/FI/AA/wiki_72
+Opening  Wikiextractor/FI/AA/wiki_73
+Opening  Wikiextractor/FI/AA/wiki_74
+Opening  Wikiextractor/FI/AA/wiki_75
+Opening  Wikiextractor/FI/AA/wiki_76
+Opening  Wikiextractor/FI/AA/wiki_77
+Opening  Wikiextractor/FI/AA/wiki_78
+Opening  Wikiextractor/FI/AA/wiki_79
+Opening  Wikiextractor/FI/AA/wiki_80
+Opening  Wikiextractor/FI/AA/wiki_81
+Opening  Wikiextractor/FI/AA/wiki_82
+Opening  Wikiextractor/FI/AA/wiki_83
+Opening  Wikiextractor/FI/AA/wiki_84
+Opening  Wikiextractor/FI/AA/wiki_85
+Opening  Wikiextractor/FI/AA/wiki_86
+Opening  Wikiextractor/FI/AA/wiki_87
+Opening  Wikiextractor/FI/AA/wiki_88
+Opening  Wikiextractor/FI/AA/wiki_89
+Opening  Wikiextractor/FI/AA/wiki_90
+Opening  Wikiextractor/FI/AA/wiki_91
+Opening  Wikiextractor/FI/AA/wiki_92
+Opening  Wikiextractor/FI/AA/wiki_93
+Opening  Wikiextractor/FI/AA/wiki_94
+Opening  Wikiextractor/FI/AA/wiki_95
+Opening  Wikiextractor/FI/AA/wiki_96
+Opening  Wikiextractor/FI/AA/wiki_97
+Opening  Wikiextractor/FI/AA/wiki_98
+Opening  Wikiextractor/FI/AA/wiki_99
+Opening  Wikiextractor/FI/AB/wiki_00
+Opening  Wikiextractor/FI/AB/wiki_01
+Opening  Wikiextractor/FI/AB/wiki_02
+Opening  Wikiextractor/FI/AB/wiki_03
+Opening  Wikiextractor/FI/AB/wiki_04
+Opening  Wikiextractor/FI/AB/wiki_05
+Opening  Wikiextractor/FI/AB/wiki_06
+Opening  Wikiextractor/FI/AB/wiki_07
+Opening  Wikiextractor/FI/AB/wiki_08
+Opening  Wikiextractor/FI/AB/wiki_09
+Opening  Wikiextractor/FI/AB/wiki_10
+Opening  Wikiextractor/FI/AB/wiki_11
+Opening  Wikiextractor/FI/AB/wiki_12
+Opening  Wikiextractor/FI/AB/wiki_13
+Opening  Wikiextractor/FI/AB/wiki_14
+Opening  Wikiextractor/FI/AB/wiki_15
+Opening  Wikiextractor/FI/AB/wiki_16
+Opening  Wikiextractor/FI/AB/wiki_17
+Opening  Wikiextractor/FI/AB/wiki_18
+Opening  Wikiextractor/FI/AB/wiki_19
+Opening  Wikiextractor/FI/AB/wiki_20
+Opening  Wikiextractor/FI/AB/wiki_21
+Opening  Wikiextractor/FI/AB/wiki_22
+Opening  Wikiextractor/FI/AB/wiki_23
+Opening  Wikiextractor/FI/AB/wiki_24
+Opening  Wikiextractor/FI/AB/wiki_25
+Opening  Wikiextractor/FI/AB/wiki_26
+Opening  Wikiextractor/FI/AB/wiki_27
+Opening  Wikiextractor/FI/AB/wiki_28
+Opening  Wikiextractor/FI/AB/wiki_29
+Opening  Wikiextractor/FI/AB/wiki_30
+Opening  Wikiextractor/FI/AB/wiki_31
+Opening  Wikiextractor/FI/AB/wiki_32
+	 part 2 counted 	(current memory:  1.270296868234143 ) 	(time elapsed:  1001.1882798671722 )
+	 counts and ranks aligned 	(current memory:  1.3367730833469236 ) 	(time elapsed:  1015.0218465328217 )
+Relative size of subset 1:  0.499867831739211
+	most common:  [('ja', 1338677), ('on', 827320), ('oli', 387367), ('hän', 322729), ('vuonna', 273570), ('myös', 204900), ('–', 194651), ('joka', 159249), ('se', 140093), ('ovat', 126517)]
+	highest ranked:  [('ja', 1338759), ('on', 828861), ('oli', 386667), ('hän', 323949), ('vuonna', 274379), ('myös', 204927), ('–', 192842), ('joka', 160147), ('se', 140093), ('ovat', 126349)]
+
+
+
+STATS:
+{
+number of types: 3007242,
+relative number of types in subset 1: 0.6790135280100504,
+number of tokens: 73633412,
+TTR: 0.040840725946530904,
+types in intersection: 1077516,
+tokens in intersection: 71307412,
+words: 73633412,
+paragraphs: 1925574,
+articles: 430864,
+highest ranked discordant pair: (('sen', 118248), ('ei', 118057)),
+}
+
+........................................................................................................................................................................................................
+########################################################################################################################################################################################################
+### Processing  ID  on splitting level  ArticleSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.08477139472961426 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.12685441970825195 )
+Opening  Wikiextractor/ID/AA/wiki_00
+Opening  Wikiextractor/ID/AA/wiki_01
+Opening  Wikiextractor/ID/AA/wiki_02
+Opening  Wikiextractor/ID/AA/wiki_03
+Opening  Wikiextractor/ID/AA/wiki_04
+Opening  Wikiextractor/ID/AA/wiki_05
+Opening  Wikiextractor/ID/AA/wiki_06
+Opening  Wikiextractor/ID/AA/wiki_07
+Opening  Wikiextractor/ID/AA/wiki_08
+Opening  Wikiextractor/ID/AA/wiki_09
+Opening  Wikiextractor/ID/AA/wiki_10
+Opening  Wikiextractor/ID/AA/wiki_11
+Opening  Wikiextractor/ID/AA/wiki_12
+Opening  Wikiextractor/ID/AA/wiki_13
+Opening  Wikiextractor/ID/AA/wiki_14
+Opening  Wikiextractor/ID/AA/wiki_15
+Opening  Wikiextractor/ID/AA/wiki_16
+Opening  Wikiextractor/ID/AA/wiki_17
+Opening  Wikiextractor/ID/AA/wiki_18
+Opening  Wikiextractor/ID/AA/wiki_19
+Opening  Wikiextractor/ID/AA/wiki_20
+Opening  Wikiextractor/ID/AA/wiki_21
+Opening  Wikiextractor/ID/AA/wiki_22
+Opening  Wikiextractor/ID/AA/wiki_23
+Opening  Wikiextractor/ID/AA/wiki_24
+Opening  Wikiextractor/ID/AA/wiki_25
+Opening  Wikiextractor/ID/AA/wiki_26
+Opening  Wikiextractor/ID/AA/wiki_27
+Opening  Wikiextractor/ID/AA/wiki_28
+Opening  Wikiextractor/ID/AA/wiki_29
+Opening  Wikiextractor/ID/AA/wiki_30
+Opening  Wikiextractor/ID/AA/wiki_31
+Opening  Wikiextractor/ID/AA/wiki_32
+Opening  Wikiextractor/ID/AA/wiki_33
+Opening  Wikiextractor/ID/AA/wiki_34
+Opening  Wikiextractor/ID/AA/wiki_35
+Opening  Wikiextractor/ID/AA/wiki_36
+Opening  Wikiextractor/ID/AA/wiki_37
+Opening  Wikiextractor/ID/AA/wiki_38
+Opening  Wikiextractor/ID/AA/wiki_39
+Opening  Wikiextractor/ID/AA/wiki_40
+Opening  Wikiextractor/ID/AA/wiki_41
+Opening  Wikiextractor/ID/AA/wiki_42
+Opening  Wikiextractor/ID/AA/wiki_43
+Opening  Wikiextractor/ID/AA/wiki_44
+Opening  Wikiextractor/ID/AA/wiki_45
+Opening  Wikiextractor/ID/AA/wiki_46
+Opening  Wikiextractor/ID/AA/wiki_47
+Opening  Wikiextractor/ID/AA/wiki_48
+Opening  Wikiextractor/ID/AA/wiki_49
+Opening  Wikiextractor/ID/AA/wiki_50
+Opening  Wikiextractor/ID/AA/wiki_51
+Opening  Wikiextractor/ID/AA/wiki_52
+Opening  Wikiextractor/ID/AA/wiki_53
+Opening  Wikiextractor/ID/AA/wiki_54
+Opening  Wikiextractor/ID/AA/wiki_55
+Opening  Wikiextractor/ID/AA/wiki_56
+Opening  Wikiextractor/ID/AA/wiki_57
+Opening  Wikiextractor/ID/AA/wiki_58
+Opening  Wikiextractor/ID/AA/wiki_59
+Opening  Wikiextractor/ID/AA/wiki_60
+Opening  Wikiextractor/ID/AA/wiki_61
+Opening  Wikiextractor/ID/AA/wiki_62
+Opening  Wikiextractor/ID/AA/wiki_63
+Opening  Wikiextractor/ID/AA/wiki_64
+Opening  Wikiextractor/ID/AA/wiki_65
+Opening  Wikiextractor/ID/AA/wiki_66
+Opening  Wikiextractor/ID/AA/wiki_67
+Opening  Wikiextractor/ID/AA/wiki_68
+Opening  Wikiextractor/ID/AA/wiki_69
+Opening  Wikiextractor/ID/AA/wiki_70
+Opening  Wikiextractor/ID/AA/wiki_71
+Opening  Wikiextractor/ID/AA/wiki_72
+Opening  Wikiextractor/ID/AA/wiki_73
+Opening  Wikiextractor/ID/AA/wiki_74
+Opening  Wikiextractor/ID/AA/wiki_75
+Opening  Wikiextractor/ID/AA/wiki_76
+Opening  Wikiextractor/ID/AA/wiki_77
+Opening  Wikiextractor/ID/AA/wiki_78
+Opening  Wikiextractor/ID/AA/wiki_79
+Opening  Wikiextractor/ID/AA/wiki_80
+Opening  Wikiextractor/ID/AA/wiki_81
+Opening  Wikiextractor/ID/AA/wiki_82
+Opening  Wikiextractor/ID/AA/wiki_83
+Opening  Wikiextractor/ID/AA/wiki_84
+Opening  Wikiextractor/ID/AA/wiki_85
+Opening  Wikiextractor/ID/AA/wiki_86
+Opening  Wikiextractor/ID/AA/wiki_87
+Opening  Wikiextractor/ID/AA/wiki_88
+Opening  Wikiextractor/ID/AA/wiki_89
+Opening  Wikiextractor/ID/AA/wiki_90
+Opening  Wikiextractor/ID/AA/wiki_91
+Opening  Wikiextractor/ID/AA/wiki_92
+Opening  Wikiextractor/ID/AA/wiki_93
+Opening  Wikiextractor/ID/AA/wiki_94
+Opening  Wikiextractor/ID/AA/wiki_95
+Opening  Wikiextractor/ID/AA/wiki_96
+	 part 1 counted 	(current memory:  0.9634410951139661 ) 	(time elapsed:  376.1761152744293 )
+Opening  Wikiextractor/ID/AA/wiki_00
+Opening  Wikiextractor/ID/AA/wiki_01
+Opening  Wikiextractor/ID/AA/wiki_02
+Opening  Wikiextractor/ID/AA/wiki_03
+Opening  Wikiextractor/ID/AA/wiki_04
+Opening  Wikiextractor/ID/AA/wiki_05
+Opening  Wikiextractor/ID/AA/wiki_06
+Opening  Wikiextractor/ID/AA/wiki_07
+Opening  Wikiextractor/ID/AA/wiki_08
+Opening  Wikiextractor/ID/AA/wiki_09
+Opening  Wikiextractor/ID/AA/wiki_10
+Opening  Wikiextractor/ID/AA/wiki_11
+Opening  Wikiextractor/ID/AA/wiki_12
+Opening  Wikiextractor/ID/AA/wiki_13
+Opening  Wikiextractor/ID/AA/wiki_14
+Opening  Wikiextractor/ID/AA/wiki_15
+Opening  Wikiextractor/ID/AA/wiki_16
+Opening  Wikiextractor/ID/AA/wiki_17
+Opening  Wikiextractor/ID/AA/wiki_18
+Opening  Wikiextractor/ID/AA/wiki_19
+Opening  Wikiextractor/ID/AA/wiki_20
+Opening  Wikiextractor/ID/AA/wiki_21
+Opening  Wikiextractor/ID/AA/wiki_22
+Opening  Wikiextractor/ID/AA/wiki_23
+Opening  Wikiextractor/ID/AA/wiki_24
+Opening  Wikiextractor/ID/AA/wiki_25
+Opening  Wikiextractor/ID/AA/wiki_26
+Opening  Wikiextractor/ID/AA/wiki_27
+Opening  Wikiextractor/ID/AA/wiki_28
+Opening  Wikiextractor/ID/AA/wiki_29
+Opening  Wikiextractor/ID/AA/wiki_30
+Opening  Wikiextractor/ID/AA/wiki_31
+Opening  Wikiextractor/ID/AA/wiki_32
+Opening  Wikiextractor/ID/AA/wiki_33
+Opening  Wikiextractor/ID/AA/wiki_34
+Opening  Wikiextractor/ID/AA/wiki_35
+Opening  Wikiextractor/ID/AA/wiki_36
+Opening  Wikiextractor/ID/AA/wiki_37
+Opening  Wikiextractor/ID/AA/wiki_38
+Opening  Wikiextractor/ID/AA/wiki_39
+Opening  Wikiextractor/ID/AA/wiki_40
+Opening  Wikiextractor/ID/AA/wiki_41
+Opening  Wikiextractor/ID/AA/wiki_42
+Opening  Wikiextractor/ID/AA/wiki_43
+Opening  Wikiextractor/ID/AA/wiki_44
+Opening  Wikiextractor/ID/AA/wiki_45
+Opening  Wikiextractor/ID/AA/wiki_46
+Opening  Wikiextractor/ID/AA/wiki_47
+Opening  Wikiextractor/ID/AA/wiki_48
+Opening  Wikiextractor/ID/AA/wiki_49
+Opening  Wikiextractor/ID/AA/wiki_50
+Opening  Wikiextractor/ID/AA/wiki_51
+Opening  Wikiextractor/ID/AA/wiki_52
+Opening  Wikiextractor/ID/AA/wiki_53
+Opening  Wikiextractor/ID/AA/wiki_54
+Opening  Wikiextractor/ID/AA/wiki_55
+Opening  Wikiextractor/ID/AA/wiki_56
+Opening  Wikiextractor/ID/AA/wiki_57
+Opening  Wikiextractor/ID/AA/wiki_58
+Opening  Wikiextractor/ID/AA/wiki_59
+Opening  Wikiextractor/ID/AA/wiki_60
+Opening  Wikiextractor/ID/AA/wiki_61
+Opening  Wikiextractor/ID/AA/wiki_62
+Opening  Wikiextractor/ID/AA/wiki_63
+Opening  Wikiextractor/ID/AA/wiki_64
+Opening  Wikiextractor/ID/AA/wiki_65
+Opening  Wikiextractor/ID/AA/wiki_66
+Opening  Wikiextractor/ID/AA/wiki_67
+Opening  Wikiextractor/ID/AA/wiki_68
+Opening  Wikiextractor/ID/AA/wiki_69
+Opening  Wikiextractor/ID/AA/wiki_70
+Opening  Wikiextractor/ID/AA/wiki_71
+Opening  Wikiextractor/ID/AA/wiki_72
+Opening  Wikiextractor/ID/AA/wiki_73
+Opening  Wikiextractor/ID/AA/wiki_74
+Opening  Wikiextractor/ID/AA/wiki_75
+Opening  Wikiextractor/ID/AA/wiki_76
+Opening  Wikiextractor/ID/AA/wiki_77
+Opening  Wikiextractor/ID/AA/wiki_78
+Opening  Wikiextractor/ID/AA/wiki_79
+Opening  Wikiextractor/ID/AA/wiki_80
+Opening  Wikiextractor/ID/AA/wiki_81
+Opening  Wikiextractor/ID/AA/wiki_82
+Opening  Wikiextractor/ID/AA/wiki_83
+Opening  Wikiextractor/ID/AA/wiki_84
+Opening  Wikiextractor/ID/AA/wiki_85
+Opening  Wikiextractor/ID/AA/wiki_86
+Opening  Wikiextractor/ID/AA/wiki_87
+Opening  Wikiextractor/ID/AA/wiki_88
+Opening  Wikiextractor/ID/AA/wiki_89
+Opening  Wikiextractor/ID/AA/wiki_90
+Opening  Wikiextractor/ID/AA/wiki_91
+Opening  Wikiextractor/ID/AA/wiki_92
+Opening  Wikiextractor/ID/AA/wiki_93
+Opening  Wikiextractor/ID/AA/wiki_94
+Opening  Wikiextractor/ID/AA/wiki_95
+Opening  Wikiextractor/ID/AA/wiki_96
+	 part 2 counted 	(current memory:  0.9362329921680576 ) 	(time elapsed:  927.0341823101044 )
+	 counts and ranks aligned 	(current memory:  0.7005337411178452 ) 	(time elapsed:  930.094820022583 )
+Relative size of subset 1:  0.49931472964368306
+	most common:  [('yang', 904385), ('dan', 889375), ('di', 681313), ('dari', 440118), ('pada', 438379), ('ini', 415207), ('dengan', 340347), ('adalah', 334872), ('dalam', 278440), ('untuk', 276579)]
+	highest ranked:  [('yang', 904355), ('dan', 897592), ('di', 683088), ('dari', 442798), ('pada', 441065), ('ini', 414669), ('dengan', 340678), ('adalah', 336943), ('dalam', 279896), ('untuk', 277722)]
+
+
+
+STATS:
+{
+number of types: 893553,
+relative number of types in subset 1: 0.6578770369524807,
+number of tokens: 63800296,
+TTR: 0.01400546793701396,
+types in intersection: 283631,
+tokens in intersection: 62843389,
+words: 63800296,
+paragraphs: 1563794,
+articles: 422461,
+highest ranked discordant pair: (('karena', 68255), ('kota', 68822)),
+}
+
+........................................................................................................................................................................................................
+### Processing  ID  on splitting level  ParagraphSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.028223752975463867 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.052870750427246094 )
+Opening  Wikiextractor/ID/AA/wiki_00
+Opening  Wikiextractor/ID/AA/wiki_01
+Opening  Wikiextractor/ID/AA/wiki_02
+Opening  Wikiextractor/ID/AA/wiki_03
+Opening  Wikiextractor/ID/AA/wiki_04
+Opening  Wikiextractor/ID/AA/wiki_05
+Opening  Wikiextractor/ID/AA/wiki_06
+Opening  Wikiextractor/ID/AA/wiki_07
+Opening  Wikiextractor/ID/AA/wiki_08
+Opening  Wikiextractor/ID/AA/wiki_09
+Opening  Wikiextractor/ID/AA/wiki_10
+Opening  Wikiextractor/ID/AA/wiki_11
+Opening  Wikiextractor/ID/AA/wiki_12
+Opening  Wikiextractor/ID/AA/wiki_13
+Opening  Wikiextractor/ID/AA/wiki_14
+Opening  Wikiextractor/ID/AA/wiki_15
+Opening  Wikiextractor/ID/AA/wiki_16
+Opening  Wikiextractor/ID/AA/wiki_17
+Opening  Wikiextractor/ID/AA/wiki_18
+Opening  Wikiextractor/ID/AA/wiki_19
+Opening  Wikiextractor/ID/AA/wiki_20
+Opening  Wikiextractor/ID/AA/wiki_21
+Opening  Wikiextractor/ID/AA/wiki_22
+Opening  Wikiextractor/ID/AA/wiki_23
+Opening  Wikiextractor/ID/AA/wiki_24
+Opening  Wikiextractor/ID/AA/wiki_25
+Opening  Wikiextractor/ID/AA/wiki_26
+Opening  Wikiextractor/ID/AA/wiki_27
+Opening  Wikiextractor/ID/AA/wiki_28
+Opening  Wikiextractor/ID/AA/wiki_29
+Opening  Wikiextractor/ID/AA/wiki_30
+Opening  Wikiextractor/ID/AA/wiki_31
+Opening  Wikiextractor/ID/AA/wiki_32
+Opening  Wikiextractor/ID/AA/wiki_33
+Opening  Wikiextractor/ID/AA/wiki_34
+Opening  Wikiextractor/ID/AA/wiki_35
+Opening  Wikiextractor/ID/AA/wiki_36
+Opening  Wikiextractor/ID/AA/wiki_37
+Opening  Wikiextractor/ID/AA/wiki_38
+Opening  Wikiextractor/ID/AA/wiki_39
+Opening  Wikiextractor/ID/AA/wiki_40
+Opening  Wikiextractor/ID/AA/wiki_41
+Opening  Wikiextractor/ID/AA/wiki_42
+Opening  Wikiextractor/ID/AA/wiki_43
+Opening  Wikiextractor/ID/AA/wiki_44
+Opening  Wikiextractor/ID/AA/wiki_45
+Opening  Wikiextractor/ID/AA/wiki_46
+Opening  Wikiextractor/ID/AA/wiki_47
+Opening  Wikiextractor/ID/AA/wiki_48
+Opening  Wikiextractor/ID/AA/wiki_49
+Opening  Wikiextractor/ID/AA/wiki_50
+Opening  Wikiextractor/ID/AA/wiki_51
+Opening  Wikiextractor/ID/AA/wiki_52
+Opening  Wikiextractor/ID/AA/wiki_53
+Opening  Wikiextractor/ID/AA/wiki_54
+Opening  Wikiextractor/ID/AA/wiki_55
+Opening  Wikiextractor/ID/AA/wiki_56
+Opening  Wikiextractor/ID/AA/wiki_57
+Opening  Wikiextractor/ID/AA/wiki_58
+Opening  Wikiextractor/ID/AA/wiki_59
+Opening  Wikiextractor/ID/AA/wiki_60
+Opening  Wikiextractor/ID/AA/wiki_61
+Opening  Wikiextractor/ID/AA/wiki_62
+Opening  Wikiextractor/ID/AA/wiki_63
+Opening  Wikiextractor/ID/AA/wiki_64
+Opening  Wikiextractor/ID/AA/wiki_65
+Opening  Wikiextractor/ID/AA/wiki_66
+Opening  Wikiextractor/ID/AA/wiki_67
+Opening  Wikiextractor/ID/AA/wiki_68
+Opening  Wikiextractor/ID/AA/wiki_69
+Opening  Wikiextractor/ID/AA/wiki_70
+Opening  Wikiextractor/ID/AA/wiki_71
+Opening  Wikiextractor/ID/AA/wiki_72
+Opening  Wikiextractor/ID/AA/wiki_73
+Opening  Wikiextractor/ID/AA/wiki_74
+Opening  Wikiextractor/ID/AA/wiki_75
+Opening  Wikiextractor/ID/AA/wiki_76
+Opening  Wikiextractor/ID/AA/wiki_77
+Opening  Wikiextractor/ID/AA/wiki_78
+Opening  Wikiextractor/ID/AA/wiki_79
+Opening  Wikiextractor/ID/AA/wiki_80
+Opening  Wikiextractor/ID/AA/wiki_81
+Opening  Wikiextractor/ID/AA/wiki_82
+Opening  Wikiextractor/ID/AA/wiki_83
+Opening  Wikiextractor/ID/AA/wiki_84
+Opening  Wikiextractor/ID/AA/wiki_85
+Opening  Wikiextractor/ID/AA/wiki_86
+Opening  Wikiextractor/ID/AA/wiki_87
+Opening  Wikiextractor/ID/AA/wiki_88
+Opening  Wikiextractor/ID/AA/wiki_89
+Opening  Wikiextractor/ID/AA/wiki_90
+Opening  Wikiextractor/ID/AA/wiki_91
+Opening  Wikiextractor/ID/AA/wiki_92
+Opening  Wikiextractor/ID/AA/wiki_93
+Opening  Wikiextractor/ID/AA/wiki_94
+Opening  Wikiextractor/ID/AA/wiki_95
+Opening  Wikiextractor/ID/AA/wiki_96
+	 part 1 counted 	(current memory:  1.0001678562943528 ) 	(time elapsed:  608.0699365139008 )
+Opening  Wikiextractor/ID/AA/wiki_00
+Opening  Wikiextractor/ID/AA/wiki_01
+Opening  Wikiextractor/ID/AA/wiki_02
+Opening  Wikiextractor/ID/AA/wiki_03
+Opening  Wikiextractor/ID/AA/wiki_04
+Opening  Wikiextractor/ID/AA/wiki_05
+Opening  Wikiextractor/ID/AA/wiki_06
+Opening  Wikiextractor/ID/AA/wiki_07
+Opening  Wikiextractor/ID/AA/wiki_08
+Opening  Wikiextractor/ID/AA/wiki_09
+Opening  Wikiextractor/ID/AA/wiki_10
+Opening  Wikiextractor/ID/AA/wiki_11
+Opening  Wikiextractor/ID/AA/wiki_12
+Opening  Wikiextractor/ID/AA/wiki_13
+Opening  Wikiextractor/ID/AA/wiki_14
+Opening  Wikiextractor/ID/AA/wiki_15
+Opening  Wikiextractor/ID/AA/wiki_16
+Opening  Wikiextractor/ID/AA/wiki_17
+Opening  Wikiextractor/ID/AA/wiki_18
+Opening  Wikiextractor/ID/AA/wiki_19
+Opening  Wikiextractor/ID/AA/wiki_20
+Opening  Wikiextractor/ID/AA/wiki_21
+Opening  Wikiextractor/ID/AA/wiki_22
+Opening  Wikiextractor/ID/AA/wiki_23
+Opening  Wikiextractor/ID/AA/wiki_24
+Opening  Wikiextractor/ID/AA/wiki_25
+Opening  Wikiextractor/ID/AA/wiki_26
+Opening  Wikiextractor/ID/AA/wiki_27
+Opening  Wikiextractor/ID/AA/wiki_28
+Opening  Wikiextractor/ID/AA/wiki_29
+Opening  Wikiextractor/ID/AA/wiki_30
+Opening  Wikiextractor/ID/AA/wiki_31
+Opening  Wikiextractor/ID/AA/wiki_32
+Opening  Wikiextractor/ID/AA/wiki_33
+Opening  Wikiextractor/ID/AA/wiki_34
+Opening  Wikiextractor/ID/AA/wiki_35
+Opening  Wikiextractor/ID/AA/wiki_36
+Opening  Wikiextractor/ID/AA/wiki_37
+Opening  Wikiextractor/ID/AA/wiki_38
+Opening  Wikiextractor/ID/AA/wiki_39
+Opening  Wikiextractor/ID/AA/wiki_40
+Opening  Wikiextractor/ID/AA/wiki_41
+Opening  Wikiextractor/ID/AA/wiki_42
+Opening  Wikiextractor/ID/AA/wiki_43
+Opening  Wikiextractor/ID/AA/wiki_44
+Opening  Wikiextractor/ID/AA/wiki_45
+Opening  Wikiextractor/ID/AA/wiki_46
+Opening  Wikiextractor/ID/AA/wiki_47
+Opening  Wikiextractor/ID/AA/wiki_48
+Opening  Wikiextractor/ID/AA/wiki_49
+Opening  Wikiextractor/ID/AA/wiki_50
+Opening  Wikiextractor/ID/AA/wiki_51
+Opening  Wikiextractor/ID/AA/wiki_52
+Opening  Wikiextractor/ID/AA/wiki_53
+Opening  Wikiextractor/ID/AA/wiki_54
+Opening  Wikiextractor/ID/AA/wiki_55
+Opening  Wikiextractor/ID/AA/wiki_56
+Opening  Wikiextractor/ID/AA/wiki_57
+Opening  Wikiextractor/ID/AA/wiki_58
+Opening  Wikiextractor/ID/AA/wiki_59
+Opening  Wikiextractor/ID/AA/wiki_60
+Opening  Wikiextractor/ID/AA/wiki_61
+Opening  Wikiextractor/ID/AA/wiki_62
+Opening  Wikiextractor/ID/AA/wiki_63
+Opening  Wikiextractor/ID/AA/wiki_64
+Opening  Wikiextractor/ID/AA/wiki_65
+Opening  Wikiextractor/ID/AA/wiki_66
+Opening  Wikiextractor/ID/AA/wiki_67
+Opening  Wikiextractor/ID/AA/wiki_68
+Opening  Wikiextractor/ID/AA/wiki_69
+Opening  Wikiextractor/ID/AA/wiki_70
+Opening  Wikiextractor/ID/AA/wiki_71
+Opening  Wikiextractor/ID/AA/wiki_72
+Opening  Wikiextractor/ID/AA/wiki_73
+Opening  Wikiextractor/ID/AA/wiki_74
+Opening  Wikiextractor/ID/AA/wiki_75
+Opening  Wikiextractor/ID/AA/wiki_76
+Opening  Wikiextractor/ID/AA/wiki_77
+Opening  Wikiextractor/ID/AA/wiki_78
+Opening  Wikiextractor/ID/AA/wiki_79
+Opening  Wikiextractor/ID/AA/wiki_80
+Opening  Wikiextractor/ID/AA/wiki_81
+Opening  Wikiextractor/ID/AA/wiki_82
+Opening  Wikiextractor/ID/AA/wiki_83
+Opening  Wikiextractor/ID/AA/wiki_84
+Opening  Wikiextractor/ID/AA/wiki_85
+Opening  Wikiextractor/ID/AA/wiki_86
+Opening  Wikiextractor/ID/AA/wiki_87
+Opening  Wikiextractor/ID/AA/wiki_88
+Opening  Wikiextractor/ID/AA/wiki_89
+Opening  Wikiextractor/ID/AA/wiki_90
+Opening  Wikiextractor/ID/AA/wiki_91
+Opening  Wikiextractor/ID/AA/wiki_92
+Opening  Wikiextractor/ID/AA/wiki_93
+Opening  Wikiextractor/ID/AA/wiki_94
+Opening  Wikiextractor/ID/AA/wiki_95
+Opening  Wikiextractor/ID/AA/wiki_96
+	 part 2 counted 	(current memory:  1.0001678562943528 ) 	(time elapsed:  1018.3644888401031 )
+	 counts and ranks aligned 	(current memory:  1.0000903841584976 ) 	(time elapsed:  1020.7673738002777 )
+Relative size of subset 1:  0.5005934285462151
+	most common:  [('yang', 906495), ('dan', 895622), ('di', 683482), ('dari', 442211), ('pada', 440720), ('ini', 415922), ('dengan', 341080), ('adalah', 336056), ('dalam', 279448), ('untuk', 277434)]
+	highest ranked:  [('yang', 902245), ('dan', 891345), ('di', 680919), ('dari', 440705), ('pada', 438724), ('ini', 413954), ('dengan', 339945), ('adalah', 335759), ('dalam', 278888), ('untuk', 276867)]
+
+
+
+STATS:
+{
+number of types: 893553,
+relative number of types in subset 1: 0.6824888954544386,
+number of tokens: 63800296,
+TTR: 0.01400546793701396,
+types in intersection: 322262,
+tokens in intersection: 63052822,
+words: 63800296,
+paragraphs: 1563794,
+articles: 422461,
+highest ranked discordant pair: (('dapat', 89177), ('indonesia', 89922)),
+}
+
+........................................................................................................................................................................................................
+### Processing  ID  on splitting level  WordSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.02273082733154297 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.044359683990478516 )
+Opening  Wikiextractor/ID/AA/wiki_00
+Opening  Wikiextractor/ID/AA/wiki_01
+Opening  Wikiextractor/ID/AA/wiki_02
+Opening  Wikiextractor/ID/AA/wiki_03
+Opening  Wikiextractor/ID/AA/wiki_04
+Opening  Wikiextractor/ID/AA/wiki_05
+Opening  Wikiextractor/ID/AA/wiki_06
+Opening  Wikiextractor/ID/AA/wiki_07
+Opening  Wikiextractor/ID/AA/wiki_08
+Opening  Wikiextractor/ID/AA/wiki_09
+Opening  Wikiextractor/ID/AA/wiki_10
+Opening  Wikiextractor/ID/AA/wiki_11
+Opening  Wikiextractor/ID/AA/wiki_12
+Opening  Wikiextractor/ID/AA/wiki_13
+Opening  Wikiextractor/ID/AA/wiki_14
+Opening  Wikiextractor/ID/AA/wiki_15
+Opening  Wikiextractor/ID/AA/wiki_16
+Opening  Wikiextractor/ID/AA/wiki_17
+Opening  Wikiextractor/ID/AA/wiki_18
+Opening  Wikiextractor/ID/AA/wiki_19
+Opening  Wikiextractor/ID/AA/wiki_20
+Opening  Wikiextractor/ID/AA/wiki_21
+Opening  Wikiextractor/ID/AA/wiki_22
+Opening  Wikiextractor/ID/AA/wiki_23
+Opening  Wikiextractor/ID/AA/wiki_24
+Opening  Wikiextractor/ID/AA/wiki_25
+Opening  Wikiextractor/ID/AA/wiki_26
+Opening  Wikiextractor/ID/AA/wiki_27
+Opening  Wikiextractor/ID/AA/wiki_28
+Opening  Wikiextractor/ID/AA/wiki_29
+Opening  Wikiextractor/ID/AA/wiki_30
+Opening  Wikiextractor/ID/AA/wiki_31
+Opening  Wikiextractor/ID/AA/wiki_32
+Opening  Wikiextractor/ID/AA/wiki_33
+Opening  Wikiextractor/ID/AA/wiki_34
+Opening  Wikiextractor/ID/AA/wiki_35
+Opening  Wikiextractor/ID/AA/wiki_36
+Opening  Wikiextractor/ID/AA/wiki_37
+Opening  Wikiextractor/ID/AA/wiki_38
+Opening  Wikiextractor/ID/AA/wiki_39
+Opening  Wikiextractor/ID/AA/wiki_40
+Opening  Wikiextractor/ID/AA/wiki_41
+Opening  Wikiextractor/ID/AA/wiki_42
+Opening  Wikiextractor/ID/AA/wiki_43
+Opening  Wikiextractor/ID/AA/wiki_44
+Opening  Wikiextractor/ID/AA/wiki_45
+Opening  Wikiextractor/ID/AA/wiki_46
+Opening  Wikiextractor/ID/AA/wiki_47
+Opening  Wikiextractor/ID/AA/wiki_48
+Opening  Wikiextractor/ID/AA/wiki_49
+Opening  Wikiextractor/ID/AA/wiki_50
+Opening  Wikiextractor/ID/AA/wiki_51
+Opening  Wikiextractor/ID/AA/wiki_52
+Opening  Wikiextractor/ID/AA/wiki_53
+Opening  Wikiextractor/ID/AA/wiki_54
+Opening  Wikiextractor/ID/AA/wiki_55
+Opening  Wikiextractor/ID/AA/wiki_56
+Opening  Wikiextractor/ID/AA/wiki_57
+Opening  Wikiextractor/ID/AA/wiki_58
+Opening  Wikiextractor/ID/AA/wiki_59
+Opening  Wikiextractor/ID/AA/wiki_60
+Opening  Wikiextractor/ID/AA/wiki_61
+Opening  Wikiextractor/ID/AA/wiki_62
+Opening  Wikiextractor/ID/AA/wiki_63
+Opening  Wikiextractor/ID/AA/wiki_64
+Opening  Wikiextractor/ID/AA/wiki_65
+Opening  Wikiextractor/ID/AA/wiki_66
+Opening  Wikiextractor/ID/AA/wiki_67
+Opening  Wikiextractor/ID/AA/wiki_68
+Opening  Wikiextractor/ID/AA/wiki_69
+Opening  Wikiextractor/ID/AA/wiki_70
+Opening  Wikiextractor/ID/AA/wiki_71
+Opening  Wikiextractor/ID/AA/wiki_72
+Opening  Wikiextractor/ID/AA/wiki_73
+Opening  Wikiextractor/ID/AA/wiki_74
+Opening  Wikiextractor/ID/AA/wiki_75
+Opening  Wikiextractor/ID/AA/wiki_76
+Opening  Wikiextractor/ID/AA/wiki_77
+Opening  Wikiextractor/ID/AA/wiki_78
+Opening  Wikiextractor/ID/AA/wiki_79
+Opening  Wikiextractor/ID/AA/wiki_80
+Opening  Wikiextractor/ID/AA/wiki_81
+Opening  Wikiextractor/ID/AA/wiki_82
+Opening  Wikiextractor/ID/AA/wiki_83
+Opening  Wikiextractor/ID/AA/wiki_84
+Opening  Wikiextractor/ID/AA/wiki_85
+Opening  Wikiextractor/ID/AA/wiki_86
+Opening  Wikiextractor/ID/AA/wiki_87
+Opening  Wikiextractor/ID/AA/wiki_88
+Opening  Wikiextractor/ID/AA/wiki_89
+Opening  Wikiextractor/ID/AA/wiki_90
+Opening  Wikiextractor/ID/AA/wiki_91
+Opening  Wikiextractor/ID/AA/wiki_92
+Opening  Wikiextractor/ID/AA/wiki_93
+Opening  Wikiextractor/ID/AA/wiki_94
+Opening  Wikiextractor/ID/AA/wiki_95
+Opening  Wikiextractor/ID/AA/wiki_96
+	 part 1 counted 	(current memory:  1.3585072367417539 ) 	(time elapsed:  413.77663254737854 )
+Opening  Wikiextractor/ID/AA/wiki_00
+Opening  Wikiextractor/ID/AA/wiki_01
+Opening  Wikiextractor/ID/AA/wiki_02
+Opening  Wikiextractor/ID/AA/wiki_03
+Opening  Wikiextractor/ID/AA/wiki_04
+Opening  Wikiextractor/ID/AA/wiki_05
+Opening  Wikiextractor/ID/AA/wiki_06
+Opening  Wikiextractor/ID/AA/wiki_07
+Opening  Wikiextractor/ID/AA/wiki_08
+Opening  Wikiextractor/ID/AA/wiki_09
+Opening  Wikiextractor/ID/AA/wiki_10
+Opening  Wikiextractor/ID/AA/wiki_11
+Opening  Wikiextractor/ID/AA/wiki_12
+Opening  Wikiextractor/ID/AA/wiki_13
+Opening  Wikiextractor/ID/AA/wiki_14
+Opening  Wikiextractor/ID/AA/wiki_15
+Opening  Wikiextractor/ID/AA/wiki_16
+Opening  Wikiextractor/ID/AA/wiki_17
+Opening  Wikiextractor/ID/AA/wiki_18
+Opening  Wikiextractor/ID/AA/wiki_19
+Opening  Wikiextractor/ID/AA/wiki_20
+Opening  Wikiextractor/ID/AA/wiki_21
+Opening  Wikiextractor/ID/AA/wiki_22
+Opening  Wikiextractor/ID/AA/wiki_23
+Opening  Wikiextractor/ID/AA/wiki_24
+Opening  Wikiextractor/ID/AA/wiki_25
+Opening  Wikiextractor/ID/AA/wiki_26
+Opening  Wikiextractor/ID/AA/wiki_27
+Opening  Wikiextractor/ID/AA/wiki_28
+Opening  Wikiextractor/ID/AA/wiki_29
+Opening  Wikiextractor/ID/AA/wiki_30
+Opening  Wikiextractor/ID/AA/wiki_31
+Opening  Wikiextractor/ID/AA/wiki_32
+Opening  Wikiextractor/ID/AA/wiki_33
+Opening  Wikiextractor/ID/AA/wiki_34
+Opening  Wikiextractor/ID/AA/wiki_35
+Opening  Wikiextractor/ID/AA/wiki_36
+Opening  Wikiextractor/ID/AA/wiki_37
+Opening  Wikiextractor/ID/AA/wiki_38
+Opening  Wikiextractor/ID/AA/wiki_39
+Opening  Wikiextractor/ID/AA/wiki_40
+Opening  Wikiextractor/ID/AA/wiki_41
+Opening  Wikiextractor/ID/AA/wiki_42
+Opening  Wikiextractor/ID/AA/wiki_43
+Opening  Wikiextractor/ID/AA/wiki_44
+Opening  Wikiextractor/ID/AA/wiki_45
+Opening  Wikiextractor/ID/AA/wiki_46
+Opening  Wikiextractor/ID/AA/wiki_47
+Opening  Wikiextractor/ID/AA/wiki_48
+Opening  Wikiextractor/ID/AA/wiki_49
+Opening  Wikiextractor/ID/AA/wiki_50
+Opening  Wikiextractor/ID/AA/wiki_51
+Opening  Wikiextractor/ID/AA/wiki_52
+Opening  Wikiextractor/ID/AA/wiki_53
+Opening  Wikiextractor/ID/AA/wiki_54
+Opening  Wikiextractor/ID/AA/wiki_55
+Opening  Wikiextractor/ID/AA/wiki_56
+Opening  Wikiextractor/ID/AA/wiki_57
+Opening  Wikiextractor/ID/AA/wiki_58
+Opening  Wikiextractor/ID/AA/wiki_59
+Opening  Wikiextractor/ID/AA/wiki_60
+Opening  Wikiextractor/ID/AA/wiki_61
+Opening  Wikiextractor/ID/AA/wiki_62
+Opening  Wikiextractor/ID/AA/wiki_63
+Opening  Wikiextractor/ID/AA/wiki_64
+Opening  Wikiextractor/ID/AA/wiki_65
+Opening  Wikiextractor/ID/AA/wiki_66
+Opening  Wikiextractor/ID/AA/wiki_67
+Opening  Wikiextractor/ID/AA/wiki_68
+Opening  Wikiextractor/ID/AA/wiki_69
+Opening  Wikiextractor/ID/AA/wiki_70
+Opening  Wikiextractor/ID/AA/wiki_71
+Opening  Wikiextractor/ID/AA/wiki_72
+Opening  Wikiextractor/ID/AA/wiki_73
+Opening  Wikiextractor/ID/AA/wiki_74
+Opening  Wikiextractor/ID/AA/wiki_75
+Opening  Wikiextractor/ID/AA/wiki_76
+Opening  Wikiextractor/ID/AA/wiki_77
+Opening  Wikiextractor/ID/AA/wiki_78
+Opening  Wikiextractor/ID/AA/wiki_79
+Opening  Wikiextractor/ID/AA/wiki_80
+Opening  Wikiextractor/ID/AA/wiki_81
+Opening  Wikiextractor/ID/AA/wiki_82
+Opening  Wikiextractor/ID/AA/wiki_83
+Opening  Wikiextractor/ID/AA/wiki_84
+Opening  Wikiextractor/ID/AA/wiki_85
+Opening  Wikiextractor/ID/AA/wiki_86
+Opening  Wikiextractor/ID/AA/wiki_87
+Opening  Wikiextractor/ID/AA/wiki_88
+Opening  Wikiextractor/ID/AA/wiki_89
+Opening  Wikiextractor/ID/AA/wiki_90
+Opening  Wikiextractor/ID/AA/wiki_91
+Opening  Wikiextractor/ID/AA/wiki_92
+Opening  Wikiextractor/ID/AA/wiki_93
+Opening  Wikiextractor/ID/AA/wiki_94
+Opening  Wikiextractor/ID/AA/wiki_95
+Opening  Wikiextractor/ID/AA/wiki_96
+	 part 2 counted 	(current memory:  1.3585072367417539 ) 	(time elapsed:  758.9563772678375 )
+	 counts and ranks aligned 	(current memory:  1.2117779447020258 ) 	(time elapsed:  763.4783039093018 )
+Relative size of subset 1:  0.5000239810799624
+	most common:  [('yang', 904462), ('dan', 894271), ('di', 682191), ('dari', 440450), ('pada', 439765), ('ini', 415374), ('dengan', 340632), ('adalah', 335639), ('dalam', 279191), ('untuk', 277345)]
+	highest ranked:  [('yang', 904278), ('dan', 892696), ('di', 682210), ('dari', 442466), ('pada', 439679), ('ini', 414502), ('dengan', 340393), ('adalah', 336176), ('dalam', 279145), ('untuk', 276956)]
+
+
+
+STATS:
+{
+number of types: 893553,
+relative number of types in subset 1: 0.694811611622366,
+number of tokens: 63800296,
+TTR: 0.01400546793701396,
+types in intersection: 346789,
+tokens in intersection: 63137132,
+words: 63800296,
+paragraphs: 1563794,
+articles: 422461,
+highest ranked discordant pair: (('kota', 68458), ('karena', 68483)),
+}
+
+........................................................................................................................................................................................................
+########################################################################################################################################################################################################
+### Processing  NO  on splitting level  ArticleSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.04793071746826172 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.07353973388671875 )
+Opening  Wikiextractor/NO/AA/wiki_00
+Opening  Wikiextractor/NO/AA/wiki_01
+Opening  Wikiextractor/NO/AA/wiki_02
+Opening  Wikiextractor/NO/AA/wiki_03
+Opening  Wikiextractor/NO/AA/wiki_04
+Opening  Wikiextractor/NO/AA/wiki_05
+Opening  Wikiextractor/NO/AA/wiki_06
+Opening  Wikiextractor/NO/AA/wiki_07
+Opening  Wikiextractor/NO/AA/wiki_08
+Opening  Wikiextractor/NO/AA/wiki_09
+Opening  Wikiextractor/NO/AA/wiki_10
+Opening  Wikiextractor/NO/AA/wiki_11
+Opening  Wikiextractor/NO/AA/wiki_12
+Opening  Wikiextractor/NO/AA/wiki_13
+Opening  Wikiextractor/NO/AA/wiki_14
+Opening  Wikiextractor/NO/AA/wiki_15
+Opening  Wikiextractor/NO/AA/wiki_16
+Opening  Wikiextractor/NO/AA/wiki_17
+Opening  Wikiextractor/NO/AA/wiki_18
+Opening  Wikiextractor/NO/AA/wiki_19
+Opening  Wikiextractor/NO/AA/wiki_20
+Opening  Wikiextractor/NO/AA/wiki_21
+Opening  Wikiextractor/NO/AA/wiki_22
+Opening  Wikiextractor/NO/AA/wiki_23
+Opening  Wikiextractor/NO/AA/wiki_24
+Opening  Wikiextractor/NO/AA/wiki_25
+Opening  Wikiextractor/NO/AA/wiki_26
+Opening  Wikiextractor/NO/AA/wiki_27
+Opening  Wikiextractor/NO/AA/wiki_28
+Opening  Wikiextractor/NO/AA/wiki_29
+Opening  Wikiextractor/NO/AA/wiki_30
+Opening  Wikiextractor/NO/AA/wiki_31
+Opening  Wikiextractor/NO/AA/wiki_32
+Opening  Wikiextractor/NO/AA/wiki_33
+Opening  Wikiextractor/NO/AA/wiki_34
+Opening  Wikiextractor/NO/AA/wiki_35
+Opening  Wikiextractor/NO/AA/wiki_36
+Opening  Wikiextractor/NO/AA/wiki_37
+Opening  Wikiextractor/NO/AA/wiki_38
+Opening  Wikiextractor/NO/AA/wiki_39
+Opening  Wikiextractor/NO/AA/wiki_40
+Opening  Wikiextractor/NO/AA/wiki_41
+Opening  Wikiextractor/NO/AA/wiki_42
+Opening  Wikiextractor/NO/AA/wiki_43
+Opening  Wikiextractor/NO/AA/wiki_44
+Opening  Wikiextractor/NO/AA/wiki_45
+Opening  Wikiextractor/NO/AA/wiki_46
+Opening  Wikiextractor/NO/AA/wiki_47
+Opening  Wikiextractor/NO/AA/wiki_48
+Opening  Wikiextractor/NO/AA/wiki_49
+Opening  Wikiextractor/NO/AA/wiki_50
+Opening  Wikiextractor/NO/AA/wiki_51
+Opening  Wikiextractor/NO/AA/wiki_52
+Opening  Wikiextractor/NO/AA/wiki_53
+Opening  Wikiextractor/NO/AA/wiki_54
+Opening  Wikiextractor/NO/AA/wiki_55
+Opening  Wikiextractor/NO/AA/wiki_56
+Opening  Wikiextractor/NO/AA/wiki_57
+Opening  Wikiextractor/NO/AA/wiki_58
+Opening  Wikiextractor/NO/AA/wiki_59
+Opening  Wikiextractor/NO/AA/wiki_60
+Opening  Wikiextractor/NO/AA/wiki_61
+Opening  Wikiextractor/NO/AA/wiki_62
+Opening  Wikiextractor/NO/AA/wiki_63
+Opening  Wikiextractor/NO/AA/wiki_64
+Opening  Wikiextractor/NO/AA/wiki_65
+Opening  Wikiextractor/NO/AA/wiki_66
+Opening  Wikiextractor/NO/AA/wiki_67
+Opening  Wikiextractor/NO/AA/wiki_68
+Opening  Wikiextractor/NO/AA/wiki_69
+Opening  Wikiextractor/NO/AA/wiki_70
+Opening  Wikiextractor/NO/AA/wiki_71
+Opening  Wikiextractor/NO/AA/wiki_72
+Opening  Wikiextractor/NO/AA/wiki_73
+Opening  Wikiextractor/NO/AA/wiki_74
+Opening  Wikiextractor/NO/AA/wiki_75
+Opening  Wikiextractor/NO/AA/wiki_76
+Opening  Wikiextractor/NO/AA/wiki_77
+Opening  Wikiextractor/NO/AA/wiki_78
+Opening  Wikiextractor/NO/AA/wiki_79
+Opening  Wikiextractor/NO/AA/wiki_80
+Opening  Wikiextractor/NO/AA/wiki_81
+Opening  Wikiextractor/NO/AA/wiki_82
+Opening  Wikiextractor/NO/AA/wiki_83
+Opening  Wikiextractor/NO/AA/wiki_84
+Opening  Wikiextractor/NO/AA/wiki_85
+Opening  Wikiextractor/NO/AA/wiki_86
+Opening  Wikiextractor/NO/AA/wiki_87
+Opening  Wikiextractor/NO/AA/wiki_88
+Opening  Wikiextractor/NO/AA/wiki_89
+Opening  Wikiextractor/NO/AA/wiki_90
+Opening  Wikiextractor/NO/AA/wiki_91
+Opening  Wikiextractor/NO/AA/wiki_92
+Opening  Wikiextractor/NO/AA/wiki_93
+Opening  Wikiextractor/NO/AA/wiki_94
+Opening  Wikiextractor/NO/AA/wiki_95
+Opening  Wikiextractor/NO/AA/wiki_96
+Opening  Wikiextractor/NO/AA/wiki_97
+Opening  Wikiextractor/NO/AA/wiki_98
+Opening  Wikiextractor/NO/AA/wiki_99
+Opening  Wikiextractor/NO/AB/wiki_00
+Opening  Wikiextractor/NO/AB/wiki_01
+Opening  Wikiextractor/NO/AB/wiki_02
+Opening  Wikiextractor/NO/AB/wiki_03
+Opening  Wikiextractor/NO/AB/wiki_04
+Opening  Wikiextractor/NO/AB/wiki_05
+Opening  Wikiextractor/NO/AB/wiki_06
+Opening  Wikiextractor/NO/AB/wiki_07
+Opening  Wikiextractor/NO/AB/wiki_08
+Opening  Wikiextractor/NO/AB/wiki_09
+Opening  Wikiextractor/NO/AB/wiki_10
+Opening  Wikiextractor/NO/AB/wiki_11
+Opening  Wikiextractor/NO/AB/wiki_12
+Opening  Wikiextractor/NO/AB/wiki_13
+Opening  Wikiextractor/NO/AB/wiki_14
+Opening  Wikiextractor/NO/AB/wiki_15
+Opening  Wikiextractor/NO/AB/wiki_16
+	 part 1 counted 	(current memory:  1.0426422902173709 ) 	(time elapsed:  398.9949371814728 )
+Opening  Wikiextractor/NO/AA/wiki_00
+Opening  Wikiextractor/NO/AA/wiki_01
+Opening  Wikiextractor/NO/AA/wiki_02
+Opening  Wikiextractor/NO/AA/wiki_03
+Opening  Wikiextractor/NO/AA/wiki_04
+Opening  Wikiextractor/NO/AA/wiki_05
+Opening  Wikiextractor/NO/AA/wiki_06
+Opening  Wikiextractor/NO/AA/wiki_07
+Opening  Wikiextractor/NO/AA/wiki_08
+Opening  Wikiextractor/NO/AA/wiki_09
+Opening  Wikiextractor/NO/AA/wiki_10
+Opening  Wikiextractor/NO/AA/wiki_11
+Opening  Wikiextractor/NO/AA/wiki_12
+Opening  Wikiextractor/NO/AA/wiki_13
+Opening  Wikiextractor/NO/AA/wiki_14
+Opening  Wikiextractor/NO/AA/wiki_15
+Opening  Wikiextractor/NO/AA/wiki_16
+Opening  Wikiextractor/NO/AA/wiki_17
+Opening  Wikiextractor/NO/AA/wiki_18
+Opening  Wikiextractor/NO/AA/wiki_19
+Opening  Wikiextractor/NO/AA/wiki_20
+Opening  Wikiextractor/NO/AA/wiki_21
+Opening  Wikiextractor/NO/AA/wiki_22
+Opening  Wikiextractor/NO/AA/wiki_23
+Opening  Wikiextractor/NO/AA/wiki_24
+Opening  Wikiextractor/NO/AA/wiki_25
+Opening  Wikiextractor/NO/AA/wiki_26
+Opening  Wikiextractor/NO/AA/wiki_27
+Opening  Wikiextractor/NO/AA/wiki_28
+Opening  Wikiextractor/NO/AA/wiki_29
+Opening  Wikiextractor/NO/AA/wiki_30
+Opening  Wikiextractor/NO/AA/wiki_31
+Opening  Wikiextractor/NO/AA/wiki_32
+Opening  Wikiextractor/NO/AA/wiki_33
+Opening  Wikiextractor/NO/AA/wiki_34
+Opening  Wikiextractor/NO/AA/wiki_35
+Opening  Wikiextractor/NO/AA/wiki_36
+Opening  Wikiextractor/NO/AA/wiki_37
+Opening  Wikiextractor/NO/AA/wiki_38
+Opening  Wikiextractor/NO/AA/wiki_39
+Opening  Wikiextractor/NO/AA/wiki_40
+Opening  Wikiextractor/NO/AA/wiki_41
+Opening  Wikiextractor/NO/AA/wiki_42
+Opening  Wikiextractor/NO/AA/wiki_43
+Opening  Wikiextractor/NO/AA/wiki_44
+Opening  Wikiextractor/NO/AA/wiki_45
+Opening  Wikiextractor/NO/AA/wiki_46
+Opening  Wikiextractor/NO/AA/wiki_47
+Opening  Wikiextractor/NO/AA/wiki_48
+Opening  Wikiextractor/NO/AA/wiki_49
+Opening  Wikiextractor/NO/AA/wiki_50
+Opening  Wikiextractor/NO/AA/wiki_51
+Opening  Wikiextractor/NO/AA/wiki_52
+Opening  Wikiextractor/NO/AA/wiki_53
+Opening  Wikiextractor/NO/AA/wiki_54
+Opening  Wikiextractor/NO/AA/wiki_55
+Opening  Wikiextractor/NO/AA/wiki_56
+Opening  Wikiextractor/NO/AA/wiki_57
+Opening  Wikiextractor/NO/AA/wiki_58
+Opening  Wikiextractor/NO/AA/wiki_59
+Opening  Wikiextractor/NO/AA/wiki_60
+Opening  Wikiextractor/NO/AA/wiki_61
+Opening  Wikiextractor/NO/AA/wiki_62
+Opening  Wikiextractor/NO/AA/wiki_63
+Opening  Wikiextractor/NO/AA/wiki_64
+Opening  Wikiextractor/NO/AA/wiki_65
+Opening  Wikiextractor/NO/AA/wiki_66
+Opening  Wikiextractor/NO/AA/wiki_67
+Opening  Wikiextractor/NO/AA/wiki_68
+Opening  Wikiextractor/NO/AA/wiki_69
+Opening  Wikiextractor/NO/AA/wiki_70
+Opening  Wikiextractor/NO/AA/wiki_71
+Opening  Wikiextractor/NO/AA/wiki_72
+Opening  Wikiextractor/NO/AA/wiki_73
+Opening  Wikiextractor/NO/AA/wiki_74
+Opening  Wikiextractor/NO/AA/wiki_75
+Opening  Wikiextractor/NO/AA/wiki_76
+Opening  Wikiextractor/NO/AA/wiki_77
+Opening  Wikiextractor/NO/AA/wiki_78
+Opening  Wikiextractor/NO/AA/wiki_79
+Opening  Wikiextractor/NO/AA/wiki_80
+Opening  Wikiextractor/NO/AA/wiki_81
+Opening  Wikiextractor/NO/AA/wiki_82
+Opening  Wikiextractor/NO/AA/wiki_83
+Opening  Wikiextractor/NO/AA/wiki_84
+Opening  Wikiextractor/NO/AA/wiki_85
+Opening  Wikiextractor/NO/AA/wiki_86
+Opening  Wikiextractor/NO/AA/wiki_87
+Opening  Wikiextractor/NO/AA/wiki_88
+Opening  Wikiextractor/NO/AA/wiki_89
+Opening  Wikiextractor/NO/AA/wiki_90
+Opening  Wikiextractor/NO/AA/wiki_91
+Opening  Wikiextractor/NO/AA/wiki_92
+Opening  Wikiextractor/NO/AA/wiki_93
+Opening  Wikiextractor/NO/AA/wiki_94
+Opening  Wikiextractor/NO/AA/wiki_95
+Opening  Wikiextractor/NO/AA/wiki_96
+Opening  Wikiextractor/NO/AA/wiki_97
+Opening  Wikiextractor/NO/AA/wiki_98
+Opening  Wikiextractor/NO/AA/wiki_99
+Opening  Wikiextractor/NO/AB/wiki_00
+Opening  Wikiextractor/NO/AB/wiki_01
+Opening  Wikiextractor/NO/AB/wiki_02
+Opening  Wikiextractor/NO/AB/wiki_03
+Opening  Wikiextractor/NO/AB/wiki_04
+Opening  Wikiextractor/NO/AB/wiki_05
+Opening  Wikiextractor/NO/AB/wiki_06
+Opening  Wikiextractor/NO/AB/wiki_07
+Opening  Wikiextractor/NO/AB/wiki_08
+Opening  Wikiextractor/NO/AB/wiki_09
+Opening  Wikiextractor/NO/AB/wiki_10
+Opening  Wikiextractor/NO/AB/wiki_11
+Opening  Wikiextractor/NO/AB/wiki_12
+Opening  Wikiextractor/NO/AB/wiki_13
+Opening  Wikiextractor/NO/AB/wiki_14
+Opening  Wikiextractor/NO/AB/wiki_15
+Opening  Wikiextractor/NO/AB/wiki_16
+	 part 2 counted 	(current memory:  1.063361329487397 ) 	(time elapsed:  789.1285684108734 )
+	 counts and ranks aligned 	(current memory:  0.76978583413457 ) 	(time elapsed:  793.6437797546387 )
+Relative size of subset 1:  0.5008381769392555
+	most common:  [('i', 2012866), ('og', 1468013), ('av', 875217), ('som', 793008), ('en', 763433), ('er', 718716), ('til', 641958), ('på', 597681), ('ble', 509129), ('den', 500964)]
+	highest ranked:  [('i', 2009983), ('og', 1465115), ('av', 869451), ('som', 790035), ('en', 760698), ('er', 713326), ('til', 641515), ('på', 593763), ('ble', 513148), ('den', 497729)]
+
+
+
+STATS:
+{
+number of types: 1702145,
+relative number of types in subset 1: 0.6622391159390064,
+number of tokens: 85688201,
+TTR: 0.019864403501714315,
+types in intersection: 549819,
+tokens in intersection: 84081221,
+words: 85688201,
+paragraphs: 1972020,
+articles: 482595,
+highest ranked discordant pair: (('–', 90786), ('andre', 90534)),
+}
+
+........................................................................................................................................................................................................
+### Processing  NO  on splitting level  ParagraphSplitter
+	 reader set up 	(current memory:  0.9998130841121495 ) 	(time elapsed:  0.02297186851501465 )
+	 corpus split 	(current memory:  0.9998130841121495 ) 	(time elapsed:  0.04547905921936035 )
+Opening  Wikiextractor/NO/AA/wiki_00
+Opening  Wikiextractor/NO/AA/wiki_01
+Opening  Wikiextractor/NO/AA/wiki_02
+Opening  Wikiextractor/NO/AA/wiki_03
+Opening  Wikiextractor/NO/AA/wiki_04
+Opening  Wikiextractor/NO/AA/wiki_05
+Opening  Wikiextractor/NO/AA/wiki_06
+Opening  Wikiextractor/NO/AA/wiki_07
+Opening  Wikiextractor/NO/AA/wiki_08
+Opening  Wikiextractor/NO/AA/wiki_09
+Opening  Wikiextractor/NO/AA/wiki_10
+Opening  Wikiextractor/NO/AA/wiki_11
+Opening  Wikiextractor/NO/AA/wiki_12
+Opening  Wikiextractor/NO/AA/wiki_13
+Opening  Wikiextractor/NO/AA/wiki_14
+Opening  Wikiextractor/NO/AA/wiki_15
+Opening  Wikiextractor/NO/AA/wiki_16
+Opening  Wikiextractor/NO/AA/wiki_17
+Opening  Wikiextractor/NO/AA/wiki_18
+Opening  Wikiextractor/NO/AA/wiki_19
+Opening  Wikiextractor/NO/AA/wiki_20
+Opening  Wikiextractor/NO/AA/wiki_21
+Opening  Wikiextractor/NO/AA/wiki_22
+Opening  Wikiextractor/NO/AA/wiki_23
+Opening  Wikiextractor/NO/AA/wiki_24
+Opening  Wikiextractor/NO/AA/wiki_25
+Opening  Wikiextractor/NO/AA/wiki_26
+Opening  Wikiextractor/NO/AA/wiki_27
+Opening  Wikiextractor/NO/AA/wiki_28
+Opening  Wikiextractor/NO/AA/wiki_29
+Opening  Wikiextractor/NO/AA/wiki_30
+Opening  Wikiextractor/NO/AA/wiki_31
+Opening  Wikiextractor/NO/AA/wiki_32
+Opening  Wikiextractor/NO/AA/wiki_33
+Opening  Wikiextractor/NO/AA/wiki_34
+Opening  Wikiextractor/NO/AA/wiki_35
+Opening  Wikiextractor/NO/AA/wiki_36
+Opening  Wikiextractor/NO/AA/wiki_37
+Opening  Wikiextractor/NO/AA/wiki_38
+Opening  Wikiextractor/NO/AA/wiki_39
+Opening  Wikiextractor/NO/AA/wiki_40
+Opening  Wikiextractor/NO/AA/wiki_41
+Opening  Wikiextractor/NO/AA/wiki_42
+Opening  Wikiextractor/NO/AA/wiki_43
+Opening  Wikiextractor/NO/AA/wiki_44
+Opening  Wikiextractor/NO/AA/wiki_45
+Opening  Wikiextractor/NO/AA/wiki_46
+Opening  Wikiextractor/NO/AA/wiki_47
+Opening  Wikiextractor/NO/AA/wiki_48
+Opening  Wikiextractor/NO/AA/wiki_49
+Opening  Wikiextractor/NO/AA/wiki_50
+Opening  Wikiextractor/NO/AA/wiki_51
+Opening  Wikiextractor/NO/AA/wiki_52
+Opening  Wikiextractor/NO/AA/wiki_53
+Opening  Wikiextractor/NO/AA/wiki_54
+Opening  Wikiextractor/NO/AA/wiki_55
+Opening  Wikiextractor/NO/AA/wiki_56
+Opening  Wikiextractor/NO/AA/wiki_57
+Opening  Wikiextractor/NO/AA/wiki_58
+Opening  Wikiextractor/NO/AA/wiki_59
+Opening  Wikiextractor/NO/AA/wiki_60
+Opening  Wikiextractor/NO/AA/wiki_61
+Opening  Wikiextractor/NO/AA/wiki_62
+Opening  Wikiextractor/NO/AA/wiki_63
+Opening  Wikiextractor/NO/AA/wiki_64
+Opening  Wikiextractor/NO/AA/wiki_65
+Opening  Wikiextractor/NO/AA/wiki_66
+Opening  Wikiextractor/NO/AA/wiki_67
+Opening  Wikiextractor/NO/AA/wiki_68
+Opening  Wikiextractor/NO/AA/wiki_69
+Opening  Wikiextractor/NO/AA/wiki_70
+Opening  Wikiextractor/NO/AA/wiki_71
+Opening  Wikiextractor/NO/AA/wiki_72
+Opening  Wikiextractor/NO/AA/wiki_73
+Opening  Wikiextractor/NO/AA/wiki_74
+Opening  Wikiextractor/NO/AA/wiki_75
+Opening  Wikiextractor/NO/AA/wiki_76
+Opening  Wikiextractor/NO/AA/wiki_77
+Opening  Wikiextractor/NO/AA/wiki_78
+Opening  Wikiextractor/NO/AA/wiki_79
+Opening  Wikiextractor/NO/AA/wiki_80
+Opening  Wikiextractor/NO/AA/wiki_81
+Opening  Wikiextractor/NO/AA/wiki_82
+Opening  Wikiextractor/NO/AA/wiki_83
+Opening  Wikiextractor/NO/AA/wiki_84
+Opening  Wikiextractor/NO/AA/wiki_85
+Opening  Wikiextractor/NO/AA/wiki_86
+Opening  Wikiextractor/NO/AA/wiki_87
+Opening  Wikiextractor/NO/AA/wiki_88
+Opening  Wikiextractor/NO/AA/wiki_89
+Opening  Wikiextractor/NO/AA/wiki_90
+Opening  Wikiextractor/NO/AA/wiki_91
+Opening  Wikiextractor/NO/AA/wiki_92
+Opening  Wikiextractor/NO/AA/wiki_93
+Opening  Wikiextractor/NO/AA/wiki_94
+Opening  Wikiextractor/NO/AA/wiki_95
+Opening  Wikiextractor/NO/AA/wiki_96
+Opening  Wikiextractor/NO/AA/wiki_97
+Opening  Wikiextractor/NO/AA/wiki_98
+Opening  Wikiextractor/NO/AA/wiki_99
+Opening  Wikiextractor/NO/AB/wiki_00
+Opening  Wikiextractor/NO/AB/wiki_01
+Opening  Wikiextractor/NO/AB/wiki_02
+Opening  Wikiextractor/NO/AB/wiki_03
+Opening  Wikiextractor/NO/AB/wiki_04
+Opening  Wikiextractor/NO/AB/wiki_05
+Opening  Wikiextractor/NO/AB/wiki_06
+Opening  Wikiextractor/NO/AB/wiki_07
+Opening  Wikiextractor/NO/AB/wiki_08
+Opening  Wikiextractor/NO/AB/wiki_09
+Opening  Wikiextractor/NO/AB/wiki_10
+Opening  Wikiextractor/NO/AB/wiki_11
+Opening  Wikiextractor/NO/AB/wiki_12
+Opening  Wikiextractor/NO/AB/wiki_13
+Opening  Wikiextractor/NO/AB/wiki_14
+Opening  Wikiextractor/NO/AB/wiki_15
+Opening  Wikiextractor/NO/AB/wiki_16
+	 part 1 counted 	(current memory:  0.9998130841121495 ) 	(time elapsed:  395.704959154129 )
+Opening  Wikiextractor/NO/AA/wiki_00
+Opening  Wikiextractor/NO/AA/wiki_01
+Opening  Wikiextractor/NO/AA/wiki_02
+Opening  Wikiextractor/NO/AA/wiki_03
+Opening  Wikiextractor/NO/AA/wiki_04
+Opening  Wikiextractor/NO/AA/wiki_05
+Opening  Wikiextractor/NO/AA/wiki_06
+Opening  Wikiextractor/NO/AA/wiki_07
+Opening  Wikiextractor/NO/AA/wiki_08
+Opening  Wikiextractor/NO/AA/wiki_09
+Opening  Wikiextractor/NO/AA/wiki_10
+Opening  Wikiextractor/NO/AA/wiki_11
+Opening  Wikiextractor/NO/AA/wiki_12
+Opening  Wikiextractor/NO/AA/wiki_13
+Opening  Wikiextractor/NO/AA/wiki_14
+Opening  Wikiextractor/NO/AA/wiki_15
+Opening  Wikiextractor/NO/AA/wiki_16
+Opening  Wikiextractor/NO/AA/wiki_17
+Opening  Wikiextractor/NO/AA/wiki_18
+Opening  Wikiextractor/NO/AA/wiki_19
+Opening  Wikiextractor/NO/AA/wiki_20
+Opening  Wikiextractor/NO/AA/wiki_21
+Opening  Wikiextractor/NO/AA/wiki_22
+Opening  Wikiextractor/NO/AA/wiki_23
+Opening  Wikiextractor/NO/AA/wiki_24
+Opening  Wikiextractor/NO/AA/wiki_25
+Opening  Wikiextractor/NO/AA/wiki_26
+Opening  Wikiextractor/NO/AA/wiki_27
+Opening  Wikiextractor/NO/AA/wiki_28
+Opening  Wikiextractor/NO/AA/wiki_29
+Opening  Wikiextractor/NO/AA/wiki_30
+Opening  Wikiextractor/NO/AA/wiki_31
+Opening  Wikiextractor/NO/AA/wiki_32
+Opening  Wikiextractor/NO/AA/wiki_33
+Opening  Wikiextractor/NO/AA/wiki_34
+Opening  Wikiextractor/NO/AA/wiki_35
+Opening  Wikiextractor/NO/AA/wiki_36
+Opening  Wikiextractor/NO/AA/wiki_37
+Opening  Wikiextractor/NO/AA/wiki_38
+Opening  Wikiextractor/NO/AA/wiki_39
+Opening  Wikiextractor/NO/AA/wiki_40
+Opening  Wikiextractor/NO/AA/wiki_41
+Opening  Wikiextractor/NO/AA/wiki_42
+Opening  Wikiextractor/NO/AA/wiki_43
+Opening  Wikiextractor/NO/AA/wiki_44
+Opening  Wikiextractor/NO/AA/wiki_45
+Opening  Wikiextractor/NO/AA/wiki_46
+Opening  Wikiextractor/NO/AA/wiki_47
+Opening  Wikiextractor/NO/AA/wiki_48
+Opening  Wikiextractor/NO/AA/wiki_49
+Opening  Wikiextractor/NO/AA/wiki_50
+Opening  Wikiextractor/NO/AA/wiki_51
+Opening  Wikiextractor/NO/AA/wiki_52
+Opening  Wikiextractor/NO/AA/wiki_53
+Opening  Wikiextractor/NO/AA/wiki_54
+Opening  Wikiextractor/NO/AA/wiki_55
+Opening  Wikiextractor/NO/AA/wiki_56
+Opening  Wikiextractor/NO/AA/wiki_57
+Opening  Wikiextractor/NO/AA/wiki_58
+Opening  Wikiextractor/NO/AA/wiki_59
+Opening  Wikiextractor/NO/AA/wiki_60
+Opening  Wikiextractor/NO/AA/wiki_61
+Opening  Wikiextractor/NO/AA/wiki_62
+Opening  Wikiextractor/NO/AA/wiki_63
+Opening  Wikiextractor/NO/AA/wiki_64
+Opening  Wikiextractor/NO/AA/wiki_65
+Opening  Wikiextractor/NO/AA/wiki_66
+Opening  Wikiextractor/NO/AA/wiki_67
+Opening  Wikiextractor/NO/AA/wiki_68
+Opening  Wikiextractor/NO/AA/wiki_69
+Opening  Wikiextractor/NO/AA/wiki_70
+Opening  Wikiextractor/NO/AA/wiki_71
+Opening  Wikiextractor/NO/AA/wiki_72
+Opening  Wikiextractor/NO/AA/wiki_73
+Opening  Wikiextractor/NO/AA/wiki_74
+Opening  Wikiextractor/NO/AA/wiki_75
+Opening  Wikiextractor/NO/AA/wiki_76
+Opening  Wikiextractor/NO/AA/wiki_77
+Opening  Wikiextractor/NO/AA/wiki_78
+Opening  Wikiextractor/NO/AA/wiki_79
+Opening  Wikiextractor/NO/AA/wiki_80
+Opening  Wikiextractor/NO/AA/wiki_81
+Opening  Wikiextractor/NO/AA/wiki_82
+Opening  Wikiextractor/NO/AA/wiki_83
+Opening  Wikiextractor/NO/AA/wiki_84
+Opening  Wikiextractor/NO/AA/wiki_85
+Opening  Wikiextractor/NO/AA/wiki_86
+Opening  Wikiextractor/NO/AA/wiki_87
+Opening  Wikiextractor/NO/AA/wiki_88
+Opening  Wikiextractor/NO/AA/wiki_89
+Opening  Wikiextractor/NO/AA/wiki_90
+Opening  Wikiextractor/NO/AA/wiki_91
+Opening  Wikiextractor/NO/AA/wiki_92
+Opening  Wikiextractor/NO/AA/wiki_93
+Opening  Wikiextractor/NO/AA/wiki_94
+Opening  Wikiextractor/NO/AA/wiki_95
+Opening  Wikiextractor/NO/AA/wiki_96
+Opening  Wikiextractor/NO/AA/wiki_97
+Opening  Wikiextractor/NO/AA/wiki_98
+Opening  Wikiextractor/NO/AA/wiki_99
+Opening  Wikiextractor/NO/AB/wiki_00
+Opening  Wikiextractor/NO/AB/wiki_01
+Opening  Wikiextractor/NO/AB/wiki_02
+Opening  Wikiextractor/NO/AB/wiki_03
+Opening  Wikiextractor/NO/AB/wiki_04
+Opening  Wikiextractor/NO/AB/wiki_05
+Opening  Wikiextractor/NO/AB/wiki_06
+Opening  Wikiextractor/NO/AB/wiki_07
+Opening  Wikiextractor/NO/AB/wiki_08
+Opening  Wikiextractor/NO/AB/wiki_09
+Opening  Wikiextractor/NO/AB/wiki_10
+Opening  Wikiextractor/NO/AB/wiki_11
+Opening  Wikiextractor/NO/AB/wiki_12
+Opening  Wikiextractor/NO/AB/wiki_13
+Opening  Wikiextractor/NO/AB/wiki_14
+Opening  Wikiextractor/NO/AB/wiki_15
+Opening  Wikiextractor/NO/AB/wiki_16
+	 part 2 counted 	(current memory:  1.01267523364486 ) 	(time elapsed:  844.9732971191406 )
+	 counts and ranks aligned 	(current memory:  1.01267523364486 ) 	(time elapsed:  850.529661655426 )
+Relative size of subset 1:  0.4999548686118802
+	most common:  [('i', 2009898), ('og', 1467617), ('av', 872060), ('som', 791373), ('en', 761195), ('er', 716133), ('til', 641994), ('på', 596222), ('ble', 510279), ('den', 499215)]
+	highest ranked:  [('i', 2012951), ('og', 1465511), ('av', 872608), ('som', 791670), ('en', 762936), ('er', 715909), ('til', 641479), ('på', 595222), ('ble', 511998), ('den', 499478)]
+
+
+
+STATS:
+{
+number of types: 1702145,
+relative number of types in subset 1: 0.6770821522255742,
+number of tokens: 85688201,
+TTR: 0.019864403501714315,
+types in intersection: 603959,
+tokens in intersection: 84311478,
+words: 85688201,
+paragraphs: 1972020,
+articles: 482595,
+highest ranked discordant pair: (('andre', 90704), ('da', 90527)),
+}
+
+........................................................................................................................................................................................................
+### Processing  NO  on splitting level  WordSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.023897647857666016 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.04694104194641113 )
+Opening  Wikiextractor/NO/AA/wiki_00
+Opening  Wikiextractor/NO/AA/wiki_01
+Opening  Wikiextractor/NO/AA/wiki_02
+Opening  Wikiextractor/NO/AA/wiki_03
+Opening  Wikiextractor/NO/AA/wiki_04
+Opening  Wikiextractor/NO/AA/wiki_05
+Opening  Wikiextractor/NO/AA/wiki_06
+Opening  Wikiextractor/NO/AA/wiki_07
+Opening  Wikiextractor/NO/AA/wiki_08
+Opening  Wikiextractor/NO/AA/wiki_09
+Opening  Wikiextractor/NO/AA/wiki_10
+Opening  Wikiextractor/NO/AA/wiki_11
+Opening  Wikiextractor/NO/AA/wiki_12
+Opening  Wikiextractor/NO/AA/wiki_13
+Opening  Wikiextractor/NO/AA/wiki_14
+Opening  Wikiextractor/NO/AA/wiki_15
+Opening  Wikiextractor/NO/AA/wiki_16
+Opening  Wikiextractor/NO/AA/wiki_17
+Opening  Wikiextractor/NO/AA/wiki_18
+Opening  Wikiextractor/NO/AA/wiki_19
+Opening  Wikiextractor/NO/AA/wiki_20
+Opening  Wikiextractor/NO/AA/wiki_21
+Opening  Wikiextractor/NO/AA/wiki_22
+Opening  Wikiextractor/NO/AA/wiki_23
+Opening  Wikiextractor/NO/AA/wiki_24
+Opening  Wikiextractor/NO/AA/wiki_25
+Opening  Wikiextractor/NO/AA/wiki_26
+Opening  Wikiextractor/NO/AA/wiki_27
+Opening  Wikiextractor/NO/AA/wiki_28
+Opening  Wikiextractor/NO/AA/wiki_29
+Opening  Wikiextractor/NO/AA/wiki_30
+Opening  Wikiextractor/NO/AA/wiki_31
+Opening  Wikiextractor/NO/AA/wiki_32
+Opening  Wikiextractor/NO/AA/wiki_33
+Opening  Wikiextractor/NO/AA/wiki_34
+Opening  Wikiextractor/NO/AA/wiki_35
+Opening  Wikiextractor/NO/AA/wiki_36
+Opening  Wikiextractor/NO/AA/wiki_37
+Opening  Wikiextractor/NO/AA/wiki_38
+Opening  Wikiextractor/NO/AA/wiki_39
+Opening  Wikiextractor/NO/AA/wiki_40
+Opening  Wikiextractor/NO/AA/wiki_41
+Opening  Wikiextractor/NO/AA/wiki_42
+Opening  Wikiextractor/NO/AA/wiki_43
+Opening  Wikiextractor/NO/AA/wiki_44
+Opening  Wikiextractor/NO/AA/wiki_45
+Opening  Wikiextractor/NO/AA/wiki_46
+Opening  Wikiextractor/NO/AA/wiki_47
+Opening  Wikiextractor/NO/AA/wiki_48
+Opening  Wikiextractor/NO/AA/wiki_49
+Opening  Wikiextractor/NO/AA/wiki_50
+Opening  Wikiextractor/NO/AA/wiki_51
+Opening  Wikiextractor/NO/AA/wiki_52
+Opening  Wikiextractor/NO/AA/wiki_53
+Opening  Wikiextractor/NO/AA/wiki_54
+Opening  Wikiextractor/NO/AA/wiki_55
+Opening  Wikiextractor/NO/AA/wiki_56
+Opening  Wikiextractor/NO/AA/wiki_57
+Opening  Wikiextractor/NO/AA/wiki_58
+Opening  Wikiextractor/NO/AA/wiki_59
+Opening  Wikiextractor/NO/AA/wiki_60
+Opening  Wikiextractor/NO/AA/wiki_61
+Opening  Wikiextractor/NO/AA/wiki_62
+Opening  Wikiextractor/NO/AA/wiki_63
+Opening  Wikiextractor/NO/AA/wiki_64
+Opening  Wikiextractor/NO/AA/wiki_65
+Opening  Wikiextractor/NO/AA/wiki_66
+Opening  Wikiextractor/NO/AA/wiki_67
+Opening  Wikiextractor/NO/AA/wiki_68
+Opening  Wikiextractor/NO/AA/wiki_69
+Opening  Wikiextractor/NO/AA/wiki_70
+Opening  Wikiextractor/NO/AA/wiki_71
+Opening  Wikiextractor/NO/AA/wiki_72
+Opening  Wikiextractor/NO/AA/wiki_73
+Opening  Wikiextractor/NO/AA/wiki_74
+Opening  Wikiextractor/NO/AA/wiki_75
+Opening  Wikiextractor/NO/AA/wiki_76
+Opening  Wikiextractor/NO/AA/wiki_77
+Opening  Wikiextractor/NO/AA/wiki_78
+Opening  Wikiextractor/NO/AA/wiki_79
+Opening  Wikiextractor/NO/AA/wiki_80
+Opening  Wikiextractor/NO/AA/wiki_81
+Opening  Wikiextractor/NO/AA/wiki_82
+Opening  Wikiextractor/NO/AA/wiki_83
+Opening  Wikiextractor/NO/AA/wiki_84
+Opening  Wikiextractor/NO/AA/wiki_85
+Opening  Wikiextractor/NO/AA/wiki_86
+Opening  Wikiextractor/NO/AA/wiki_87
+Opening  Wikiextractor/NO/AA/wiki_88
+Opening  Wikiextractor/NO/AA/wiki_89
+Opening  Wikiextractor/NO/AA/wiki_90
+Opening  Wikiextractor/NO/AA/wiki_91
+Opening  Wikiextractor/NO/AA/wiki_92
+Opening  Wikiextractor/NO/AA/wiki_93
+Opening  Wikiextractor/NO/AA/wiki_94
+Opening  Wikiextractor/NO/AA/wiki_95
+Opening  Wikiextractor/NO/AA/wiki_96
+Opening  Wikiextractor/NO/AA/wiki_97
+Opening  Wikiextractor/NO/AA/wiki_98
+Opening  Wikiextractor/NO/AA/wiki_99
+Opening  Wikiextractor/NO/AB/wiki_00
+Opening  Wikiextractor/NO/AB/wiki_01
+Opening  Wikiextractor/NO/AB/wiki_02
+Opening  Wikiextractor/NO/AB/wiki_03
+Opening  Wikiextractor/NO/AB/wiki_04
+Opening  Wikiextractor/NO/AB/wiki_05
+Opening  Wikiextractor/NO/AB/wiki_06
+Opening  Wikiextractor/NO/AB/wiki_07
+Opening  Wikiextractor/NO/AB/wiki_08
+Opening  Wikiextractor/NO/AB/wiki_09
+Opening  Wikiextractor/NO/AB/wiki_10
+Opening  Wikiextractor/NO/AB/wiki_11
+Opening  Wikiextractor/NO/AB/wiki_12
+Opening  Wikiextractor/NO/AB/wiki_13
+Opening  Wikiextractor/NO/AB/wiki_14
+Opening  Wikiextractor/NO/AB/wiki_15
+Opening  Wikiextractor/NO/AB/wiki_16
+	 part 1 counted 	(current memory:  1.5005115932719801 ) 	(time elapsed:  539.1341154575348 )
+Opening  Wikiextractor/NO/AA/wiki_00
+Opening  Wikiextractor/NO/AA/wiki_01
+Opening  Wikiextractor/NO/AA/wiki_02
+Opening  Wikiextractor/NO/AA/wiki_03
+Opening  Wikiextractor/NO/AA/wiki_04
+Opening  Wikiextractor/NO/AA/wiki_05
+Opening  Wikiextractor/NO/AA/wiki_06
+Opening  Wikiextractor/NO/AA/wiki_07
+Opening  Wikiextractor/NO/AA/wiki_08
+Opening  Wikiextractor/NO/AA/wiki_09
+Opening  Wikiextractor/NO/AA/wiki_10
+Opening  Wikiextractor/NO/AA/wiki_11
+Opening  Wikiextractor/NO/AA/wiki_12
+Opening  Wikiextractor/NO/AA/wiki_13
+Opening  Wikiextractor/NO/AA/wiki_14
+Opening  Wikiextractor/NO/AA/wiki_15
+Opening  Wikiextractor/NO/AA/wiki_16
+Opening  Wikiextractor/NO/AA/wiki_17
+Opening  Wikiextractor/NO/AA/wiki_18
+Opening  Wikiextractor/NO/AA/wiki_19
+Opening  Wikiextractor/NO/AA/wiki_20
+Opening  Wikiextractor/NO/AA/wiki_21
+Opening  Wikiextractor/NO/AA/wiki_22
+Opening  Wikiextractor/NO/AA/wiki_23
+Opening  Wikiextractor/NO/AA/wiki_24
+Opening  Wikiextractor/NO/AA/wiki_25
+Opening  Wikiextractor/NO/AA/wiki_26
+Opening  Wikiextractor/NO/AA/wiki_27
+Opening  Wikiextractor/NO/AA/wiki_28
+Opening  Wikiextractor/NO/AA/wiki_29
+Opening  Wikiextractor/NO/AA/wiki_30
+Opening  Wikiextractor/NO/AA/wiki_31
+Opening  Wikiextractor/NO/AA/wiki_32
+Opening  Wikiextractor/NO/AA/wiki_33
+Opening  Wikiextractor/NO/AA/wiki_34
+Opening  Wikiextractor/NO/AA/wiki_35
+Opening  Wikiextractor/NO/AA/wiki_36
+Opening  Wikiextractor/NO/AA/wiki_37
+Opening  Wikiextractor/NO/AA/wiki_38
+Opening  Wikiextractor/NO/AA/wiki_39
+Opening  Wikiextractor/NO/AA/wiki_40
+Opening  Wikiextractor/NO/AA/wiki_41
+Opening  Wikiextractor/NO/AA/wiki_42
+Opening  Wikiextractor/NO/AA/wiki_43
+Opening  Wikiextractor/NO/AA/wiki_44
+Opening  Wikiextractor/NO/AA/wiki_45
+Opening  Wikiextractor/NO/AA/wiki_46
+Opening  Wikiextractor/NO/AA/wiki_47
+Opening  Wikiextractor/NO/AA/wiki_48
+Opening  Wikiextractor/NO/AA/wiki_49
+Opening  Wikiextractor/NO/AA/wiki_50
+Opening  Wikiextractor/NO/AA/wiki_51
+Opening  Wikiextractor/NO/AA/wiki_52
+Opening  Wikiextractor/NO/AA/wiki_53
+Opening  Wikiextractor/NO/AA/wiki_54
+Opening  Wikiextractor/NO/AA/wiki_55
+Opening  Wikiextractor/NO/AA/wiki_56
+Opening  Wikiextractor/NO/AA/wiki_57
+Opening  Wikiextractor/NO/AA/wiki_58
+Opening  Wikiextractor/NO/AA/wiki_59
+Opening  Wikiextractor/NO/AA/wiki_60
+Opening  Wikiextractor/NO/AA/wiki_61
+Opening  Wikiextractor/NO/AA/wiki_62
+Opening  Wikiextractor/NO/AA/wiki_63
+Opening  Wikiextractor/NO/AA/wiki_64
+Opening  Wikiextractor/NO/AA/wiki_65
+Opening  Wikiextractor/NO/AA/wiki_66
+Opening  Wikiextractor/NO/AA/wiki_67
+Opening  Wikiextractor/NO/AA/wiki_68
+Opening  Wikiextractor/NO/AA/wiki_69
+Opening  Wikiextractor/NO/AA/wiki_70
+Opening  Wikiextractor/NO/AA/wiki_71
+Opening  Wikiextractor/NO/AA/wiki_72
+Opening  Wikiextractor/NO/AA/wiki_73
+Opening  Wikiextractor/NO/AA/wiki_74
+Opening  Wikiextractor/NO/AA/wiki_75
+Opening  Wikiextractor/NO/AA/wiki_76
+Opening  Wikiextractor/NO/AA/wiki_77
+Opening  Wikiextractor/NO/AA/wiki_78
+Opening  Wikiextractor/NO/AA/wiki_79
+Opening  Wikiextractor/NO/AA/wiki_80
+Opening  Wikiextractor/NO/AA/wiki_81
+Opening  Wikiextractor/NO/AA/wiki_82
+Opening  Wikiextractor/NO/AA/wiki_83
+Opening  Wikiextractor/NO/AA/wiki_84
+Opening  Wikiextractor/NO/AA/wiki_85
+Opening  Wikiextractor/NO/AA/wiki_86
+Opening  Wikiextractor/NO/AA/wiki_87
+Opening  Wikiextractor/NO/AA/wiki_88
+Opening  Wikiextractor/NO/AA/wiki_89
+Opening  Wikiextractor/NO/AA/wiki_90
+Opening  Wikiextractor/NO/AA/wiki_91
+Opening  Wikiextractor/NO/AA/wiki_92
+Opening  Wikiextractor/NO/AA/wiki_93
+Opening  Wikiextractor/NO/AA/wiki_94
+Opening  Wikiextractor/NO/AA/wiki_95
+Opening  Wikiextractor/NO/AA/wiki_96
+Opening  Wikiextractor/NO/AA/wiki_97
+Opening  Wikiextractor/NO/AA/wiki_98
+Opening  Wikiextractor/NO/AA/wiki_99
+Opening  Wikiextractor/NO/AB/wiki_00
+Opening  Wikiextractor/NO/AB/wiki_01
+Opening  Wikiextractor/NO/AB/wiki_02
+Opening  Wikiextractor/NO/AB/wiki_03
+Opening  Wikiextractor/NO/AB/wiki_04
+Opening  Wikiextractor/NO/AB/wiki_05
+Opening  Wikiextractor/NO/AB/wiki_06
+Opening  Wikiextractor/NO/AB/wiki_07
+Opening  Wikiextractor/NO/AB/wiki_08
+Opening  Wikiextractor/NO/AB/wiki_09
+Opening  Wikiextractor/NO/AB/wiki_10
+Opening  Wikiextractor/NO/AB/wiki_11
+Opening  Wikiextractor/NO/AB/wiki_12
+Opening  Wikiextractor/NO/AB/wiki_13
+Opening  Wikiextractor/NO/AB/wiki_14
+Opening  Wikiextractor/NO/AB/wiki_15
+Opening  Wikiextractor/NO/AB/wiki_16
+	 part 2 counted 	(current memory:  1.5002842184844334 ) 	(time elapsed:  974.4583308696747 )
+	 counts and ranks aligned 	(current memory:  1.5002842184844334 ) 	(time elapsed:  983.7178251743317 )
+Relative size of subset 1:  0.5000138933947277
+	most common:  [('i', 2011103), ('og', 1465943), ('av', 871475), ('som', 791360), ('en', 762775), ('er', 716021), ('til', 641969), ('på', 596152), ('ble', 509755), ('den', 499151)]
+	highest ranked:  [('i', 2011746), ('og', 1467185), ('av', 873193), ('som', 791683), ('en', 761356), ('er', 716021), ('til', 641504), ('på', 595292), ('ble', 512522), ('den', 499542)]
+
+
+
+STATS:
+{
+number of types: 1702145,
+relative number of types in subset 1: 0.6851437450980968,
+number of tokens: 85688201,
+TTR: 0.019864403501714315,
+types in intersection: 630035,
+tokens in intersection: 84393315,
+words: 85688201,
+paragraphs: 1972020,
+articles: 482595,
+highest ranked discordant pair: (('kan', 87717), ('første', 87668)),
+}
+
+........................................................................................................................................................................................................
+########################################################################################################################################################################################################
+### Processing  TR  on splitting level  ArticleSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.02974867820739746 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.05722951889038086 )
+Opening  Wikiextractor/TR/AA/wiki_00
+Opening  Wikiextractor/TR/AA/wiki_01
+Opening  Wikiextractor/TR/AA/wiki_02
+Opening  Wikiextractor/TR/AA/wiki_03
+Opening  Wikiextractor/TR/AA/wiki_04
+Opening  Wikiextractor/TR/AA/wiki_05
+Opening  Wikiextractor/TR/AA/wiki_06
+Opening  Wikiextractor/TR/AA/wiki_07
+Opening  Wikiextractor/TR/AA/wiki_08
+Opening  Wikiextractor/TR/AA/wiki_09
+Opening  Wikiextractor/TR/AA/wiki_10
+Opening  Wikiextractor/TR/AA/wiki_11
+Opening  Wikiextractor/TR/AA/wiki_12
+Opening  Wikiextractor/TR/AA/wiki_13
+Opening  Wikiextractor/TR/AA/wiki_14
+Opening  Wikiextractor/TR/AA/wiki_15
+Opening  Wikiextractor/TR/AA/wiki_16
+Opening  Wikiextractor/TR/AA/wiki_17
+Opening  Wikiextractor/TR/AA/wiki_18
+Opening  Wikiextractor/TR/AA/wiki_19
+Opening  Wikiextractor/TR/AA/wiki_20
+Opening  Wikiextractor/TR/AA/wiki_21
+Opening  Wikiextractor/TR/AA/wiki_22
+Opening  Wikiextractor/TR/AA/wiki_23
+Opening  Wikiextractor/TR/AA/wiki_24
+Opening  Wikiextractor/TR/AA/wiki_25
+Opening  Wikiextractor/TR/AA/wiki_26
+Opening  Wikiextractor/TR/AA/wiki_27
+Opening  Wikiextractor/TR/AA/wiki_28
+Opening  Wikiextractor/TR/AA/wiki_29
+Opening  Wikiextractor/TR/AA/wiki_30
+Opening  Wikiextractor/TR/AA/wiki_31
+Opening  Wikiextractor/TR/AA/wiki_32
+Opening  Wikiextractor/TR/AA/wiki_33
+Opening  Wikiextractor/TR/AA/wiki_34
+Opening  Wikiextractor/TR/AA/wiki_35
+Opening  Wikiextractor/TR/AA/wiki_36
+Opening  Wikiextractor/TR/AA/wiki_37
+Opening  Wikiextractor/TR/AA/wiki_38
+Opening  Wikiextractor/TR/AA/wiki_39
+Opening  Wikiextractor/TR/AA/wiki_40
+Opening  Wikiextractor/TR/AA/wiki_41
+Opening  Wikiextractor/TR/AA/wiki_42
+Opening  Wikiextractor/TR/AA/wiki_43
+Opening  Wikiextractor/TR/AA/wiki_44
+Opening  Wikiextractor/TR/AA/wiki_45
+Opening  Wikiextractor/TR/AA/wiki_46
+Opening  Wikiextractor/TR/AA/wiki_47
+Opening  Wikiextractor/TR/AA/wiki_48
+Opening  Wikiextractor/TR/AA/wiki_49
+Opening  Wikiextractor/TR/AA/wiki_50
+Opening  Wikiextractor/TR/AA/wiki_51
+Opening  Wikiextractor/TR/AA/wiki_52
+Opening  Wikiextractor/TR/AA/wiki_53
+Opening  Wikiextractor/TR/AA/wiki_54
+Opening  Wikiextractor/TR/AA/wiki_55
+Opening  Wikiextractor/TR/AA/wiki_56
+Opening  Wikiextractor/TR/AA/wiki_57
+Opening  Wikiextractor/TR/AA/wiki_58
+Opening  Wikiextractor/TR/AA/wiki_59
+Opening  Wikiextractor/TR/AA/wiki_60
+Opening  Wikiextractor/TR/AA/wiki_61
+Opening  Wikiextractor/TR/AA/wiki_62
+Opening  Wikiextractor/TR/AA/wiki_63
+Opening  Wikiextractor/TR/AA/wiki_64
+Opening  Wikiextractor/TR/AA/wiki_65
+Opening  Wikiextractor/TR/AA/wiki_66
+Opening  Wikiextractor/TR/AA/wiki_67
+Opening  Wikiextractor/TR/AA/wiki_68
+Opening  Wikiextractor/TR/AA/wiki_69
+Opening  Wikiextractor/TR/AA/wiki_70
+Opening  Wikiextractor/TR/AA/wiki_71
+Opening  Wikiextractor/TR/AA/wiki_72
+Opening  Wikiextractor/TR/AA/wiki_73
+Opening  Wikiextractor/TR/AA/wiki_74
+Opening  Wikiextractor/TR/AA/wiki_75
+Opening  Wikiextractor/TR/AA/wiki_76
+Opening  Wikiextractor/TR/AA/wiki_77
+Opening  Wikiextractor/TR/AA/wiki_78
+Opening  Wikiextractor/TR/AA/wiki_79
+Opening  Wikiextractor/TR/AA/wiki_80
+Opening  Wikiextractor/TR/AA/wiki_81
+Opening  Wikiextractor/TR/AA/wiki_82
+Opening  Wikiextractor/TR/AA/wiki_83
+Opening  Wikiextractor/TR/AA/wiki_84
+Opening  Wikiextractor/TR/AA/wiki_85
+Opening  Wikiextractor/TR/AA/wiki_86
+Opening  Wikiextractor/TR/AA/wiki_87
+Opening  Wikiextractor/TR/AA/wiki_88
+	 part 1 counted 	(current memory:  1.0107876567346845 ) 	(time elapsed:  313.16973209381104 )
+Opening  Wikiextractor/TR/AA/wiki_00
+Opening  Wikiextractor/TR/AA/wiki_01
+Opening  Wikiextractor/TR/AA/wiki_02
+Opening  Wikiextractor/TR/AA/wiki_03
+Opening  Wikiextractor/TR/AA/wiki_04
+Opening  Wikiextractor/TR/AA/wiki_05
+Opening  Wikiextractor/TR/AA/wiki_06
+Opening  Wikiextractor/TR/AA/wiki_07
+Opening  Wikiextractor/TR/AA/wiki_08
+Opening  Wikiextractor/TR/AA/wiki_09
+Opening  Wikiextractor/TR/AA/wiki_10
+Opening  Wikiextractor/TR/AA/wiki_11
+Opening  Wikiextractor/TR/AA/wiki_12
+Opening  Wikiextractor/TR/AA/wiki_13
+Opening  Wikiextractor/TR/AA/wiki_14
+Opening  Wikiextractor/TR/AA/wiki_15
+Opening  Wikiextractor/TR/AA/wiki_16
+Opening  Wikiextractor/TR/AA/wiki_17
+Opening  Wikiextractor/TR/AA/wiki_18
+Opening  Wikiextractor/TR/AA/wiki_19
+Opening  Wikiextractor/TR/AA/wiki_20
+Opening  Wikiextractor/TR/AA/wiki_21
+Opening  Wikiextractor/TR/AA/wiki_22
+Opening  Wikiextractor/TR/AA/wiki_23
+Opening  Wikiextractor/TR/AA/wiki_24
+Opening  Wikiextractor/TR/AA/wiki_25
+Opening  Wikiextractor/TR/AA/wiki_26
+Opening  Wikiextractor/TR/AA/wiki_27
+Opening  Wikiextractor/TR/AA/wiki_28
+Opening  Wikiextractor/TR/AA/wiki_29
+Opening  Wikiextractor/TR/AA/wiki_30
+Opening  Wikiextractor/TR/AA/wiki_31
+Opening  Wikiextractor/TR/AA/wiki_32
+Opening  Wikiextractor/TR/AA/wiki_33
+Opening  Wikiextractor/TR/AA/wiki_34
+Opening  Wikiextractor/TR/AA/wiki_35
+Opening  Wikiextractor/TR/AA/wiki_36
+Opening  Wikiextractor/TR/AA/wiki_37
+Opening  Wikiextractor/TR/AA/wiki_38
+Opening  Wikiextractor/TR/AA/wiki_39
+Opening  Wikiextractor/TR/AA/wiki_40
+Opening  Wikiextractor/TR/AA/wiki_41
+Opening  Wikiextractor/TR/AA/wiki_42
+Opening  Wikiextractor/TR/AA/wiki_43
+Opening  Wikiextractor/TR/AA/wiki_44
+Opening  Wikiextractor/TR/AA/wiki_45
+Opening  Wikiextractor/TR/AA/wiki_46
+Opening  Wikiextractor/TR/AA/wiki_47
+Opening  Wikiextractor/TR/AA/wiki_48
+Opening  Wikiextractor/TR/AA/wiki_49
+Opening  Wikiextractor/TR/AA/wiki_50
+Opening  Wikiextractor/TR/AA/wiki_51
+Opening  Wikiextractor/TR/AA/wiki_52
+Opening  Wikiextractor/TR/AA/wiki_53
+Opening  Wikiextractor/TR/AA/wiki_54
+Opening  Wikiextractor/TR/AA/wiki_55
+Opening  Wikiextractor/TR/AA/wiki_56
+Opening  Wikiextractor/TR/AA/wiki_57
+Opening  Wikiextractor/TR/AA/wiki_58
+Opening  Wikiextractor/TR/AA/wiki_59
+Opening  Wikiextractor/TR/AA/wiki_60
+Opening  Wikiextractor/TR/AA/wiki_61
+Opening  Wikiextractor/TR/AA/wiki_62
+Opening  Wikiextractor/TR/AA/wiki_63
+Opening  Wikiextractor/TR/AA/wiki_64
+Opening  Wikiextractor/TR/AA/wiki_65
+Opening  Wikiextractor/TR/AA/wiki_66
+Opening  Wikiextractor/TR/AA/wiki_67
+Opening  Wikiextractor/TR/AA/wiki_68
+Opening  Wikiextractor/TR/AA/wiki_69
+Opening  Wikiextractor/TR/AA/wiki_70
+Opening  Wikiextractor/TR/AA/wiki_71
+Opening  Wikiextractor/TR/AA/wiki_72
+Opening  Wikiextractor/TR/AA/wiki_73
+Opening  Wikiextractor/TR/AA/wiki_74
+Opening  Wikiextractor/TR/AA/wiki_75
+Opening  Wikiextractor/TR/AA/wiki_76
+Opening  Wikiextractor/TR/AA/wiki_77
+Opening  Wikiextractor/TR/AA/wiki_78
+Opening  Wikiextractor/TR/AA/wiki_79
+Opening  Wikiextractor/TR/AA/wiki_80
+Opening  Wikiextractor/TR/AA/wiki_81
+Opening  Wikiextractor/TR/AA/wiki_82
+Opening  Wikiextractor/TR/AA/wiki_83
+Opening  Wikiextractor/TR/AA/wiki_84
+Opening  Wikiextractor/TR/AA/wiki_85
+Opening  Wikiextractor/TR/AA/wiki_86
+Opening  Wikiextractor/TR/AA/wiki_87
+Opening  Wikiextractor/TR/AA/wiki_88
+	 part 2 counted 	(current memory:  1.0107876567346845 ) 	(time elapsed:  601.9397597312927 )
+	 counts and ranks aligned 	(current memory:  0.6887358852190244 ) 	(time elapsed:  605.879798412323 )
+Relative size of subset 1:  0.5006907111828637
+	most common:  [('ve', 773303), ('bir', 453802), ('da', 239412), ('bu', 224950), ('de', 211120), ('olarak', 182150), ('ile', 178642), ('’', 135289), ('için', 121942), ('olan', 118578)]
+	highest ranked:  [('ve', 778640), ('bir', 456040), ('da', 242530), ('bu', 226712), ('de', 212493), ('olarak', 183032), ('ile', 179228), ('’', 132381), ('için', 122646), ('olan', 118604)]
+
+
+
+STATS:
+{
+number of types: 1249304,
+relative number of types in subset 1: 0.6741833853089401,
+number of tokens: 53744489,
+TTR: 0.02324524845700924,
+types in intersection: 438015,
+tokens in intersection: 52595422,
+words: 53744489,
+paragraphs: 1425438,
+articles: 300415,
+highest ranked discordant pair: (('ya', 58379), ('yer', 58747)),
+}
+
+........................................................................................................................................................................................................
+### Processing  TR  on splitting level  ParagraphSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.02296280860900879 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.04946255683898926 )
+Opening  Wikiextractor/TR/AA/wiki_00
+Opening  Wikiextractor/TR/AA/wiki_01
+Opening  Wikiextractor/TR/AA/wiki_02
+Opening  Wikiextractor/TR/AA/wiki_03
+Opening  Wikiextractor/TR/AA/wiki_04
+Opening  Wikiextractor/TR/AA/wiki_05
+Opening  Wikiextractor/TR/AA/wiki_06
+Opening  Wikiextractor/TR/AA/wiki_07
+Opening  Wikiextractor/TR/AA/wiki_08
+Opening  Wikiextractor/TR/AA/wiki_09
+Opening  Wikiextractor/TR/AA/wiki_10
+Opening  Wikiextractor/TR/AA/wiki_11
+Opening  Wikiextractor/TR/AA/wiki_12
+Opening  Wikiextractor/TR/AA/wiki_13
+Opening  Wikiextractor/TR/AA/wiki_14
+Opening  Wikiextractor/TR/AA/wiki_15
+Opening  Wikiextractor/TR/AA/wiki_16
+Opening  Wikiextractor/TR/AA/wiki_17
+Opening  Wikiextractor/TR/AA/wiki_18
+Opening  Wikiextractor/TR/AA/wiki_19
+Opening  Wikiextractor/TR/AA/wiki_20
+Opening  Wikiextractor/TR/AA/wiki_21
+Opening  Wikiextractor/TR/AA/wiki_22
+Opening  Wikiextractor/TR/AA/wiki_23
+Opening  Wikiextractor/TR/AA/wiki_24
+Opening  Wikiextractor/TR/AA/wiki_25
+Opening  Wikiextractor/TR/AA/wiki_26
+Opening  Wikiextractor/TR/AA/wiki_27
+Opening  Wikiextractor/TR/AA/wiki_28
+Opening  Wikiextractor/TR/AA/wiki_29
+Opening  Wikiextractor/TR/AA/wiki_30
+Opening  Wikiextractor/TR/AA/wiki_31
+Opening  Wikiextractor/TR/AA/wiki_32
+Opening  Wikiextractor/TR/AA/wiki_33
+Opening  Wikiextractor/TR/AA/wiki_34
+Opening  Wikiextractor/TR/AA/wiki_35
+Opening  Wikiextractor/TR/AA/wiki_36
+Opening  Wikiextractor/TR/AA/wiki_37
+Opening  Wikiextractor/TR/AA/wiki_38
+Opening  Wikiextractor/TR/AA/wiki_39
+Opening  Wikiextractor/TR/AA/wiki_40
+Opening  Wikiextractor/TR/AA/wiki_41
+Opening  Wikiextractor/TR/AA/wiki_42
+Opening  Wikiextractor/TR/AA/wiki_43
+Opening  Wikiextractor/TR/AA/wiki_44
+Opening  Wikiextractor/TR/AA/wiki_45
+Opening  Wikiextractor/TR/AA/wiki_46
+Opening  Wikiextractor/TR/AA/wiki_47
+Opening  Wikiextractor/TR/AA/wiki_48
+Opening  Wikiextractor/TR/AA/wiki_49
+Opening  Wikiextractor/TR/AA/wiki_50
+Opening  Wikiextractor/TR/AA/wiki_51
+Opening  Wikiextractor/TR/AA/wiki_52
+Opening  Wikiextractor/TR/AA/wiki_53
+Opening  Wikiextractor/TR/AA/wiki_54
+Opening  Wikiextractor/TR/AA/wiki_55
+Opening  Wikiextractor/TR/AA/wiki_56
+Opening  Wikiextractor/TR/AA/wiki_57
+Opening  Wikiextractor/TR/AA/wiki_58
+Opening  Wikiextractor/TR/AA/wiki_59
+Opening  Wikiextractor/TR/AA/wiki_60
+Opening  Wikiextractor/TR/AA/wiki_61
+Opening  Wikiextractor/TR/AA/wiki_62
+Opening  Wikiextractor/TR/AA/wiki_63
+Opening  Wikiextractor/TR/AA/wiki_64
+Opening  Wikiextractor/TR/AA/wiki_65
+Opening  Wikiextractor/TR/AA/wiki_66
+Opening  Wikiextractor/TR/AA/wiki_67
+Opening  Wikiextractor/TR/AA/wiki_68
+Opening  Wikiextractor/TR/AA/wiki_69
+Opening  Wikiextractor/TR/AA/wiki_70
+Opening  Wikiextractor/TR/AA/wiki_71
+Opening  Wikiextractor/TR/AA/wiki_72
+Opening  Wikiextractor/TR/AA/wiki_73
+Opening  Wikiextractor/TR/AA/wiki_74
+Opening  Wikiextractor/TR/AA/wiki_75
+Opening  Wikiextractor/TR/AA/wiki_76
+Opening  Wikiextractor/TR/AA/wiki_77
+Opening  Wikiextractor/TR/AA/wiki_78
+Opening  Wikiextractor/TR/AA/wiki_79
+Opening  Wikiextractor/TR/AA/wiki_80
+Opening  Wikiextractor/TR/AA/wiki_81
+Opening  Wikiextractor/TR/AA/wiki_82
+Opening  Wikiextractor/TR/AA/wiki_83
+Opening  Wikiextractor/TR/AA/wiki_84
+Opening  Wikiextractor/TR/AA/wiki_85
+Opening  Wikiextractor/TR/AA/wiki_86
+Opening  Wikiextractor/TR/AA/wiki_87
+Opening  Wikiextractor/TR/AA/wiki_88
+	 part 1 counted 	(current memory:  1.0 ) 	(time elapsed:  303.517338514328 )
+Opening  Wikiextractor/TR/AA/wiki_00
+Opening  Wikiextractor/TR/AA/wiki_01
+Opening  Wikiextractor/TR/AA/wiki_02
+Opening  Wikiextractor/TR/AA/wiki_03
+Opening  Wikiextractor/TR/AA/wiki_04
+Opening  Wikiextractor/TR/AA/wiki_05
+Opening  Wikiextractor/TR/AA/wiki_06
+Opening  Wikiextractor/TR/AA/wiki_07
+Opening  Wikiextractor/TR/AA/wiki_08
+Opening  Wikiextractor/TR/AA/wiki_09
+Opening  Wikiextractor/TR/AA/wiki_10
+Opening  Wikiextractor/TR/AA/wiki_11
+Opening  Wikiextractor/TR/AA/wiki_12
+Opening  Wikiextractor/TR/AA/wiki_13
+Opening  Wikiextractor/TR/AA/wiki_14
+Opening  Wikiextractor/TR/AA/wiki_15
+Opening  Wikiextractor/TR/AA/wiki_16
+Opening  Wikiextractor/TR/AA/wiki_17
+Opening  Wikiextractor/TR/AA/wiki_18
+Opening  Wikiextractor/TR/AA/wiki_19
+Opening  Wikiextractor/TR/AA/wiki_20
+Opening  Wikiextractor/TR/AA/wiki_21
+Opening  Wikiextractor/TR/AA/wiki_22
+Opening  Wikiextractor/TR/AA/wiki_23
+Opening  Wikiextractor/TR/AA/wiki_24
+Opening  Wikiextractor/TR/AA/wiki_25
+Opening  Wikiextractor/TR/AA/wiki_26
+Opening  Wikiextractor/TR/AA/wiki_27
+Opening  Wikiextractor/TR/AA/wiki_28
+Opening  Wikiextractor/TR/AA/wiki_29
+Opening  Wikiextractor/TR/AA/wiki_30
+Opening  Wikiextractor/TR/AA/wiki_31
+Opening  Wikiextractor/TR/AA/wiki_32
+Opening  Wikiextractor/TR/AA/wiki_33
+Opening  Wikiextractor/TR/AA/wiki_34
+Opening  Wikiextractor/TR/AA/wiki_35
+Opening  Wikiextractor/TR/AA/wiki_36
+Opening  Wikiextractor/TR/AA/wiki_37
+Opening  Wikiextractor/TR/AA/wiki_38
+Opening  Wikiextractor/TR/AA/wiki_39
+Opening  Wikiextractor/TR/AA/wiki_40
+Opening  Wikiextractor/TR/AA/wiki_41
+Opening  Wikiextractor/TR/AA/wiki_42
+Opening  Wikiextractor/TR/AA/wiki_43
+Opening  Wikiextractor/TR/AA/wiki_44
+Opening  Wikiextractor/TR/AA/wiki_45
+Opening  Wikiextractor/TR/AA/wiki_46
+Opening  Wikiextractor/TR/AA/wiki_47
+Opening  Wikiextractor/TR/AA/wiki_48
+Opening  Wikiextractor/TR/AA/wiki_49
+Opening  Wikiextractor/TR/AA/wiki_50
+Opening  Wikiextractor/TR/AA/wiki_51
+Opening  Wikiextractor/TR/AA/wiki_52
+Opening  Wikiextractor/TR/AA/wiki_53
+Opening  Wikiextractor/TR/AA/wiki_54
+Opening  Wikiextractor/TR/AA/wiki_55
+Opening  Wikiextractor/TR/AA/wiki_56
+Opening  Wikiextractor/TR/AA/wiki_57
+Opening  Wikiextractor/TR/AA/wiki_58
+Opening  Wikiextractor/TR/AA/wiki_59
+Opening  Wikiextractor/TR/AA/wiki_60
+Opening  Wikiextractor/TR/AA/wiki_61
+Opening  Wikiextractor/TR/AA/wiki_62
+Opening  Wikiextractor/TR/AA/wiki_63
+Opening  Wikiextractor/TR/AA/wiki_64
+Opening  Wikiextractor/TR/AA/wiki_65
+Opening  Wikiextractor/TR/AA/wiki_66
+Opening  Wikiextractor/TR/AA/wiki_67
+Opening  Wikiextractor/TR/AA/wiki_68
+Opening  Wikiextractor/TR/AA/wiki_69
+Opening  Wikiextractor/TR/AA/wiki_70
+Opening  Wikiextractor/TR/AA/wiki_71
+Opening  Wikiextractor/TR/AA/wiki_72
+Opening  Wikiextractor/TR/AA/wiki_73
+Opening  Wikiextractor/TR/AA/wiki_74
+Opening  Wikiextractor/TR/AA/wiki_75
+Opening  Wikiextractor/TR/AA/wiki_76
+Opening  Wikiextractor/TR/AA/wiki_77
+Opening  Wikiextractor/TR/AA/wiki_78
+Opening  Wikiextractor/TR/AA/wiki_79
+Opening  Wikiextractor/TR/AA/wiki_80
+Opening  Wikiextractor/TR/AA/wiki_81
+Opening  Wikiextractor/TR/AA/wiki_82
+Opening  Wikiextractor/TR/AA/wiki_83
+Opening  Wikiextractor/TR/AA/wiki_84
+Opening  Wikiextractor/TR/AA/wiki_85
+Opening  Wikiextractor/TR/AA/wiki_86
+Opening  Wikiextractor/TR/AA/wiki_87
+Opening  Wikiextractor/TR/AA/wiki_88
+	 part 2 counted 	(current memory:  1.0 ) 	(time elapsed:  601.3346433639526 )
+	 counts and ranks aligned 	(current memory:  1.0 ) 	(time elapsed:  604.836021900177 )
+Relative size of subset 1:  0.5005058094424311
+	most common:  [('ve', 777455), ('bir', 455588), ('da', 241075), ('bu', 225870), ('de', 211963), ('olarak', 182911), ('ile', 178480), ('’', 134198), ('için', 122171), ('olan', 118567)]
+	highest ranked:  [('ve', 774488), ('bir', 454254), ('da', 240867), ('bu', 225792), ('de', 211650), ('olarak', 182271), ('ile', 179390), ('’', 133472), ('için', 122417), ('olan', 118615)]
+
+
+
+STATS:
+{
+number of types: 1249304,
+relative number of types in subset 1: 0.6900137996836638,
+number of tokens: 53744489,
+TTR: 0.02324524845700924,
+types in intersection: 472407,
+tokens in intersection: 52759737,
+words: 53744489,
+paragraphs: 1425438,
+articles: 300415,
+highest ranked discordant pair: (('daha', 79028), ('in', 79008)),
+}
+
+........................................................................................................................................................................................................
+### Processing  TR  on splitting level  WordSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.026909589767456055 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.05227494239807129 )
+Opening  Wikiextractor/TR/AA/wiki_00
+Opening  Wikiextractor/TR/AA/wiki_01
+Opening  Wikiextractor/TR/AA/wiki_02
+Opening  Wikiextractor/TR/AA/wiki_03
+Opening  Wikiextractor/TR/AA/wiki_04
+Opening  Wikiextractor/TR/AA/wiki_05
+Opening  Wikiextractor/TR/AA/wiki_06
+Opening  Wikiextractor/TR/AA/wiki_07
+Opening  Wikiextractor/TR/AA/wiki_08
+Opening  Wikiextractor/TR/AA/wiki_09
+Opening  Wikiextractor/TR/AA/wiki_10
+Opening  Wikiextractor/TR/AA/wiki_11
+Opening  Wikiextractor/TR/AA/wiki_12
+Opening  Wikiextractor/TR/AA/wiki_13
+Opening  Wikiextractor/TR/AA/wiki_14
+Opening  Wikiextractor/TR/AA/wiki_15
+Opening  Wikiextractor/TR/AA/wiki_16
+Opening  Wikiextractor/TR/AA/wiki_17
+Opening  Wikiextractor/TR/AA/wiki_18
+Opening  Wikiextractor/TR/AA/wiki_19
+Opening  Wikiextractor/TR/AA/wiki_20
+Opening  Wikiextractor/TR/AA/wiki_21
+Opening  Wikiextractor/TR/AA/wiki_22
+Opening  Wikiextractor/TR/AA/wiki_23
+Opening  Wikiextractor/TR/AA/wiki_24
+Opening  Wikiextractor/TR/AA/wiki_25
+Opening  Wikiextractor/TR/AA/wiki_26
+Opening  Wikiextractor/TR/AA/wiki_27
+Opening  Wikiextractor/TR/AA/wiki_28
+Opening  Wikiextractor/TR/AA/wiki_29
+Opening  Wikiextractor/TR/AA/wiki_30
+Opening  Wikiextractor/TR/AA/wiki_31
+Opening  Wikiextractor/TR/AA/wiki_32
+Opening  Wikiextractor/TR/AA/wiki_33
+Opening  Wikiextractor/TR/AA/wiki_34
+Opening  Wikiextractor/TR/AA/wiki_35
+Opening  Wikiextractor/TR/AA/wiki_36
+Opening  Wikiextractor/TR/AA/wiki_37
+Opening  Wikiextractor/TR/AA/wiki_38
+Opening  Wikiextractor/TR/AA/wiki_39
+Opening  Wikiextractor/TR/AA/wiki_40
+Opening  Wikiextractor/TR/AA/wiki_41
+Opening  Wikiextractor/TR/AA/wiki_42
+Opening  Wikiextractor/TR/AA/wiki_43
+Opening  Wikiextractor/TR/AA/wiki_44
+Opening  Wikiextractor/TR/AA/wiki_45
+Opening  Wikiextractor/TR/AA/wiki_46
+Opening  Wikiextractor/TR/AA/wiki_47
+Opening  Wikiextractor/TR/AA/wiki_48
+Opening  Wikiextractor/TR/AA/wiki_49
+Opening  Wikiextractor/TR/AA/wiki_50
+Opening  Wikiextractor/TR/AA/wiki_51
+Opening  Wikiextractor/TR/AA/wiki_52
+Opening  Wikiextractor/TR/AA/wiki_53
+Opening  Wikiextractor/TR/AA/wiki_54
+Opening  Wikiextractor/TR/AA/wiki_55
+Opening  Wikiextractor/TR/AA/wiki_56
+Opening  Wikiextractor/TR/AA/wiki_57
+Opening  Wikiextractor/TR/AA/wiki_58
+Opening  Wikiextractor/TR/AA/wiki_59
+Opening  Wikiextractor/TR/AA/wiki_60
+Opening  Wikiextractor/TR/AA/wiki_61
+Opening  Wikiextractor/TR/AA/wiki_62
+Opening  Wikiextractor/TR/AA/wiki_63
+Opening  Wikiextractor/TR/AA/wiki_64
+Opening  Wikiextractor/TR/AA/wiki_65
+Opening  Wikiextractor/TR/AA/wiki_66
+Opening  Wikiextractor/TR/AA/wiki_67
+Opening  Wikiextractor/TR/AA/wiki_68
+Opening  Wikiextractor/TR/AA/wiki_69
+Opening  Wikiextractor/TR/AA/wiki_70
+Opening  Wikiextractor/TR/AA/wiki_71
+Opening  Wikiextractor/TR/AA/wiki_72
+Opening  Wikiextractor/TR/AA/wiki_73
+Opening  Wikiextractor/TR/AA/wiki_74
+Opening  Wikiextractor/TR/AA/wiki_75
+Opening  Wikiextractor/TR/AA/wiki_76
+Opening  Wikiextractor/TR/AA/wiki_77
+Opening  Wikiextractor/TR/AA/wiki_78
+Opening  Wikiextractor/TR/AA/wiki_79
+Opening  Wikiextractor/TR/AA/wiki_80
+Opening  Wikiextractor/TR/AA/wiki_81
+Opening  Wikiextractor/TR/AA/wiki_82
+Opening  Wikiextractor/TR/AA/wiki_83
+Opening  Wikiextractor/TR/AA/wiki_84
+Opening  Wikiextractor/TR/AA/wiki_85
+Opening  Wikiextractor/TR/AA/wiki_86
+Opening  Wikiextractor/TR/AA/wiki_87
+Opening  Wikiextractor/TR/AA/wiki_88
+	 part 1 counted 	(current memory:  1.3001484014674303 ) 	(time elapsed:  392.3724808692932 )
+Opening  Wikiextractor/TR/AA/wiki_00
+Opening  Wikiextractor/TR/AA/wiki_01
+Opening  Wikiextractor/TR/AA/wiki_02
+Opening  Wikiextractor/TR/AA/wiki_03
+Opening  Wikiextractor/TR/AA/wiki_04
+Opening  Wikiextractor/TR/AA/wiki_05
+Opening  Wikiextractor/TR/AA/wiki_06
+Opening  Wikiextractor/TR/AA/wiki_07
+Opening  Wikiextractor/TR/AA/wiki_08
+Opening  Wikiextractor/TR/AA/wiki_09
+Opening  Wikiextractor/TR/AA/wiki_10
+Opening  Wikiextractor/TR/AA/wiki_11
+Opening  Wikiextractor/TR/AA/wiki_12
+Opening  Wikiextractor/TR/AA/wiki_13
+Opening  Wikiextractor/TR/AA/wiki_14
+Opening  Wikiextractor/TR/AA/wiki_15
+Opening  Wikiextractor/TR/AA/wiki_16
+Opening  Wikiextractor/TR/AA/wiki_17
+Opening  Wikiextractor/TR/AA/wiki_18
+Opening  Wikiextractor/TR/AA/wiki_19
+Opening  Wikiextractor/TR/AA/wiki_20
+Opening  Wikiextractor/TR/AA/wiki_21
+Opening  Wikiextractor/TR/AA/wiki_22
+Opening  Wikiextractor/TR/AA/wiki_23
+Opening  Wikiextractor/TR/AA/wiki_24
+Opening  Wikiextractor/TR/AA/wiki_25
+Opening  Wikiextractor/TR/AA/wiki_26
+Opening  Wikiextractor/TR/AA/wiki_27
+Opening  Wikiextractor/TR/AA/wiki_28
+Opening  Wikiextractor/TR/AA/wiki_29
+Opening  Wikiextractor/TR/AA/wiki_30
+Opening  Wikiextractor/TR/AA/wiki_31
+Opening  Wikiextractor/TR/AA/wiki_32
+Opening  Wikiextractor/TR/AA/wiki_33
+Opening  Wikiextractor/TR/AA/wiki_34
+Opening  Wikiextractor/TR/AA/wiki_35
+Opening  Wikiextractor/TR/AA/wiki_36
+Opening  Wikiextractor/TR/AA/wiki_37
+Opening  Wikiextractor/TR/AA/wiki_38
+Opening  Wikiextractor/TR/AA/wiki_39
+Opening  Wikiextractor/TR/AA/wiki_40
+Opening  Wikiextractor/TR/AA/wiki_41
+Opening  Wikiextractor/TR/AA/wiki_42
+Opening  Wikiextractor/TR/AA/wiki_43
+Opening  Wikiextractor/TR/AA/wiki_44
+Opening  Wikiextractor/TR/AA/wiki_45
+Opening  Wikiextractor/TR/AA/wiki_46
+Opening  Wikiextractor/TR/AA/wiki_47
+Opening  Wikiextractor/TR/AA/wiki_48
+Opening  Wikiextractor/TR/AA/wiki_49
+Opening  Wikiextractor/TR/AA/wiki_50
+Opening  Wikiextractor/TR/AA/wiki_51
+Opening  Wikiextractor/TR/AA/wiki_52
+Opening  Wikiextractor/TR/AA/wiki_53
+Opening  Wikiextractor/TR/AA/wiki_54
+Opening  Wikiextractor/TR/AA/wiki_55
+Opening  Wikiextractor/TR/AA/wiki_56
+Opening  Wikiextractor/TR/AA/wiki_57
+Opening  Wikiextractor/TR/AA/wiki_58
+Opening  Wikiextractor/TR/AA/wiki_59
+Opening  Wikiextractor/TR/AA/wiki_60
+Opening  Wikiextractor/TR/AA/wiki_61
+Opening  Wikiextractor/TR/AA/wiki_62
+Opening  Wikiextractor/TR/AA/wiki_63
+Opening  Wikiextractor/TR/AA/wiki_64
+Opening  Wikiextractor/TR/AA/wiki_65
+Opening  Wikiextractor/TR/AA/wiki_66
+Opening  Wikiextractor/TR/AA/wiki_67
+Opening  Wikiextractor/TR/AA/wiki_68
+Opening  Wikiextractor/TR/AA/wiki_69
+Opening  Wikiextractor/TR/AA/wiki_70
+Opening  Wikiextractor/TR/AA/wiki_71
+Opening  Wikiextractor/TR/AA/wiki_72
+Opening  Wikiextractor/TR/AA/wiki_73
+Opening  Wikiextractor/TR/AA/wiki_74
+Opening  Wikiextractor/TR/AA/wiki_75
+Opening  Wikiextractor/TR/AA/wiki_76
+Opening  Wikiextractor/TR/AA/wiki_77
+Opening  Wikiextractor/TR/AA/wiki_78
+Opening  Wikiextractor/TR/AA/wiki_79
+Opening  Wikiextractor/TR/AA/wiki_80
+Opening  Wikiextractor/TR/AA/wiki_81
+Opening  Wikiextractor/TR/AA/wiki_82
+Opening  Wikiextractor/TR/AA/wiki_83
+Opening  Wikiextractor/TR/AA/wiki_84
+Opening  Wikiextractor/TR/AA/wiki_85
+Opening  Wikiextractor/TR/AA/wiki_86
+Opening  Wikiextractor/TR/AA/wiki_87
+Opening  Wikiextractor/TR/AA/wiki_88
+	 part 2 counted 	(current memory:  1.3001484014674303 ) 	(time elapsed:  716.9521024227142 )
+	 counts and ranks aligned 	(current memory:  1.3001484014674303 ) 	(time elapsed:  723.2001588344574 )
+Relative size of subset 1:  0.4999834122527428
+	most common:  [('ve', 776224), ('bir', 455357), ('da', 241133), ('bu', 225850), ('de', 211393), ('olarak', 183329), ('ile', 178948), ('’', 133898), ('için', 122831), ('olan', 118292)]
+	highest ranked:  [('ve', 775719), ('bir', 454485), ('da', 240809), ('bu', 225812), ('de', 212220), ('olarak', 181853), ('ile', 178922), ('’', 133772), ('için', 121757), ('olan', 118890)]
+
+
+
+STATS:
+{
+number of types: 1249304,
+relative number of types in subset 1: 0.6978509634164303,
+number of tokens: 53744489,
+TTR: 0.02324524845700924,
+types in intersection: 493719,
+tokens in intersection: 52827818,
+words: 53744489,
+paragraphs: 1425438,
+articles: 300415,
+highest ranked discordant pair: (('yer', 58972), ('ya', 58912)),
+}
+
+........................................................................................................................................................................................................
+########################################################################################################################################################################################################
+### Processing  VI  on splitting level  ArticleSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.045838117599487305 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.07361602783203125 )
+Opening  Wikiextractor/VI/AA/wiki_00
+Opening  Wikiextractor/VI/AA/wiki_01
+Opening  Wikiextractor/VI/AA/wiki_02
+Opening  Wikiextractor/VI/AA/wiki_03
+Opening  Wikiextractor/VI/AA/wiki_04
+Opening  Wikiextractor/VI/AA/wiki_05
+Opening  Wikiextractor/VI/AA/wiki_06
+Opening  Wikiextractor/VI/AA/wiki_07
+Opening  Wikiextractor/VI/AA/wiki_08
+Opening  Wikiextractor/VI/AA/wiki_09
+Opening  Wikiextractor/VI/AA/wiki_10
+Opening  Wikiextractor/VI/AA/wiki_11
+Opening  Wikiextractor/VI/AA/wiki_12
+Opening  Wikiextractor/VI/AA/wiki_13
+Opening  Wikiextractor/VI/AA/wiki_14
+Opening  Wikiextractor/VI/AA/wiki_15
+Opening  Wikiextractor/VI/AA/wiki_16
+Opening  Wikiextractor/VI/AA/wiki_17
+Opening  Wikiextractor/VI/AA/wiki_18
+Opening  Wikiextractor/VI/AA/wiki_19
+Opening  Wikiextractor/VI/AA/wiki_20
+Opening  Wikiextractor/VI/AA/wiki_21
+Opening  Wikiextractor/VI/AA/wiki_22
+Opening  Wikiextractor/VI/AA/wiki_23
+Opening  Wikiextractor/VI/AA/wiki_24
+Opening  Wikiextractor/VI/AA/wiki_25
+Opening  Wikiextractor/VI/AA/wiki_26
+Opening  Wikiextractor/VI/AA/wiki_27
+Opening  Wikiextractor/VI/AA/wiki_28
+Opening  Wikiextractor/VI/AA/wiki_29
+Opening  Wikiextractor/VI/AA/wiki_30
+Opening  Wikiextractor/VI/AA/wiki_31
+Opening  Wikiextractor/VI/AA/wiki_32
+Opening  Wikiextractor/VI/AA/wiki_33
+Opening  Wikiextractor/VI/AA/wiki_34
+Opening  Wikiextractor/VI/AA/wiki_35
+Opening  Wikiextractor/VI/AA/wiki_36
+Opening  Wikiextractor/VI/AA/wiki_37
+Opening  Wikiextractor/VI/AA/wiki_38
+Opening  Wikiextractor/VI/AA/wiki_39
+Opening  Wikiextractor/VI/AA/wiki_40
+Opening  Wikiextractor/VI/AA/wiki_41
+Opening  Wikiextractor/VI/AA/wiki_42
+Opening  Wikiextractor/VI/AA/wiki_43
+Opening  Wikiextractor/VI/AA/wiki_44
+Opening  Wikiextractor/VI/AA/wiki_45
+Opening  Wikiextractor/VI/AA/wiki_46
+Opening  Wikiextractor/VI/AA/wiki_47
+Opening  Wikiextractor/VI/AA/wiki_48
+Opening  Wikiextractor/VI/AA/wiki_49
+Opening  Wikiextractor/VI/AA/wiki_50
+Opening  Wikiextractor/VI/AA/wiki_51
+Opening  Wikiextractor/VI/AA/wiki_52
+Opening  Wikiextractor/VI/AA/wiki_53
+Opening  Wikiextractor/VI/AA/wiki_54
+Opening  Wikiextractor/VI/AA/wiki_55
+Opening  Wikiextractor/VI/AA/wiki_56
+Opening  Wikiextractor/VI/AA/wiki_57
+Opening  Wikiextractor/VI/AA/wiki_58
+Opening  Wikiextractor/VI/AA/wiki_59
+Opening  Wikiextractor/VI/AA/wiki_60
+Opening  Wikiextractor/VI/AA/wiki_61
+Opening  Wikiextractor/VI/AA/wiki_62
+Opening  Wikiextractor/VI/AA/wiki_63
+Opening  Wikiextractor/VI/AA/wiki_64
+Opening  Wikiextractor/VI/AA/wiki_65
+Opening  Wikiextractor/VI/AA/wiki_66
+Opening  Wikiextractor/VI/AA/wiki_67
+Opening  Wikiextractor/VI/AA/wiki_68
+Opening  Wikiextractor/VI/AA/wiki_69
+Opening  Wikiextractor/VI/AA/wiki_70
+Opening  Wikiextractor/VI/AA/wiki_71
+Opening  Wikiextractor/VI/AA/wiki_72
+Opening  Wikiextractor/VI/AA/wiki_73
+Opening  Wikiextractor/VI/AA/wiki_74
+Opening  Wikiextractor/VI/AA/wiki_75
+Opening  Wikiextractor/VI/AA/wiki_76
+Opening  Wikiextractor/VI/AA/wiki_77
+Opening  Wikiextractor/VI/AA/wiki_78
+Opening  Wikiextractor/VI/AA/wiki_79
+Opening  Wikiextractor/VI/AA/wiki_80
+Opening  Wikiextractor/VI/AA/wiki_81
+Opening  Wikiextractor/VI/AA/wiki_82
+Opening  Wikiextractor/VI/AA/wiki_83
+Opening  Wikiextractor/VI/AA/wiki_84
+Opening  Wikiextractor/VI/AA/wiki_85
+Opening  Wikiextractor/VI/AA/wiki_86
+Opening  Wikiextractor/VI/AA/wiki_87
+Opening  Wikiextractor/VI/AA/wiki_88
+Opening  Wikiextractor/VI/AA/wiki_89
+Opening  Wikiextractor/VI/AA/wiki_90
+Opening  Wikiextractor/VI/AA/wiki_91
+Opening  Wikiextractor/VI/AA/wiki_92
+Opening  Wikiextractor/VI/AA/wiki_93
+Opening  Wikiextractor/VI/AA/wiki_94
+Opening  Wikiextractor/VI/AA/wiki_95
+Opening  Wikiextractor/VI/AA/wiki_96
+Opening  Wikiextractor/VI/AA/wiki_97
+Opening  Wikiextractor/VI/AA/wiki_98
+Opening  Wikiextractor/VI/AA/wiki_99
+Opening  Wikiextractor/VI/AB/wiki_00
+Opening  Wikiextractor/VI/AB/wiki_01
+Opening  Wikiextractor/VI/AB/wiki_02
+Opening  Wikiextractor/VI/AB/wiki_03
+Opening  Wikiextractor/VI/AB/wiki_04
+Opening  Wikiextractor/VI/AB/wiki_05
+Opening  Wikiextractor/VI/AB/wiki_06
+Opening  Wikiextractor/VI/AB/wiki_07
+Opening  Wikiextractor/VI/AB/wiki_08
+Opening  Wikiextractor/VI/AB/wiki_09
+Opening  Wikiextractor/VI/AB/wiki_10
+Opening  Wikiextractor/VI/AB/wiki_11
+Opening  Wikiextractor/VI/AB/wiki_12
+Opening  Wikiextractor/VI/AB/wiki_13
+Opening  Wikiextractor/VI/AB/wiki_14
+Opening  Wikiextractor/VI/AB/wiki_15
+Opening  Wikiextractor/VI/AB/wiki_16
+Opening  Wikiextractor/VI/AB/wiki_17
+Opening  Wikiextractor/VI/AB/wiki_18
+Opening  Wikiextractor/VI/AB/wiki_19
+Opening  Wikiextractor/VI/AB/wiki_20
+Opening  Wikiextractor/VI/AB/wiki_21
+Opening  Wikiextractor/VI/AB/wiki_22
+Opening  Wikiextractor/VI/AB/wiki_23
+Opening  Wikiextractor/VI/AB/wiki_24
+Opening  Wikiextractor/VI/AB/wiki_25
+Opening  Wikiextractor/VI/AB/wiki_26
+Opening  Wikiextractor/VI/AB/wiki_27
+Opening  Wikiextractor/VI/AB/wiki_28
+Opening  Wikiextractor/VI/AB/wiki_29
+Opening  Wikiextractor/VI/AB/wiki_30
+Opening  Wikiextractor/VI/AB/wiki_31
+Opening  Wikiextractor/VI/AB/wiki_32
+Opening  Wikiextractor/VI/AB/wiki_33
+Opening  Wikiextractor/VI/AB/wiki_34
+Opening  Wikiextractor/VI/AB/wiki_35
+Opening  Wikiextractor/VI/AB/wiki_36
+Opening  Wikiextractor/VI/AB/wiki_37
+Opening  Wikiextractor/VI/AB/wiki_38
+Opening  Wikiextractor/VI/AB/wiki_39
+Opening  Wikiextractor/VI/AB/wiki_40
+Opening  Wikiextractor/VI/AB/wiki_41
+Opening  Wikiextractor/VI/AB/wiki_42
+Opening  Wikiextractor/VI/AB/wiki_43
+Opening  Wikiextractor/VI/AB/wiki_44
+Opening  Wikiextractor/VI/AB/wiki_45
+Opening  Wikiextractor/VI/AB/wiki_46
+Opening  Wikiextractor/VI/AB/wiki_47
+Opening  Wikiextractor/VI/AB/wiki_48
+Opening  Wikiextractor/VI/AB/wiki_49
+Opening  Wikiextractor/VI/AB/wiki_50
+Opening  Wikiextractor/VI/AB/wiki_51
+Opening  Wikiextractor/VI/AB/wiki_52
+Opening  Wikiextractor/VI/AB/wiki_53
+Opening  Wikiextractor/VI/AB/wiki_54
+Opening  Wikiextractor/VI/AB/wiki_55
+Opening  Wikiextractor/VI/AB/wiki_56
+Opening  Wikiextractor/VI/AB/wiki_57
+Opening  Wikiextractor/VI/AB/wiki_58
+Opening  Wikiextractor/VI/AB/wiki_59
+Opening  Wikiextractor/VI/AB/wiki_60
+Opening  Wikiextractor/VI/AB/wiki_61
+Opening  Wikiextractor/VI/AB/wiki_62
+Opening  Wikiextractor/VI/AB/wiki_63
+	 part 1 counted 	(current memory:  0.9721832388678631 ) 	(time elapsed:  491.4153230190277 )
+Opening  Wikiextractor/VI/AA/wiki_00
+Opening  Wikiextractor/VI/AA/wiki_01
+Opening  Wikiextractor/VI/AA/wiki_02
+Opening  Wikiextractor/VI/AA/wiki_03
+Opening  Wikiextractor/VI/AA/wiki_04
+Opening  Wikiextractor/VI/AA/wiki_05
+Opening  Wikiextractor/VI/AA/wiki_06
+Opening  Wikiextractor/VI/AA/wiki_07
+Opening  Wikiextractor/VI/AA/wiki_08
+Opening  Wikiextractor/VI/AA/wiki_09
+Opening  Wikiextractor/VI/AA/wiki_10
+Opening  Wikiextractor/VI/AA/wiki_11
+Opening  Wikiextractor/VI/AA/wiki_12
+Opening  Wikiextractor/VI/AA/wiki_13
+Opening  Wikiextractor/VI/AA/wiki_14
+Opening  Wikiextractor/VI/AA/wiki_15
+Opening  Wikiextractor/VI/AA/wiki_16
+Opening  Wikiextractor/VI/AA/wiki_17
+Opening  Wikiextractor/VI/AA/wiki_18
+Opening  Wikiextractor/VI/AA/wiki_19
+Opening  Wikiextractor/VI/AA/wiki_20
+Opening  Wikiextractor/VI/AA/wiki_21
+Opening  Wikiextractor/VI/AA/wiki_22
+Opening  Wikiextractor/VI/AA/wiki_23
+Opening  Wikiextractor/VI/AA/wiki_24
+Opening  Wikiextractor/VI/AA/wiki_25
+Opening  Wikiextractor/VI/AA/wiki_26
+Opening  Wikiextractor/VI/AA/wiki_27
+Opening  Wikiextractor/VI/AA/wiki_28
+Opening  Wikiextractor/VI/AA/wiki_29
+Opening  Wikiextractor/VI/AA/wiki_30
+Opening  Wikiextractor/VI/AA/wiki_31
+Opening  Wikiextractor/VI/AA/wiki_32
+Opening  Wikiextractor/VI/AA/wiki_33
+Opening  Wikiextractor/VI/AA/wiki_34
+Opening  Wikiextractor/VI/AA/wiki_35
+Opening  Wikiextractor/VI/AA/wiki_36
+Opening  Wikiextractor/VI/AA/wiki_37
+Opening  Wikiextractor/VI/AA/wiki_38
+Opening  Wikiextractor/VI/AA/wiki_39
+Opening  Wikiextractor/VI/AA/wiki_40
+Opening  Wikiextractor/VI/AA/wiki_41
+Opening  Wikiextractor/VI/AA/wiki_42
+Opening  Wikiextractor/VI/AA/wiki_43
+Opening  Wikiextractor/VI/AA/wiki_44
+Opening  Wikiextractor/VI/AA/wiki_45
+Opening  Wikiextractor/VI/AA/wiki_46
+Opening  Wikiextractor/VI/AA/wiki_47
+Opening  Wikiextractor/VI/AA/wiki_48
+Opening  Wikiextractor/VI/AA/wiki_49
+Opening  Wikiextractor/VI/AA/wiki_50
+Opening  Wikiextractor/VI/AA/wiki_51
+Opening  Wikiextractor/VI/AA/wiki_52
+Opening  Wikiextractor/VI/AA/wiki_53
+Opening  Wikiextractor/VI/AA/wiki_54
+Opening  Wikiextractor/VI/AA/wiki_55
+Opening  Wikiextractor/VI/AA/wiki_56
+Opening  Wikiextractor/VI/AA/wiki_57
+Opening  Wikiextractor/VI/AA/wiki_58
+Opening  Wikiextractor/VI/AA/wiki_59
+Opening  Wikiextractor/VI/AA/wiki_60
+Opening  Wikiextractor/VI/AA/wiki_61
+Opening  Wikiextractor/VI/AA/wiki_62
+Opening  Wikiextractor/VI/AA/wiki_63
+Opening  Wikiextractor/VI/AA/wiki_64
+Opening  Wikiextractor/VI/AA/wiki_65
+Opening  Wikiextractor/VI/AA/wiki_66
+Opening  Wikiextractor/VI/AA/wiki_67
+Opening  Wikiextractor/VI/AA/wiki_68
+Opening  Wikiextractor/VI/AA/wiki_69
+Opening  Wikiextractor/VI/AA/wiki_70
+Opening  Wikiextractor/VI/AA/wiki_71
+Opening  Wikiextractor/VI/AA/wiki_72
+Opening  Wikiextractor/VI/AA/wiki_73
+Opening  Wikiextractor/VI/AA/wiki_74
+Opening  Wikiextractor/VI/AA/wiki_75
+Opening  Wikiextractor/VI/AA/wiki_76
+Opening  Wikiextractor/VI/AA/wiki_77
+Opening  Wikiextractor/VI/AA/wiki_78
+Opening  Wikiextractor/VI/AA/wiki_79
+Opening  Wikiextractor/VI/AA/wiki_80
+Opening  Wikiextractor/VI/AA/wiki_81
+Opening  Wikiextractor/VI/AA/wiki_82
+Opening  Wikiextractor/VI/AA/wiki_83
+Opening  Wikiextractor/VI/AA/wiki_84
+Opening  Wikiextractor/VI/AA/wiki_85
+Opening  Wikiextractor/VI/AA/wiki_86
+Opening  Wikiextractor/VI/AA/wiki_87
+Opening  Wikiextractor/VI/AA/wiki_88
+Opening  Wikiextractor/VI/AA/wiki_89
+Opening  Wikiextractor/VI/AA/wiki_90
+Opening  Wikiextractor/VI/AA/wiki_91
+Opening  Wikiextractor/VI/AA/wiki_92
+Opening  Wikiextractor/VI/AA/wiki_93
+Opening  Wikiextractor/VI/AA/wiki_94
+Opening  Wikiextractor/VI/AA/wiki_95
+Opening  Wikiextractor/VI/AA/wiki_96
+Opening  Wikiextractor/VI/AA/wiki_97
+Opening  Wikiextractor/VI/AA/wiki_98
+Opening  Wikiextractor/VI/AA/wiki_99
+Opening  Wikiextractor/VI/AB/wiki_00
+Opening  Wikiextractor/VI/AB/wiki_01
+Opening  Wikiextractor/VI/AB/wiki_02
+Opening  Wikiextractor/VI/AB/wiki_03
+Opening  Wikiextractor/VI/AB/wiki_04
+Opening  Wikiextractor/VI/AB/wiki_05
+Opening  Wikiextractor/VI/AB/wiki_06
+Opening  Wikiextractor/VI/AB/wiki_07
+Opening  Wikiextractor/VI/AB/wiki_08
+Opening  Wikiextractor/VI/AB/wiki_09
+Opening  Wikiextractor/VI/AB/wiki_10
+Opening  Wikiextractor/VI/AB/wiki_11
+Opening  Wikiextractor/VI/AB/wiki_12
+Opening  Wikiextractor/VI/AB/wiki_13
+Opening  Wikiextractor/VI/AB/wiki_14
+Opening  Wikiextractor/VI/AB/wiki_15
+Opening  Wikiextractor/VI/AB/wiki_16
+Opening  Wikiextractor/VI/AB/wiki_17
+Opening  Wikiextractor/VI/AB/wiki_18
+Opening  Wikiextractor/VI/AB/wiki_19
+Opening  Wikiextractor/VI/AB/wiki_20
+Opening  Wikiextractor/VI/AB/wiki_21
+Opening  Wikiextractor/VI/AB/wiki_22
+Opening  Wikiextractor/VI/AB/wiki_23
+Opening  Wikiextractor/VI/AB/wiki_24
+Opening  Wikiextractor/VI/AB/wiki_25
+Opening  Wikiextractor/VI/AB/wiki_26
+Opening  Wikiextractor/VI/AB/wiki_27
+Opening  Wikiextractor/VI/AB/wiki_28
+Opening  Wikiextractor/VI/AB/wiki_29
+Opening  Wikiextractor/VI/AB/wiki_30
+Opening  Wikiextractor/VI/AB/wiki_31
+Opening  Wikiextractor/VI/AB/wiki_32
+Opening  Wikiextractor/VI/AB/wiki_33
+Opening  Wikiextractor/VI/AB/wiki_34
+Opening  Wikiextractor/VI/AB/wiki_35
+Opening  Wikiextractor/VI/AB/wiki_36
+Opening  Wikiextractor/VI/AB/wiki_37
+Opening  Wikiextractor/VI/AB/wiki_38
+Opening  Wikiextractor/VI/AB/wiki_39
+Opening  Wikiextractor/VI/AB/wiki_40
+Opening  Wikiextractor/VI/AB/wiki_41
+Opening  Wikiextractor/VI/AB/wiki_42
+Opening  Wikiextractor/VI/AB/wiki_43
+Opening  Wikiextractor/VI/AB/wiki_44
+Opening  Wikiextractor/VI/AB/wiki_45
+Opening  Wikiextractor/VI/AB/wiki_46
+Opening  Wikiextractor/VI/AB/wiki_47
+Opening  Wikiextractor/VI/AB/wiki_48
+Opening  Wikiextractor/VI/AB/wiki_49
+Opening  Wikiextractor/VI/AB/wiki_50
+Opening  Wikiextractor/VI/AB/wiki_51
+Opening  Wikiextractor/VI/AB/wiki_52
+Opening  Wikiextractor/VI/AB/wiki_53
+Opening  Wikiextractor/VI/AB/wiki_54
+Opening  Wikiextractor/VI/AB/wiki_55
+Opening  Wikiextractor/VI/AB/wiki_56
+Opening  Wikiextractor/VI/AB/wiki_57
+Opening  Wikiextractor/VI/AB/wiki_58
+Opening  Wikiextractor/VI/AB/wiki_59
+Opening  Wikiextractor/VI/AB/wiki_60
+Opening  Wikiextractor/VI/AB/wiki_61
+Opening  Wikiextractor/VI/AB/wiki_62
+Opening  Wikiextractor/VI/AB/wiki_63
+	 part 2 counted 	(current memory:  0.9581424406497293 ) 	(time elapsed:  950.3862338066101 )
+	 counts and ranks aligned 	(current memory:  0.7205376383028811 ) 	(time elapsed:  954.0655295848846 )
+Relative size of subset 1:  0.5001445091677305
+	most common:  [('là', 1263287), ('một', 1020581), ('và', 864091), ('trong', 853596), ('của', 833928), ('được', 821992), ('năm', 743126), ('loài', 696723), ('có', 651662), ('các', 521808)]
+	highest ranked:  [('là', 1255899), ('một', 1013142), ('và', 851491), ('trong', 848741), ('của', 819649), ('được', 812451), ('năm', 734388), ('loài', 697398), ('có', 648009), ('các', 515151)]
+
+
+
+STATS:
+{
+number of types: 984833,
+relative number of types in subset 1: 0.645673936596357,
+number of tokens: 116597143,
+TTR: 0.008446459104062267,
+types in intersection: 286743,
+tokens in intersection: 115596836,
+words: 116597143,
+paragraphs: 2408102,
+articles: 1162556,
+highest ranked discordant pair: (('thành', 261124), ('khoa', 259144)),
+}
+
+........................................................................................................................................................................................................
+### Processing  VI  on splitting level  ParagraphSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.023221254348754883 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.06495475769042969 )
+Opening  Wikiextractor/VI/AA/wiki_00
+Opening  Wikiextractor/VI/AA/wiki_01
+Opening  Wikiextractor/VI/AA/wiki_02
+Opening  Wikiextractor/VI/AA/wiki_03
+Opening  Wikiextractor/VI/AA/wiki_04
+Opening  Wikiextractor/VI/AA/wiki_05
+Opening  Wikiextractor/VI/AA/wiki_06
+Opening  Wikiextractor/VI/AA/wiki_07
+Opening  Wikiextractor/VI/AA/wiki_08
+Opening  Wikiextractor/VI/AA/wiki_09
+Opening  Wikiextractor/VI/AA/wiki_10
+Opening  Wikiextractor/VI/AA/wiki_11
+Opening  Wikiextractor/VI/AA/wiki_12
+Opening  Wikiextractor/VI/AA/wiki_13
+Opening  Wikiextractor/VI/AA/wiki_14
+Opening  Wikiextractor/VI/AA/wiki_15
+Opening  Wikiextractor/VI/AA/wiki_16
+Opening  Wikiextractor/VI/AA/wiki_17
+Opening  Wikiextractor/VI/AA/wiki_18
+Opening  Wikiextractor/VI/AA/wiki_19
+Opening  Wikiextractor/VI/AA/wiki_20
+Opening  Wikiextractor/VI/AA/wiki_21
+Opening  Wikiextractor/VI/AA/wiki_22
+Opening  Wikiextractor/VI/AA/wiki_23
+Opening  Wikiextractor/VI/AA/wiki_24
+Opening  Wikiextractor/VI/AA/wiki_25
+Opening  Wikiextractor/VI/AA/wiki_26
+Opening  Wikiextractor/VI/AA/wiki_27
+Opening  Wikiextractor/VI/AA/wiki_28
+Opening  Wikiextractor/VI/AA/wiki_29
+Opening  Wikiextractor/VI/AA/wiki_30
+Opening  Wikiextractor/VI/AA/wiki_31
+Opening  Wikiextractor/VI/AA/wiki_32
+Opening  Wikiextractor/VI/AA/wiki_33
+Opening  Wikiextractor/VI/AA/wiki_34
+Opening  Wikiextractor/VI/AA/wiki_35
+Opening  Wikiextractor/VI/AA/wiki_36
+Opening  Wikiextractor/VI/AA/wiki_37
+Opening  Wikiextractor/VI/AA/wiki_38
+Opening  Wikiextractor/VI/AA/wiki_39
+Opening  Wikiextractor/VI/AA/wiki_40
+Opening  Wikiextractor/VI/AA/wiki_41
+Opening  Wikiextractor/VI/AA/wiki_42
+Opening  Wikiextractor/VI/AA/wiki_43
+Opening  Wikiextractor/VI/AA/wiki_44
+Opening  Wikiextractor/VI/AA/wiki_45
+Opening  Wikiextractor/VI/AA/wiki_46
+Opening  Wikiextractor/VI/AA/wiki_47
+Opening  Wikiextractor/VI/AA/wiki_48
+Opening  Wikiextractor/VI/AA/wiki_49
+Opening  Wikiextractor/VI/AA/wiki_50
+Opening  Wikiextractor/VI/AA/wiki_51
+Opening  Wikiextractor/VI/AA/wiki_52
+Opening  Wikiextractor/VI/AA/wiki_53
+Opening  Wikiextractor/VI/AA/wiki_54
+Opening  Wikiextractor/VI/AA/wiki_55
+Opening  Wikiextractor/VI/AA/wiki_56
+Opening  Wikiextractor/VI/AA/wiki_57
+Opening  Wikiextractor/VI/AA/wiki_58
+Opening  Wikiextractor/VI/AA/wiki_59
+Opening  Wikiextractor/VI/AA/wiki_60
+Opening  Wikiextractor/VI/AA/wiki_61
+Opening  Wikiextractor/VI/AA/wiki_62
+Opening  Wikiextractor/VI/AA/wiki_63
+Opening  Wikiextractor/VI/AA/wiki_64
+Opening  Wikiextractor/VI/AA/wiki_65
+Opening  Wikiextractor/VI/AA/wiki_66
+Opening  Wikiextractor/VI/AA/wiki_67
+Opening  Wikiextractor/VI/AA/wiki_68
+Opening  Wikiextractor/VI/AA/wiki_69
+Opening  Wikiextractor/VI/AA/wiki_70
+Opening  Wikiextractor/VI/AA/wiki_71
+Opening  Wikiextractor/VI/AA/wiki_72
+Opening  Wikiextractor/VI/AA/wiki_73
+Opening  Wikiextractor/VI/AA/wiki_74
+Opening  Wikiextractor/VI/AA/wiki_75
+Opening  Wikiextractor/VI/AA/wiki_76
+Opening  Wikiextractor/VI/AA/wiki_77
+Opening  Wikiextractor/VI/AA/wiki_78
+Opening  Wikiextractor/VI/AA/wiki_79
+Opening  Wikiextractor/VI/AA/wiki_80
+Opening  Wikiextractor/VI/AA/wiki_81
+Opening  Wikiextractor/VI/AA/wiki_82
+Opening  Wikiextractor/VI/AA/wiki_83
+Opening  Wikiextractor/VI/AA/wiki_84
+Opening  Wikiextractor/VI/AA/wiki_85
+Opening  Wikiextractor/VI/AA/wiki_86
+Opening  Wikiextractor/VI/AA/wiki_87
+Opening  Wikiextractor/VI/AA/wiki_88
+Opening  Wikiextractor/VI/AA/wiki_89
+Opening  Wikiextractor/VI/AA/wiki_90
+Opening  Wikiextractor/VI/AA/wiki_91
+Opening  Wikiextractor/VI/AA/wiki_92
+Opening  Wikiextractor/VI/AA/wiki_93
+Opening  Wikiextractor/VI/AA/wiki_94
+Opening  Wikiextractor/VI/AA/wiki_95
+Opening  Wikiextractor/VI/AA/wiki_96
+Opening  Wikiextractor/VI/AA/wiki_97
+Opening  Wikiextractor/VI/AA/wiki_98
+Opening  Wikiextractor/VI/AA/wiki_99
+Opening  Wikiextractor/VI/AB/wiki_00
+Opening  Wikiextractor/VI/AB/wiki_01
+Opening  Wikiextractor/VI/AB/wiki_02
+Opening  Wikiextractor/VI/AB/wiki_03
+Opening  Wikiextractor/VI/AB/wiki_04
+Opening  Wikiextractor/VI/AB/wiki_05
+Opening  Wikiextractor/VI/AB/wiki_06
+Opening  Wikiextractor/VI/AB/wiki_07
+Opening  Wikiextractor/VI/AB/wiki_08
+Opening  Wikiextractor/VI/AB/wiki_09
+Opening  Wikiextractor/VI/AB/wiki_10
+Opening  Wikiextractor/VI/AB/wiki_11
+Opening  Wikiextractor/VI/AB/wiki_12
+Opening  Wikiextractor/VI/AB/wiki_13
+Opening  Wikiextractor/VI/AB/wiki_14
+Opening  Wikiextractor/VI/AB/wiki_15
+Opening  Wikiextractor/VI/AB/wiki_16
+Opening  Wikiextractor/VI/AB/wiki_17
+Opening  Wikiextractor/VI/AB/wiki_18
+Opening  Wikiextractor/VI/AB/wiki_19
+Opening  Wikiextractor/VI/AB/wiki_20
+Opening  Wikiextractor/VI/AB/wiki_21
+Opening  Wikiextractor/VI/AB/wiki_22
+Opening  Wikiextractor/VI/AB/wiki_23
+Opening  Wikiextractor/VI/AB/wiki_24
+Opening  Wikiextractor/VI/AB/wiki_25
+Opening  Wikiextractor/VI/AB/wiki_26
+Opening  Wikiextractor/VI/AB/wiki_27
+Opening  Wikiextractor/VI/AB/wiki_28
+Opening  Wikiextractor/VI/AB/wiki_29
+Opening  Wikiextractor/VI/AB/wiki_30
+Opening  Wikiextractor/VI/AB/wiki_31
+Opening  Wikiextractor/VI/AB/wiki_32
+Opening  Wikiextractor/VI/AB/wiki_33
+Opening  Wikiextractor/VI/AB/wiki_34
+Opening  Wikiextractor/VI/AB/wiki_35
+Opening  Wikiextractor/VI/AB/wiki_36
+Opening  Wikiextractor/VI/AB/wiki_37
+Opening  Wikiextractor/VI/AB/wiki_38
+Opening  Wikiextractor/VI/AB/wiki_39
+Opening  Wikiextractor/VI/AB/wiki_40
+Opening  Wikiextractor/VI/AB/wiki_41
+Opening  Wikiextractor/VI/AB/wiki_42
+Opening  Wikiextractor/VI/AB/wiki_43
+Opening  Wikiextractor/VI/AB/wiki_44
+Opening  Wikiextractor/VI/AB/wiki_45
+Opening  Wikiextractor/VI/AB/wiki_46
+Opening  Wikiextractor/VI/AB/wiki_47
+Opening  Wikiextractor/VI/AB/wiki_48
+Opening  Wikiextractor/VI/AB/wiki_49
+Opening  Wikiextractor/VI/AB/wiki_50
+Opening  Wikiextractor/VI/AB/wiki_51
+Opening  Wikiextractor/VI/AB/wiki_52
+Opening  Wikiextractor/VI/AB/wiki_53
+Opening  Wikiextractor/VI/AB/wiki_54
+Opening  Wikiextractor/VI/AB/wiki_55
+Opening  Wikiextractor/VI/AB/wiki_56
+Opening  Wikiextractor/VI/AB/wiki_57
+Opening  Wikiextractor/VI/AB/wiki_58
+Opening  Wikiextractor/VI/AB/wiki_59
+Opening  Wikiextractor/VI/AB/wiki_60
+Opening  Wikiextractor/VI/AB/wiki_61
+Opening  Wikiextractor/VI/AB/wiki_62
+Opening  Wikiextractor/VI/AB/wiki_63
+	 part 1 counted 	(current memory:  1.0 ) 	(time elapsed:  487.039564371109 )
+Opening  Wikiextractor/VI/AA/wiki_00
+Opening  Wikiextractor/VI/AA/wiki_01
+Opening  Wikiextractor/VI/AA/wiki_02
+Opening  Wikiextractor/VI/AA/wiki_03
+Opening  Wikiextractor/VI/AA/wiki_04
+Opening  Wikiextractor/VI/AA/wiki_05
+Opening  Wikiextractor/VI/AA/wiki_06
+Opening  Wikiextractor/VI/AA/wiki_07
+Opening  Wikiextractor/VI/AA/wiki_08
+Opening  Wikiextractor/VI/AA/wiki_09
+Opening  Wikiextractor/VI/AA/wiki_10
+Opening  Wikiextractor/VI/AA/wiki_11
+Opening  Wikiextractor/VI/AA/wiki_12
+Opening  Wikiextractor/VI/AA/wiki_13
+Opening  Wikiextractor/VI/AA/wiki_14
+Opening  Wikiextractor/VI/AA/wiki_15
+Opening  Wikiextractor/VI/AA/wiki_16
+Opening  Wikiextractor/VI/AA/wiki_17
+Opening  Wikiextractor/VI/AA/wiki_18
+Opening  Wikiextractor/VI/AA/wiki_19
+Opening  Wikiextractor/VI/AA/wiki_20
+Opening  Wikiextractor/VI/AA/wiki_21
+Opening  Wikiextractor/VI/AA/wiki_22
+Opening  Wikiextractor/VI/AA/wiki_23
+Opening  Wikiextractor/VI/AA/wiki_24
+Opening  Wikiextractor/VI/AA/wiki_25
+Opening  Wikiextractor/VI/AA/wiki_26
+Opening  Wikiextractor/VI/AA/wiki_27
+Opening  Wikiextractor/VI/AA/wiki_28
+Opening  Wikiextractor/VI/AA/wiki_29
+Opening  Wikiextractor/VI/AA/wiki_30
+Opening  Wikiextractor/VI/AA/wiki_31
+Opening  Wikiextractor/VI/AA/wiki_32
+Opening  Wikiextractor/VI/AA/wiki_33
+Opening  Wikiextractor/VI/AA/wiki_34
+Opening  Wikiextractor/VI/AA/wiki_35
+Opening  Wikiextractor/VI/AA/wiki_36
+Opening  Wikiextractor/VI/AA/wiki_37
+Opening  Wikiextractor/VI/AA/wiki_38
+Opening  Wikiextractor/VI/AA/wiki_39
+Opening  Wikiextractor/VI/AA/wiki_40
+Opening  Wikiextractor/VI/AA/wiki_41
+Opening  Wikiextractor/VI/AA/wiki_42
+Opening  Wikiextractor/VI/AA/wiki_43
+Opening  Wikiextractor/VI/AA/wiki_44
+Opening  Wikiextractor/VI/AA/wiki_45
+Opening  Wikiextractor/VI/AA/wiki_46
+Opening  Wikiextractor/VI/AA/wiki_47
+Opening  Wikiextractor/VI/AA/wiki_48
+Opening  Wikiextractor/VI/AA/wiki_49
+Opening  Wikiextractor/VI/AA/wiki_50
+Opening  Wikiextractor/VI/AA/wiki_51
+Opening  Wikiextractor/VI/AA/wiki_52
+Opening  Wikiextractor/VI/AA/wiki_53
+Opening  Wikiextractor/VI/AA/wiki_54
+Opening  Wikiextractor/VI/AA/wiki_55
+Opening  Wikiextractor/VI/AA/wiki_56
+Opening  Wikiextractor/VI/AA/wiki_57
+Opening  Wikiextractor/VI/AA/wiki_58
+Opening  Wikiextractor/VI/AA/wiki_59
+Opening  Wikiextractor/VI/AA/wiki_60
+Opening  Wikiextractor/VI/AA/wiki_61
+Opening  Wikiextractor/VI/AA/wiki_62
+Opening  Wikiextractor/VI/AA/wiki_63
+Opening  Wikiextractor/VI/AA/wiki_64
+Opening  Wikiextractor/VI/AA/wiki_65
+Opening  Wikiextractor/VI/AA/wiki_66
+Opening  Wikiextractor/VI/AA/wiki_67
+Opening  Wikiextractor/VI/AA/wiki_68
+Opening  Wikiextractor/VI/AA/wiki_69
+Opening  Wikiextractor/VI/AA/wiki_70
+Opening  Wikiextractor/VI/AA/wiki_71
+Opening  Wikiextractor/VI/AA/wiki_72
+Opening  Wikiextractor/VI/AA/wiki_73
+Opening  Wikiextractor/VI/AA/wiki_74
+Opening  Wikiextractor/VI/AA/wiki_75
+Opening  Wikiextractor/VI/AA/wiki_76
+Opening  Wikiextractor/VI/AA/wiki_77
+Opening  Wikiextractor/VI/AA/wiki_78
+Opening  Wikiextractor/VI/AA/wiki_79
+Opening  Wikiextractor/VI/AA/wiki_80
+Opening  Wikiextractor/VI/AA/wiki_81
+Opening  Wikiextractor/VI/AA/wiki_82
+Opening  Wikiextractor/VI/AA/wiki_83
+Opening  Wikiextractor/VI/AA/wiki_84
+Opening  Wikiextractor/VI/AA/wiki_85
+Opening  Wikiextractor/VI/AA/wiki_86
+Opening  Wikiextractor/VI/AA/wiki_87
+Opening  Wikiextractor/VI/AA/wiki_88
+Opening  Wikiextractor/VI/AA/wiki_89
+Opening  Wikiextractor/VI/AA/wiki_90
+Opening  Wikiextractor/VI/AA/wiki_91
+Opening  Wikiextractor/VI/AA/wiki_92
+Opening  Wikiextractor/VI/AA/wiki_93
+Opening  Wikiextractor/VI/AA/wiki_94
+Opening  Wikiextractor/VI/AA/wiki_95
+Opening  Wikiextractor/VI/AA/wiki_96
+Opening  Wikiextractor/VI/AA/wiki_97
+Opening  Wikiextractor/VI/AA/wiki_98
+Opening  Wikiextractor/VI/AA/wiki_99
+Opening  Wikiextractor/VI/AB/wiki_00
+Opening  Wikiextractor/VI/AB/wiki_01
+Opening  Wikiextractor/VI/AB/wiki_02
+Opening  Wikiextractor/VI/AB/wiki_03
+Opening  Wikiextractor/VI/AB/wiki_04
+Opening  Wikiextractor/VI/AB/wiki_05
+Opening  Wikiextractor/VI/AB/wiki_06
+Opening  Wikiextractor/VI/AB/wiki_07
+Opening  Wikiextractor/VI/AB/wiki_08
+Opening  Wikiextractor/VI/AB/wiki_09
+Opening  Wikiextractor/VI/AB/wiki_10
+Opening  Wikiextractor/VI/AB/wiki_11
+Opening  Wikiextractor/VI/AB/wiki_12
+Opening  Wikiextractor/VI/AB/wiki_13
+Opening  Wikiextractor/VI/AB/wiki_14
+Opening  Wikiextractor/VI/AB/wiki_15
+Opening  Wikiextractor/VI/AB/wiki_16
+Opening  Wikiextractor/VI/AB/wiki_17
+Opening  Wikiextractor/VI/AB/wiki_18
+Opening  Wikiextractor/VI/AB/wiki_19
+Opening  Wikiextractor/VI/AB/wiki_20
+Opening  Wikiextractor/VI/AB/wiki_21
+Opening  Wikiextractor/VI/AB/wiki_22
+Opening  Wikiextractor/VI/AB/wiki_23
+Opening  Wikiextractor/VI/AB/wiki_24
+Opening  Wikiextractor/VI/AB/wiki_25
+Opening  Wikiextractor/VI/AB/wiki_26
+Opening  Wikiextractor/VI/AB/wiki_27
+Opening  Wikiextractor/VI/AB/wiki_28
+Opening  Wikiextractor/VI/AB/wiki_29
+Opening  Wikiextractor/VI/AB/wiki_30
+Opening  Wikiextractor/VI/AB/wiki_31
+Opening  Wikiextractor/VI/AB/wiki_32
+Opening  Wikiextractor/VI/AB/wiki_33
+Opening  Wikiextractor/VI/AB/wiki_34
+Opening  Wikiextractor/VI/AB/wiki_35
+Opening  Wikiextractor/VI/AB/wiki_36
+Opening  Wikiextractor/VI/AB/wiki_37
+Opening  Wikiextractor/VI/AB/wiki_38
+Opening  Wikiextractor/VI/AB/wiki_39
+Opening  Wikiextractor/VI/AB/wiki_40
+Opening  Wikiextractor/VI/AB/wiki_41
+Opening  Wikiextractor/VI/AB/wiki_42
+Opening  Wikiextractor/VI/AB/wiki_43
+Opening  Wikiextractor/VI/AB/wiki_44
+Opening  Wikiextractor/VI/AB/wiki_45
+Opening  Wikiextractor/VI/AB/wiki_46
+Opening  Wikiextractor/VI/AB/wiki_47
+Opening  Wikiextractor/VI/AB/wiki_48
+Opening  Wikiextractor/VI/AB/wiki_49
+Opening  Wikiextractor/VI/AB/wiki_50
+Opening  Wikiextractor/VI/AB/wiki_51
+Opening  Wikiextractor/VI/AB/wiki_52
+Opening  Wikiextractor/VI/AB/wiki_53
+Opening  Wikiextractor/VI/AB/wiki_54
+Opening  Wikiextractor/VI/AB/wiki_55
+Opening  Wikiextractor/VI/AB/wiki_56
+Opening  Wikiextractor/VI/AB/wiki_57
+Opening  Wikiextractor/VI/AB/wiki_58
+Opening  Wikiextractor/VI/AB/wiki_59
+Opening  Wikiextractor/VI/AB/wiki_60
+Opening  Wikiextractor/VI/AB/wiki_61
+Opening  Wikiextractor/VI/AB/wiki_62
+Opening  Wikiextractor/VI/AB/wiki_63
+	 part 2 counted 	(current memory:  1.0197885396077115 ) 	(time elapsed:  951.7222578525543 )
+	 counts and ranks aligned 	(current memory:  1.019604745122191 ) 	(time elapsed:  954.3366055488586 )
+Relative size of subset 1:  0.5001220878517604
+	most common:  [('là', 1261219), ('một', 1017789), ('và', 858653), ('trong', 852665), ('của', 827745), ('được', 818837), ('năm', 739096), ('loài', 697438), ('có', 650861), ('các', 519868)]
+	highest ranked:  [('là', 1257967), ('một', 1015934), ('và', 856929), ('trong', 849672), ('của', 825832), ('được', 815606), ('năm', 738418), ('loài', 696683), ('có', 648810), ('các', 517091)]
+
+
+
+STATS:
+{
+number of types: 984833,
+relative number of types in subset 1: 0.664656850450787,
+number of tokens: 116597143,
+TTR: 0.008446459104062267,
+types in intersection: 320907,
+tokens in intersection: 115756306,
+words: 116597143,
+paragraphs: 2408102,
+articles: 1162556,
+highest ranked discordant pair: (('từ', 220414), ('tháng', 220321)),
+}
+
+........................................................................................................................................................................................................
+### Processing  VI  on splitting level  WordSplitter
+	 reader set up 	(current memory:  1.0 ) 	(time elapsed:  0.022222280502319336 )
+	 corpus split 	(current memory:  1.0 ) 	(time elapsed:  0.044287919998168945 )
+Opening  Wikiextractor/VI/AA/wiki_00
+Opening  Wikiextractor/VI/AA/wiki_01
+Opening  Wikiextractor/VI/AA/wiki_02
+Opening  Wikiextractor/VI/AA/wiki_03
+Opening  Wikiextractor/VI/AA/wiki_04
+Opening  Wikiextractor/VI/AA/wiki_05
+Opening  Wikiextractor/VI/AA/wiki_06
+Opening  Wikiextractor/VI/AA/wiki_07
+Opening  Wikiextractor/VI/AA/wiki_08
+Opening  Wikiextractor/VI/AA/wiki_09
+Opening  Wikiextractor/VI/AA/wiki_10
+Opening  Wikiextractor/VI/AA/wiki_11
+Opening  Wikiextractor/VI/AA/wiki_12
+Opening  Wikiextractor/VI/AA/wiki_13
+Opening  Wikiextractor/VI/AA/wiki_14
+Opening  Wikiextractor/VI/AA/wiki_15
+Opening  Wikiextractor/VI/AA/wiki_16
+Opening  Wikiextractor/VI/AA/wiki_17
+Opening  Wikiextractor/VI/AA/wiki_18
+Opening  Wikiextractor/VI/AA/wiki_19
+Opening  Wikiextractor/VI/AA/wiki_20
+Opening  Wikiextractor/VI/AA/wiki_21
+Opening  Wikiextractor/VI/AA/wiki_22
+Opening  Wikiextractor/VI/AA/wiki_23
+Opening  Wikiextractor/VI/AA/wiki_24
+Opening  Wikiextractor/VI/AA/wiki_25
+Opening  Wikiextractor/VI/AA/wiki_26
+Opening  Wikiextractor/VI/AA/wiki_27
+Opening  Wikiextractor/VI/AA/wiki_28
+Opening  Wikiextractor/VI/AA/wiki_29
+Opening  Wikiextractor/VI/AA/wiki_30
+Opening  Wikiextractor/VI/AA/wiki_31
+Opening  Wikiextractor/VI/AA/wiki_32
+Opening  Wikiextractor/VI/AA/wiki_33
+Opening  Wikiextractor/VI/AA/wiki_34
+Opening  Wikiextractor/VI/AA/wiki_35
+Opening  Wikiextractor/VI/AA/wiki_36
+Opening  Wikiextractor/VI/AA/wiki_37
+Opening  Wikiextractor/VI/AA/wiki_38
+Opening  Wikiextractor/VI/AA/wiki_39
+Opening  Wikiextractor/VI/AA/wiki_40
+Opening  Wikiextractor/VI/AA/wiki_41
+Opening  Wikiextractor/VI/AA/wiki_42
+Opening  Wikiextractor/VI/AA/wiki_43
+Opening  Wikiextractor/VI/AA/wiki_44
+Opening  Wikiextractor/VI/AA/wiki_45
+Opening  Wikiextractor/VI/AA/wiki_46
+Opening  Wikiextractor/VI/AA/wiki_47
+Opening  Wikiextractor/VI/AA/wiki_48
+Opening  Wikiextractor/VI/AA/wiki_49
+Opening  Wikiextractor/VI/AA/wiki_50
+Opening  Wikiextractor/VI/AA/wiki_51
+Opening  Wikiextractor/VI/AA/wiki_52
+Opening  Wikiextractor/VI/AA/wiki_53
+Opening  Wikiextractor/VI/AA/wiki_54
+Opening  Wikiextractor/VI/AA/wiki_55
+Opening  Wikiextractor/VI/AA/wiki_56
+Opening  Wikiextractor/VI/AA/wiki_57
+Opening  Wikiextractor/VI/AA/wiki_58
+Opening  Wikiextractor/VI/AA/wiki_59
+Opening  Wikiextractor/VI/AA/wiki_60
+Opening  Wikiextractor/VI/AA/wiki_61
+Opening  Wikiextractor/VI/AA/wiki_62
+Opening  Wikiextractor/VI/AA/wiki_63
+Opening  Wikiextractor/VI/AA/wiki_64
+Opening  Wikiextractor/VI/AA/wiki_65
+Opening  Wikiextractor/VI/AA/wiki_66
+Opening  Wikiextractor/VI/AA/wiki_67
+Opening  Wikiextractor/VI/AA/wiki_68
+Opening  Wikiextractor/VI/AA/wiki_69
+Opening  Wikiextractor/VI/AA/wiki_70
+Opening  Wikiextractor/VI/AA/wiki_71
+Opening  Wikiextractor/VI/AA/wiki_72
+Opening  Wikiextractor/VI/AA/wiki_73
+Opening  Wikiextractor/VI/AA/wiki_74
+Opening  Wikiextractor/VI/AA/wiki_75
+Opening  Wikiextractor/VI/AA/wiki_76
+Opening  Wikiextractor/VI/AA/wiki_77
+Opening  Wikiextractor/VI/AA/wiki_78
+Opening  Wikiextractor/VI/AA/wiki_79
+Opening  Wikiextractor/VI/AA/wiki_80
+Opening  Wikiextractor/VI/AA/wiki_81
+Opening  Wikiextractor/VI/AA/wiki_82
+Opening  Wikiextractor/VI/AA/wiki_83
+Opening  Wikiextractor/VI/AA/wiki_84
+Opening  Wikiextractor/VI/AA/wiki_85
+Opening  Wikiextractor/VI/AA/wiki_86
+Opening  Wikiextractor/VI/AA/wiki_87
+Opening  Wikiextractor/VI/AA/wiki_88
+Opening  Wikiextractor/VI/AA/wiki_89
+Opening  Wikiextractor/VI/AA/wiki_90
+Opening  Wikiextractor/VI/AA/wiki_91
+Opening  Wikiextractor/VI/AA/wiki_92
+Opening  Wikiextractor/VI/AA/wiki_93
+Opening  Wikiextractor/VI/AA/wiki_94
+Opening  Wikiextractor/VI/AA/wiki_95
+Opening  Wikiextractor/VI/AA/wiki_96
+Opening  Wikiextractor/VI/AA/wiki_97
+Opening  Wikiextractor/VI/AA/wiki_98
+Opening  Wikiextractor/VI/AA/wiki_99
+Opening  Wikiextractor/VI/AB/wiki_00
+Opening  Wikiextractor/VI/AB/wiki_01
+Opening  Wikiextractor/VI/AB/wiki_02
+Opening  Wikiextractor/VI/AB/wiki_03
+Opening  Wikiextractor/VI/AB/wiki_04
+Opening  Wikiextractor/VI/AB/wiki_05
+Opening  Wikiextractor/VI/AB/wiki_06
+Opening  Wikiextractor/VI/AB/wiki_07
+Opening  Wikiextractor/VI/AB/wiki_08
+Opening  Wikiextractor/VI/AB/wiki_09
+Opening  Wikiextractor/VI/AB/wiki_10
+Opening  Wikiextractor/VI/AB/wiki_11
+Opening  Wikiextractor/VI/AB/wiki_12
+Opening  Wikiextractor/VI/AB/wiki_13
+Opening  Wikiextractor/VI/AB/wiki_14
+Opening  Wikiextractor/VI/AB/wiki_15
+Opening  Wikiextractor/VI/AB/wiki_16
+Opening  Wikiextractor/VI/AB/wiki_17
+Opening  Wikiextractor/VI/AB/wiki_18
+Opening  Wikiextractor/VI/AB/wiki_19
+Opening  Wikiextractor/VI/AB/wiki_20
+Opening  Wikiextractor/VI/AB/wiki_21
+Opening  Wikiextractor/VI/AB/wiki_22
+Opening  Wikiextractor/VI/AB/wiki_23
+Opening  Wikiextractor/VI/AB/wiki_24
+Opening  Wikiextractor/VI/AB/wiki_25
+Opening  Wikiextractor/VI/AB/wiki_26
+Opening  Wikiextractor/VI/AB/wiki_27
+Opening  Wikiextractor/VI/AB/wiki_28
+Opening  Wikiextractor/VI/AB/wiki_29
+Opening  Wikiextractor/VI/AB/wiki_30
+Opening  Wikiextractor/VI/AB/wiki_31
+Opening  Wikiextractor/VI/AB/wiki_32
+Opening  Wikiextractor/VI/AB/wiki_33
+Opening  Wikiextractor/VI/AB/wiki_34
+Opening  Wikiextractor/VI/AB/wiki_35
+Opening  Wikiextractor/VI/AB/wiki_36
+Opening  Wikiextractor/VI/AB/wiki_37
+Opening  Wikiextractor/VI/AB/wiki_38
+Opening  Wikiextractor/VI/AB/wiki_39
+Opening  Wikiextractor/VI/AB/wiki_40
+Opening  Wikiextractor/VI/AB/wiki_41
+Opening  Wikiextractor/VI/AB/wiki_42
+Opening  Wikiextractor/VI/AB/wiki_43
+Opening  Wikiextractor/VI/AB/wiki_44
+Opening  Wikiextractor/VI/AB/wiki_45
+Opening  Wikiextractor/VI/AB/wiki_46
+Opening  Wikiextractor/VI/AB/wiki_47
+Opening  Wikiextractor/VI/AB/wiki_48
+Opening  Wikiextractor/VI/AB/wiki_49
+Opening  Wikiextractor/VI/AB/wiki_50
+Opening  Wikiextractor/VI/AB/wiki_51
+Opening  Wikiextractor/VI/AB/wiki_52
+Opening  Wikiextractor/VI/AB/wiki_53
+Opening  Wikiextractor/VI/AB/wiki_54
+Opening  Wikiextractor/VI/AB/wiki_55
+Opening  Wikiextractor/VI/AB/wiki_56
+Opening  Wikiextractor/VI/AB/wiki_57
+Opening  Wikiextractor/VI/AB/wiki_58
+Opening  Wikiextractor/VI/AB/wiki_59
+Opening  Wikiextractor/VI/AB/wiki_60
+Opening  Wikiextractor/VI/AB/wiki_61
+Opening  Wikiextractor/VI/AB/wiki_62
+Opening  Wikiextractor/VI/AB/wiki_63
+	 part 1 counted 	(current memory:  1.719745484790123 ) 	(time elapsed:  668.4544534683228 )
+Opening  Wikiextractor/VI/AA/wiki_00
+Opening  Wikiextractor/VI/AA/wiki_01
+Opening  Wikiextractor/VI/AA/wiki_02
+Opening  Wikiextractor/VI/AA/wiki_03
+Opening  Wikiextractor/VI/AA/wiki_04
+Opening  Wikiextractor/VI/AA/wiki_05
+Opening  Wikiextractor/VI/AA/wiki_06
+Opening  Wikiextractor/VI/AA/wiki_07
+Opening  Wikiextractor/VI/AA/wiki_08
+Opening  Wikiextractor/VI/AA/wiki_09
+Opening  Wikiextractor/VI/AA/wiki_10
+Opening  Wikiextractor/VI/AA/wiki_11
+Opening  Wikiextractor/VI/AA/wiki_12
+Opening  Wikiextractor/VI/AA/wiki_13
+Opening  Wikiextractor/VI/AA/wiki_14
+Opening  Wikiextractor/VI/AA/wiki_15
+Opening  Wikiextractor/VI/AA/wiki_16
+Opening  Wikiextractor/VI/AA/wiki_17
+Opening  Wikiextractor/VI/AA/wiki_18
+Opening  Wikiextractor/VI/AA/wiki_19
+Opening  Wikiextractor/VI/AA/wiki_20
+Opening  Wikiextractor/VI/AA/wiki_21
+Opening  Wikiextractor/VI/AA/wiki_22
+Opening  Wikiextractor/VI/AA/wiki_23
+Opening  Wikiextractor/VI/AA/wiki_24
+Opening  Wikiextractor/VI/AA/wiki_25
+Opening  Wikiextractor/VI/AA/wiki_26
+Opening  Wikiextractor/VI/AA/wiki_27
+Opening  Wikiextractor/VI/AA/wiki_28
+Opening  Wikiextractor/VI/AA/wiki_29
+Opening  Wikiextractor/VI/AA/wiki_30
+Opening  Wikiextractor/VI/AA/wiki_31
+Opening  Wikiextractor/VI/AA/wiki_32
+Opening  Wikiextractor/VI/AA/wiki_33
+Opening  Wikiextractor/VI/AA/wiki_34
+Opening  Wikiextractor/VI/AA/wiki_35
+Opening  Wikiextractor/VI/AA/wiki_36
+Opening  Wikiextractor/VI/AA/wiki_37
+Opening  Wikiextractor/VI/AA/wiki_38
+Opening  Wikiextractor/VI/AA/wiki_39
+Opening  Wikiextractor/VI/AA/wiki_40
+Opening  Wikiextractor/VI/AA/wiki_41
+Opening  Wikiextractor/VI/AA/wiki_42
+Opening  Wikiextractor/VI/AA/wiki_43
+Opening  Wikiextractor/VI/AA/wiki_44
+Opening  Wikiextractor/VI/AA/wiki_45
+Opening  Wikiextractor/VI/AA/wiki_46
+Opening  Wikiextractor/VI/AA/wiki_47
+Opening  Wikiextractor/VI/AA/wiki_48
+Opening  Wikiextractor/VI/AA/wiki_49
+Opening  Wikiextractor/VI/AA/wiki_50
+Opening  Wikiextractor/VI/AA/wiki_51
+Opening  Wikiextractor/VI/AA/wiki_52
+Opening  Wikiextractor/VI/AA/wiki_53
+Opening  Wikiextractor/VI/AA/wiki_54
+Opening  Wikiextractor/VI/AA/wiki_55
+Opening  Wikiextractor/VI/AA/wiki_56
+Opening  Wikiextractor/VI/AA/wiki_57
+Opening  Wikiextractor/VI/AA/wiki_58
+Opening  Wikiextractor/VI/AA/wiki_59
+Opening  Wikiextractor/VI/AA/wiki_60
+Opening  Wikiextractor/VI/AA/wiki_61
+Opening  Wikiextractor/VI/AA/wiki_62
+Opening  Wikiextractor/VI/AA/wiki_63
+Opening  Wikiextractor/VI/AA/wiki_64
+Opening  Wikiextractor/VI/AA/wiki_65
+Opening  Wikiextractor/VI/AA/wiki_66
+Opening  Wikiextractor/VI/AA/wiki_67
+Opening  Wikiextractor/VI/AA/wiki_68
+Opening  Wikiextractor/VI/AA/wiki_69
+Opening  Wikiextractor/VI/AA/wiki_70
+Opening  Wikiextractor/VI/AA/wiki_71
+Opening  Wikiextractor/VI/AA/wiki_72
+Opening  Wikiextractor/VI/AA/wiki_73
+Opening  Wikiextractor/VI/AA/wiki_74
+Opening  Wikiextractor/VI/AA/wiki_75
+Opening  Wikiextractor/VI/AA/wiki_76
+Opening  Wikiextractor/VI/AA/wiki_77
+Opening  Wikiextractor/VI/AA/wiki_78
+Opening  Wikiextractor/VI/AA/wiki_79
+Opening  Wikiextractor/VI/AA/wiki_80
+Opening  Wikiextractor/VI/AA/wiki_81
+Opening  Wikiextractor/VI/AA/wiki_82
+Opening  Wikiextractor/VI/AA/wiki_83
+Opening  Wikiextractor/VI/AA/wiki_84
+Opening  Wikiextractor/VI/AA/wiki_85
+Opening  Wikiextractor/VI/AA/wiki_86
+Opening  Wikiextractor/VI/AA/wiki_87
+Opening  Wikiextractor/VI/AA/wiki_88
+Opening  Wikiextractor/VI/AA/wiki_89
+Opening  Wikiextractor/VI/AA/wiki_90
+Opening  Wikiextractor/VI/AA/wiki_91
+Opening  Wikiextractor/VI/AA/wiki_92
+Opening  Wikiextractor/VI/AA/wiki_93
+Opening  Wikiextractor/VI/AA/wiki_94
+Opening  Wikiextractor/VI/AA/wiki_95
+Opening  Wikiextractor/VI/AA/wiki_96
+Opening  Wikiextractor/VI/AA/wiki_97
+Opening  Wikiextractor/VI/AA/wiki_98
+Opening  Wikiextractor/VI/AA/wiki_99
+Opening  Wikiextractor/VI/AB/wiki_00
+Opening  Wikiextractor/VI/AB/wiki_01
+Opening  Wikiextractor/VI/AB/wiki_02
+Opening  Wikiextractor/VI/AB/wiki_03
+Opening  Wikiextractor/VI/AB/wiki_04
+Opening  Wikiextractor/VI/AB/wiki_05
+Opening  Wikiextractor/VI/AB/wiki_06
+Opening  Wikiextractor/VI/AB/wiki_07
+Opening  Wikiextractor/VI/AB/wiki_08
+Opening  Wikiextractor/VI/AB/wiki_09
+Opening  Wikiextractor/VI/AB/wiki_10
+Opening  Wikiextractor/VI/AB/wiki_11
+Opening  Wikiextractor/VI/AB/wiki_12
+Opening  Wikiextractor/VI/AB/wiki_13
+Opening  Wikiextractor/VI/AB/wiki_14
+Opening  Wikiextractor/VI/AB/wiki_15
+Opening  Wikiextractor/VI/AB/wiki_16
+Opening  Wikiextractor/VI/AB/wiki_17
+Opening  Wikiextractor/VI/AB/wiki_18
+Opening  Wikiextractor/VI/AB/wiki_19
+Opening  Wikiextractor/VI/AB/wiki_20
+Opening  Wikiextractor/VI/AB/wiki_21
+Opening  Wikiextractor/VI/AB/wiki_22
+Opening  Wikiextractor/VI/AB/wiki_23
+Opening  Wikiextractor/VI/AB/wiki_24
+Opening  Wikiextractor/VI/AB/wiki_25
+Opening  Wikiextractor/VI/AB/wiki_26
+Opening  Wikiextractor/VI/AB/wiki_27
+Opening  Wikiextractor/VI/AB/wiki_28
+Opening  Wikiextractor/VI/AB/wiki_29
+Opening  Wikiextractor/VI/AB/wiki_30
+Opening  Wikiextractor/VI/AB/wiki_31
+Opening  Wikiextractor/VI/AB/wiki_32
+Opening  Wikiextractor/VI/AB/wiki_33
+Opening  Wikiextractor/VI/AB/wiki_34
+Opening  Wikiextractor/VI/AB/wiki_35
+Opening  Wikiextractor/VI/AB/wiki_36
+Opening  Wikiextractor/VI/AB/wiki_37
+Opening  Wikiextractor/VI/AB/wiki_38
+Opening  Wikiextractor/VI/AB/wiki_39
+Opening  Wikiextractor/VI/AB/wiki_40
+Opening  Wikiextractor/VI/AB/wiki_41
+Opening  Wikiextractor/VI/AB/wiki_42
+Opening  Wikiextractor/VI/AB/wiki_43
+Opening  Wikiextractor/VI/AB/wiki_44
+Opening  Wikiextractor/VI/AB/wiki_45
+Opening  Wikiextractor/VI/AB/wiki_46
+Opening  Wikiextractor/VI/AB/wiki_47
+Opening  Wikiextractor/VI/AB/wiki_48
+Opening  Wikiextractor/VI/AB/wiki_49
+Opening  Wikiextractor/VI/AB/wiki_50
+Opening  Wikiextractor/VI/AB/wiki_51
+Opening  Wikiextractor/VI/AB/wiki_52
+Opening  Wikiextractor/VI/AB/wiki_53
+Opening  Wikiextractor/VI/AB/wiki_54
+Opening  Wikiextractor/VI/AB/wiki_55
+Opening  Wikiextractor/VI/AB/wiki_56
+Opening  Wikiextractor/VI/AB/wiki_57
+Opening  Wikiextractor/VI/AB/wiki_58
+Opening  Wikiextractor/VI/AB/wiki_59
+Opening  Wikiextractor/VI/AB/wiki_60
+Opening  Wikiextractor/VI/AB/wiki_61
+Opening  Wikiextractor/VI/AB/wiki_62
+Opening  Wikiextractor/VI/AB/wiki_63
+	 part 2 counted 	(current memory:  1.719745484790123 ) 	(time elapsed:  1199.7730505466461 )
+	 counts and ranks aligned 	(current memory:  1.719745484790123 ) 	(time elapsed:  1206.980989933014 )
+Relative size of subset 1:  0.4999771220809415
+	most common:  [('là', 1260430), ('một', 1017687), ('và', 857186), ('trong', 851911), ('của', 826852), ('được', 818752), ('năm', 739065), ('loài', 697177), ('có', 649724), ('các', 517783)]
+	highest ranked:  [('là', 1258756), ('một', 1016036), ('và', 858396), ('trong', 850426), ('của', 826725), ('được', 815691), ('năm', 738449), ('loài', 696944), ('có', 649947), ('các', 519176)]
+
+
+
+STATS:
+{
+number of types: 984833,
+relative number of types in subset 1: 0.6738705953192065,
+number of tokens: 116597143,
+TTR: 0.008446459104062267,
+types in intersection: 342316,
+tokens in intersection: 115825573,
+words: 116597143,
+paragraphs: 2408102,
+articles: 1162556,
+highest ranked discordant pair: (('từ', 220763), ('tháng', 219983)),
+}
+
+........................................................................................................................................................................................................
+########################################################################################################################################################################################################
+
+Process finished with exit code 0
+

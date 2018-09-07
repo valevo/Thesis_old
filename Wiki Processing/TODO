@@ -1,0 +1,43 @@
+# Program Flow
+ * WikiExtrator -> wiki text
+ * wiki text -> tokenised
+ * tokenised -> randomly split
+ * randomly split -> counts/ranks
+ * counts/ranks -> stats in R
+
+# Tokensation
+ * decide on tokeniser/s (for different languages/writing systems) 
+	=> RegExpTokeniser('\w+') does not split morphology and removes unwanted special characters
+	=> TokTokTokeniser splits morphology, does not remove special characters (could remove with additional regexp)
+
+ * possible improvement: translate words in indices according to lookup table -> will be more efficient; perhaps
+	even useful for complexity analyses
+
+# Splitting/Counting
+ * for language in Wikiextractor:
+	* split according to each level (words, paragraphs, articles) -> write to file
+	* file -> stats and plots in R
+
+
+# Stats
+ * compare error of MLE from Wiki with that of randomly sampled words
+	(randomly sample words from Zipf (or Mandelbrot; use empirical parameters), do MLE (should yield the same parameters),
+	inspect error) -> error should (by definition be random); check if other (which?) sampling strategies can lead to the
+	empirical error
+
+ * find a way to show that distributions of different split levels are the same (with exception of variance perhaps);
+	even theoretically the same?
+	-> sampling-based method?
+
+ * see how the error (structure) changes with sample (corpus) size (-> related to Baayen's point)
+
+ * observation: Vietnamese Wiki has ~1.2M articles but CorpusCounter counted less than 1M types
+	-> could have interesting combinatorial implications
+	-> do permutation checks?
+
+ * do histogram analysis for Zipf and length distributions:
+	- use bins!
+	- for each rank: get the distribution over frequencies (P(f|r), according to Zipf: H(P(f|r))=0)	
+	- P(f|r) = P(f)*(r|f), P(r|f) = P(r)*P(f|r), P(f) = \sum_r P(f, r) = \sum_r P(r)*P(f|r)
+
+
