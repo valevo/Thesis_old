@@ -1,0 +1,70 @@
+MIGRATED:
+ - Identification Algorithm
+ - Chater, Vitanyi & Hsu theoretical learning results
+ - Papers on Computation, summary .tex on computation papers
+ - Papers on Cognition, summary .tex
+ - Distributions
+	- Information distributions
+	- Length Distributions
+	- Notes
+	- Zipf
+	- General Papers
+ - Thesis/Notes
+ - Randomness in Language
+ - Summaries & Presentations
+ - IDEA: Active Learning & Induction
+ - Zipf Analysis/Word Frequency Lists
+ - Zipf Analysis/Summary
+ - Zipf Analysis/Wiki Dumps
+
+
+DELETED:
+ - Distributions/Code
+ - Distributions/Notes/summary
+ - Zipf Error Summary (was empty)
+
+
+OLD -> NEW MAPPING:
+
+ - Identification Algorithm: Thesis -> Archive/Code
+
+ - Chater et all theoretical results: Thesis -> Learning Theory
+
+ - Papers on Computation: Thesis/Computation -> Archive/Papers/Computation
+	[except Li&Vitanyi, MDL&Bayes&K, MDL Grammar Inference: 
+		Thesis/Computation -> Learning Theory/K&MDL]
+	[summary .tex temporary location: Thesis/Computation -> Thesis/Notes]
+
+ - Papers on Cognition: Thesis/Cognition -> Archive/Papers/Cognition
+	[summary .tex temporary location: Thesis/Cognition -> Thesis/Notes]
+
+ - Distributions: Thesis -> Archive/Papers
+	- Information: Thesis/Distributions -> Archive/Papers/Distributions
+	- Length: Thesis/Distributions -> Archive/Papers/Distributions
+	- Distributions: Thesis/Distributions -> Archive/Papers/Distributions
+	- General Papers: Thesis/Distributions -> Zipf Error
+	[summary .tex & refs.bib temporary location: Thesis/Distributions/Notes -> Thesis/Notes]
+
+ - Notes: Thesis -> Archive/Tex
+
+ - Randomness in Language: -> Archive
+ 
+ - Summaries & Presentations: -> Archive/Tex
+
+ - Zipf Analysis/Word Frequency Lists -> Archive/Code/Word Frequency Lists
+
+ - IDEA: Active Learning & Induction -> Archive/IDEA: Active Learning & Induction
+
+ - Zipf Analysis/Summary -> Zipf Error/Summary Splitting Levels
+
+ - Zipf Analysis/Wiki Dumps/Wikiextractor -> Wiki Processing/WikiExtractor
+	[except the extracted wikipedia files (too large for copying, will need to cut)]
+
+ - Zipf Analysis/Wiki Dumps/Estimates -> Zipf Error/Estimates (=> these are estimates of Zipf's law)
+ - Zipf Analysis/Wiki Dumps/Plots -> Zipf Error/Plots
+ - Zipf Analysis/Wiki Dumps/R Scripts -> Misc R Scripts, Zipf Error/R Scripts
+
+ - Zipf Analysis: python scripts -> Wiki Processing
+
+ - Wikiextractor/wiki xml files -> Desktop/Wiki Files
+ - Wikiextractor/wiki extracted files -> Desktop/Wiki Files
