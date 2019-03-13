@@ -2,8 +2,8 @@
 
 ## Outline
 - Background
- - Learning Theory
- - Zipf's Law
+  - Learning Theory
+  - Zipf's Law
 - Unzipfing
  - Data
  - Typical Sets
