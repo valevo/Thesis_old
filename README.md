@@ -16,4 +16,5 @@
 ## TODO
 
 - [x] research
+  - [ ] write down
 - [ ] implement
