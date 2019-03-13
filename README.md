@@ -5,12 +5,12 @@
   - Learning Theory
   - Zipf's Law
 - Unzipfing
- - Data
- - Typical Sets
- - Filtering
+  - Data
+  - Typical Sets
+  - Filtering
 - Language Modeling
- - Methods
- - Results
+  - Methods
+  - Results
 - Conclusions
 
 ## TODO
